@@ -1,4 +1,4 @@
-{
+  {
   "feeds": [
     {
       "name": "Cooperativa",
@@ -19,6 +19,30 @@
     {
       "name": "Infodefensa",
       "url": "https://www.infodefensa.com/rss.php"
+    },
+    {
+      "name": "BCN Noticias",
+      "url": "https://www.bcn.cl/noticias/rss"
+    },
+    {
+      "name": "BCN Proyectos de Ley",
+      "url": "https://www.bcn.cl/proyectosdeley/rss"
+    },
+    {
+      "name": "BCN Sala de Prensa",
+      "url": "https://www.bcn.cl/prensa/rss"
+    },
+    {
+      "name": "BCN Publicaciones",
+      "url": "https://www.bcn.cl/publicaciones/rss"
+    },
+    {
+      "name": "Diario Financiero",
+      "url": "https://www.df.cl/noticias/site/list/port/rss.xml"
+    },
+    {
+      "name": "La Tercera",
+      "url": "https://www.latercera.com/arcio/rss/"
     }
   ]
 }
