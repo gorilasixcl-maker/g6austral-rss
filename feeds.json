@@ -1,10 +1,6 @@
   {
   "feeds": [
     {
-      "name": "Cooperativa",
-      "url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss____1.xml"
-    },
-    {
       "name": "Google News Chile",
       "url": "https://news.google.com/rss?hl=es-419&gl=CL&ceid=CL:es-419"
     },
