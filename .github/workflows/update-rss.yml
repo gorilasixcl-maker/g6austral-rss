@@ -1,0 +1,34 @@
+name: Actualizar RSS G6 Austral
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-rss:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generar RSS
+        run: python feeds.py
+
+      - name: Guardar RSS actualizado
+        run: |
+          git config user.name "G6 Austral RSS"
+          git config user.email "rss@g6austral.cl"
+          git add feed.xml
+          git diff --cached --quiet || git commit -m "Actualizar RSS"
+          git push
