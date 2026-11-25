@@ -43,6 +43,30 @@
     {
       "name": "La Tercera",
       "url": "https://www.latercera.com/arcio/rss/"
+    },
+    {
+      "name": "BioBioChile",
+      "url": "https://feeds.feedburner.com/radiobiobio/NNeJ"
+    },
+    {
+      "name": "Ex-Ante",
+      "url": "https://www.ex-ante.cl/feed/"
+    },
+    {
+      "name": "Publimetro Chile",
+      "url": "https://www.publimetro.cl/arc/outboundfeeds/rss/?outputType=xml"
+    },
+    {
+      "name": "Revista Seguridad",
+      "url": "https://revistaseguridad.cl/feed/"
+    },
+    {
+      "name": "Ministerio de Defensa",
+      "url": "https://www.defensa.cl/feed/"
+    },
+    {
+      "name": "El Orden Mundial",
+      "url": "https://elordenmundial.com/geopolitica/feed/"
     }
   ]
 }
