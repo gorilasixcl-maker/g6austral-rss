@@ -254,6 +254,7 @@
       border-radius: 9px;
       overflow: hidden;
       transition: .2s;
+      cursor: pointer;
     }
 
     .card:hover {
@@ -297,7 +298,7 @@
     }
 
     /* =========================
-       FOOTER / CONTACTO
+       FOOTER
     ========================= */
 
     footer {
@@ -352,9 +353,38 @@
       font-weight: 800;
     }
 
+    /* =========================
+       CONTADOR
+    ========================= */
+
+    .visitor-counter {
+      margin-top: 30px;
+      padding-top: 25px;
+      border-top: 1px solid #1e1e1e;
+      text-align: center;
+    }
+
+    .visitor-label {
+      color: #777;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    #visitorCount {
+      min-height: 35px;
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    #visitorCount a {
+      color: #aaa !important;
+    }
+
     .copyright {
       border-top: 1px solid #1e1e1e;
-      margin-top: 30px;
+      margin-top: 25px;
       padding-top: 18px;
       text-align: center;
       color: #666;
@@ -366,6 +396,7 @@
     ========================= */
 
     @media (max-width: 850px) {
+
       .news-grid {
         grid-template-columns: repeat(2, 1fr);
       }
@@ -373,6 +404,7 @@
       .footer-grid {
         grid-template-columns: 1fr 1fr;
       }
+
     }
 
     @media (max-width: 600px) {
@@ -417,72 +449,110 @@
       .footer-grid {
         grid-template-columns: 1fr;
       }
+
     }
   </style>
+
+  <!-- GOATCOUNTER -->
+  <script
+    data-goatcounter="https://g6austral.goatcounter.com/count"
+    async
+    src="https://gc.zgo.at/count.js">
+  </script>
+
 </head>
 
 <body>
 
   <!-- HERO -->
+
   <header class="hero">
+
     <div class="hero-content">
+
       <h1>Informados No Manipulados</h1>
-      <p>Noticias - Actualidad - Defensa - Seguridad - Internacional</p>
+
+      <p>
+        Noticias - Actualidad - Defensa - Seguridad - Internacional
+      </p>
+
     </div>
+
   </header>
 
+
   <!-- REDES SOCIALES -->
+
   <div class="social-bar">
 
     <a class="social-btn"
        href="https://www.youtube.com/@Planeta_Gorila"
        target="_blank"
        rel="noopener noreferrer">
+
       <span class="social-icon">▶</span>
       <span class="label">YouTube</span>
+
     </a>
+
 
     <a class="social-btn"
        href="https://kick.com/planetagorila"
        target="_blank"
        rel="noopener noreferrer">
+
       <span class="social-icon">⚡</span>
       <span class="label">Kick</span>
+
     </a>
+
 
     <a class="social-btn"
        href="https://x.com/planetagorila"
        target="_blank"
        rel="noopener noreferrer">
+
       <span class="social-icon">𝕏</span>
       <span class="label">X</span>
+
     </a>
+
 
     <a class="social-btn"
        href="mailto:gorilasix.cl@gmail.com">
+
       <span class="social-icon">✉</span>
       <span class="label">Correo</span>
+
     </a>
+
 
     <a class="social-btn"
        href="https://api.whatsapp.com/send?phone=+56985433069"
        target="_blank"
        rel="noopener noreferrer">
+
       <span class="social-icon">☏</span>
       <span class="label">WhatsApp</span>
+
     </a>
+
 
     <a class="social-btn"
        href="https://esponsor.com/planetagorila"
        target="_blank"
        rel="noopener noreferrer">
+
       <span class="social-icon">♥</span>
       <span class="label">Donaciones</span>
+
     </a>
 
   </div>
 
+
   <!-- NAV -->
+
   <nav class="nav">
 
     <button class="active" data-category="TODAS">
@@ -515,7 +585,9 @@
 
   </nav>
 
+
   <!-- SEARCH -->
+
   <div class="search-container">
 
     <div class="search-box">
@@ -546,31 +618,43 @@
 
   </div>
 
+
   <!-- NEWS -->
+
   <main class="container">
 
-    <section id="featured" class="featured"></section>
+    <section
+      id="featured"
+      class="featured">
+    </section>
+
 
     <section
       id="newsGrid"
       class="news-grid">
     </section>
 
+
     <div
       id="noResults"
       class="no-results"
       style="display:none;">
+
       No encontramos noticias que coincidan con tu búsqueda.
+
     </div>
 
   </main>
 
+
   <!-- FOOTER -->
+
   <footer>
 
     <div class="footer-inner">
 
       <div class="footer-grid">
+
 
         <div class="footer-column">
 
@@ -587,6 +671,7 @@
 
         </div>
 
+
         <div class="footer-column">
 
           <h3>Redes sociales</h3>
@@ -595,85 +680,143 @@
              href="https://www.youtube.com/@Planeta_Gorila"
              target="_blank"
              rel="noopener noreferrer">
+
             ▶ YouTube
+
           </a>
+
 
           <a class="footer-link"
              href="https://kick.com/planetagorila"
              target="_blank"
              rel="noopener noreferrer">
+
             ⚡ Kick
+
           </a>
+
 
           <a class="footer-link"
              href="https://x.com/planetagorila"
              target="_blank"
              rel="noopener noreferrer">
+
             𝕏 X
+
           </a>
 
         </div>
+
 
         <div class="footer-column">
 
           <h3>Contacto y apoyo</h3>
 
+
           <a class="footer-link"
              href="mailto:gorilasix.cl@gmail.com">
+
             ✉ gorilasix.cl@gmail.com
+
           </a>
+
 
           <a class="footer-link"
              href="https://api.whatsapp.com/send?phone=+56985433069"
              target="_blank"
              rel="noopener noreferrer">
+
             ☏ WhatsApp
+
           </a>
+
 
           <a class="donation"
              href="https://esponsor.com/planetagorila"
              target="_blank"
              rel="noopener noreferrer">
+
             ♥ Apoyar / Donar
+
           </a>
 
         </div>
 
       </div>
 
+
+      <!-- CONTADOR -->
+
+      <div class="visitor-counter">
+
+        <div class="visitor-label">
+          VISITAS AL PORTAL
+        </div>
+
+        <div id="visitorCount">
+          Cargando contador...
+        </div>
+
+      </div>
+
+
       <div class="copyright">
-        © 2026 Iformados No Manipulados · Planeta Gorila
+
+        © 2026 Informados No Manipulados · Planeta Gorila
+
       </div>
 
     </div>
 
   </footer>
 
+
   <script>
 
     const RSS_URL =
       "feed.xml?cache=" + Date.now();
 
+
     let allNews = [];
-    let currentCategory = "TODAS";
+
+    let currentCategory =
+      "TODAS";
+
 
     const searchInput =
-      document.getElementById("searchInput");
+      document.getElementById(
+        "searchInput"
+      );
+
 
     const clearSearch =
-      document.getElementById("clearSearch");
+      document.getElementById(
+        "clearSearch"
+      );
+
 
     const resultCount =
-      document.getElementById("resultCount");
+      document.getElementById(
+        "resultCount"
+      );
+
 
     const featured =
-      document.getElementById("featured");
+      document.getElementById(
+        "featured"
+      );
+
 
     const newsGrid =
-      document.getElementById("newsGrid");
+      document.getElementById(
+        "newsGrid"
+      );
+
 
     const noResults =
-      document.getElementById("noResults");
+      document.getElementById(
+        "noResults"
+      );
 
 
     /* =========================
@@ -685,7 +828,10 @@
       return (text || "")
         .toLowerCase()
         .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "");
+        .replace(
+          /[\u0300-\u036f]/g,
+          ""
+        );
 
     }
 
@@ -702,10 +848,14 @@
           "content"
         )[0];
 
-      if (mediaContent &&
-          mediaContent.getAttribute("url")) {
 
-        return mediaContent.getAttribute("url");
+      if (
+        mediaContent &&
+        mediaContent.getAttribute("url")
+      ) {
+
+        return mediaContent
+          .getAttribute("url");
 
       }
 
@@ -716,46 +866,68 @@
           "thumbnail"
         )[0];
 
-      if (mediaThumbnail &&
-          mediaThumbnail.getAttribute("url")) {
 
-        return mediaThumbnail.getAttribute("url");
+      if (
+        mediaThumbnail &&
+        mediaThumbnail.getAttribute("url")
+      ) {
+
+        return mediaThumbnail
+          .getAttribute("url");
 
       }
 
 
       const enclosure =
-        item.querySelector("enclosure[type^='image']");
+        item.querySelector(
+          "enclosure[type^='image']"
+        );
 
-      if (enclosure &&
-          enclosure.getAttribute("url")) {
 
-        return enclosure.getAttribute("url");
+      if (
+        enclosure &&
+        enclosure.getAttribute("url")
+      ) {
+
+        return enclosure
+          .getAttribute("url");
 
       }
 
 
       const description =
-        item.querySelector("description");
+        item.querySelector(
+          "description"
+        );
+
 
       if (description) {
 
         const temp =
-          document.createElement("div");
+          document.createElement(
+            "div"
+          );
+
 
         temp.innerHTML =
           description.textContent || "";
 
+
         const img =
           temp.querySelector("img");
 
-        if (img && img.src) {
+
+        if (
+          img &&
+          img.src
+        ) {
 
           return img.src;
 
         }
 
       }
+
 
       return "";
 
@@ -773,11 +945,14 @@
         const response =
           await fetch(RSS_URL);
 
+
         const text =
           await response.text();
 
+
         const parser =
           new DOMParser();
+
 
         const xml =
           parser.parseFromString(
@@ -785,47 +960,68 @@
             "application/xml"
           );
 
+
         const items =
-          [...xml.querySelectorAll("item")];
+          [
+            ...xml.querySelectorAll(
+              "item"
+            )
+          ];
+
 
         allNews =
           items.map(item => {
 
             const title =
-              item.querySelector("title")
-                ?.textContent || "";
+              item.querySelector(
+                "title"
+              )?.textContent || "";
+
 
             const link =
-              item.querySelector("link")
-                ?.textContent || "#";
+              item.querySelector(
+                "link"
+              )?.textContent || "#";
+
 
             const description =
-              item.querySelector("description")
-                ?.textContent || "";
+              item.querySelector(
+                "description"
+              )?.textContent || "";
+
 
             const pubDate =
-              item.querySelector("pubDate")
-                ?.textContent || "";
+              item.querySelector(
+                "pubDate"
+              )?.textContent || "";
+
 
             const source =
-              item.querySelector("source")
-                ?.textContent || "";
+              item.querySelector(
+                "source"
+              )?.textContent || "";
+
 
             const image =
               getImage(item);
 
+
             return {
+
               title,
               link,
               description,
               pubDate,
               source,
               image
+
             };
 
           });
 
+
         renderNews();
+
 
       } catch (error) {
 
@@ -850,6 +1046,7 @@
           searchInput.value.trim()
         );
 
+
       if (!query) {
 
         clearSearch.style.display =
@@ -859,21 +1056,30 @@
 
       }
 
+
       clearSearch.style.display =
         "block";
 
 
-      return news.filter(item => {
+      return news.filter(
+        item => {
 
-        const text = normalizeText(
-          item.title + " " +
-          item.source + " " +
-          item.description
-        );
+          const text =
+            normalizeText(
+              item.title +
+              " " +
+              item.source +
+              " " +
+              item.description
+            );
 
-        return text.includes(query);
 
-      });
+          return text.includes(
+            query
+          );
+
+        }
+      );
 
     }
 
@@ -884,28 +1090,39 @@
 
     function filterCategory(news) {
 
-      if (currentCategory === "TODAS") {
+      if (
+        currentCategory ===
+        "TODAS"
+      ) {
 
         return news;
 
       }
 
-      return news.filter(item => {
 
-        const text =
-          normalizeText(
-            item.title + " " +
-            item.description
+      return news.filter(
+        item => {
+
+          const text =
+            normalizeText(
+              item.title +
+              " " +
+              item.description
+            );
+
+
+          const category =
+            normalizeText(
+              currentCategory
+            );
+
+
+          return text.includes(
+            category
           );
 
-        const category =
-          normalizeText(
-            currentCategory
-          );
-
-        return text.includes(category);
-
-      });
+        }
+      );
 
     }
 
@@ -917,17 +1134,27 @@
     function renderNews() {
 
       let filtered =
-        filterCategory(allNews);
+        filterCategory(
+          allNews
+        );
+
 
       filtered =
-        searchNews(filtered);
+        searchNews(
+          filtered
+        );
 
 
       resultCount.textContent =
-        `${filtered.length} noticia${filtered.length === 1 ? "" : "s"}`;
+        `${filtered.length} noticia${
+          filtered.length === 1
+            ? ""
+            : "s"
+        }`;
 
 
       featured.innerHTML = "";
+
       newsGrid.innerHTML = "";
 
 
@@ -949,6 +1176,7 @@
 
       const first =
         filtered[0];
+
 
       const featuredImage =
         first.image
@@ -1005,9 +1233,14 @@
               : "";
 
 
-          const card = document.createElement("article");
+          const card =
+            document.createElement(
+              "article"
+            );
 
-          card.className = "card";
+
+          card.className =
+            "card";
 
 
           card.innerHTML = `
@@ -1050,7 +1283,9 @@
           );
 
 
-          newsGrid.appendChild(card);
+          newsGrid.appendChild(
+            card
+          );
 
         });
 
@@ -1064,11 +1299,26 @@
     function escapeHTML(text) {
 
       return String(text || "")
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
+        .replace(
+          /&/g,
+          "&amp;"
+        )
+        .replace(
+          /</g,
+          "&lt;"
+        )
+        .replace(
+          />/g,
+          "&gt;"
+        )
+        .replace(
+          /"/g,
+          "&quot;"
+        )
+        .replace(
+          /'/g,
+          "&#039;"
+        );
 
     }
 
@@ -1080,17 +1330,27 @@
     function stripHTML(html) {
 
       const temp =
-        document.createElement("div");
+        document.createElement(
+          "div"
+        );
+
 
       temp.innerHTML =
         html || "";
 
+
       return (
         temp.textContent || ""
       )
-      .replace(/\s+/g, " ")
+      .replace(
+        /\s+/g,
+        " "
+      )
       .trim()
-      .substring(0, 220);
+      .substring(
+        0,
+        220
+      );
 
     }
 
@@ -1103,10 +1363,14 @@
 
       if (!date) return "";
 
+
       const d =
         new Date(date);
 
-      if (isNaN(d)) return "";
+
+      if (isNaN(d))
+        return "";
+
 
       return d.toLocaleString(
         "es-CL",
@@ -1124,7 +1388,9 @@
     ========================= */
 
     document
-      .querySelectorAll(".nav button")
+      .querySelectorAll(
+        ".nav button"
+      )
       .forEach(button => {
 
         button.addEventListener(
@@ -1132,15 +1398,24 @@
           () => {
 
             document
-              .querySelectorAll(".nav button")
+              .querySelectorAll(
+                ".nav button"
+              )
               .forEach(btn =>
-                btn.classList.remove("active")
+                btn.classList.remove(
+                  "active"
+                )
               );
 
-            button.classList.add("active");
+
+            button.classList.add(
+              "active"
+            );
+
 
             currentCategory =
               button.dataset.category;
+
 
             renderNews();
 
@@ -1164,12 +1439,16 @@
       "click",
       () => {
 
-        searchInput.value = "";
+        searchInput.value =
+          "";
+
 
         clearSearch.style.display =
           "none";
 
+
         renderNews();
+
 
         searchInput.focus();
 
