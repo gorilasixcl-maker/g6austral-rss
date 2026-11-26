@@ -4,6 +4,7 @@ import html
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from urllib.request import Request, urlopen
+from urllib.parse import urljoin
 from email.utils import parsedate_to_datetime
 from difflib import SequenceMatcher
 
@@ -15,14 +16,17 @@ MAX_ITEMS = 100
 # Mientras más alto, más estricta es la detección.
 DUPLICATE_THRESHOLD = 0.82
 
-# Namespace Media RSS
+# Tiempo máximo para intentar obtener una imagen
+IMAGE_TIMEOUT = 10
+
 MEDIA_NS = "http://search.yahoo.com/mrss/"
 
-# Namespace Dublin Core
-DC_NS = "http://purl.org/dc/elements/1.1/"
 
+# =========================================================
+# DESCARGAR URL
+# =========================================================
 
-def download_feed(url):
+def download_url(url, timeout=30):
 
     request = Request(
         url,
@@ -32,9 +36,17 @@ def download_feed(url):
         }
     )
 
-    with urlopen(request, timeout=30) as response:
+    with urlopen(
+        request,
+        timeout=timeout
+    ) as response:
+
         return response.read()
 
+
+# =========================================================
+# FECHA
+# =========================================================
 
 def parse_date(value):
 
@@ -42,13 +54,19 @@ def parse_date(value):
         return datetime.now(timezone.utc)
 
     try:
+
         return parsedate_to_datetime(
             value
         ).astimezone(timezone.utc)
 
     except Exception:
+
         return datetime.now(timezone.utc)
 
+
+# =========================================================
+# LIMPIAR TEXTO
+# =========================================================
 
 def clean_text(text):
 
@@ -72,137 +90,9 @@ def clean_text(text):
     return text.strip()
 
 
-def extract_image_from_html(text):
-
-    if not text:
-        return ""
-
-    # Buscar imágenes HTML
-    patterns = [
-
-        r'<img[^>]+src=["\']([^"\']+)["\']',
-
-        r'<img[^>]+data-src=["\']([^"\']+)["\']',
-
-        r'<img[^>]+data-lazy-src=["\']([^"\']+)["\']'
-
-    ]
-
-    for pattern in patterns:
-
-        match = re.search(
-            pattern,
-            text,
-            re.IGNORECASE
-        )
-
-        if match:
-
-            image_url = match.group(1).strip()
-
-            if image_url.startswith("//"):
-                image_url = "https:" + image_url
-
-            return image_url
-
-    return ""
-
-
-def extract_image(item):
-
-    """
-    Busca imágenes en diferentes formatos
-    habituales de RSS.
-    """
-
-    # --------------------------------
-    # MEDIA:CONTENT
-    # --------------------------------
-
-    media_content = item.find(
-        f"{{{MEDIA_NS}}}content"
-    )
-
-    if media_content is not None:
-
-        url = media_content.attrib.get(
-            "url",
-            ""
-        )
-
-        if url:
-            return url.strip()
-
-
-    # --------------------------------
-    # MEDIA:THUMBNAIL
-    # --------------------------------
-
-    media_thumbnail = item.find(
-        f"{{{MEDIA_NS}}}thumbnail"
-    )
-
-    if media_thumbnail is not None:
-
-        url = media_thumbnail.attrib.get(
-            "url",
-            ""
-        )
-
-        if url:
-            return url.strip()
-
-
-    # --------------------------------
-    # ENCLOSURE
-    # --------------------------------
-
-    enclosure = item.find(
-        "enclosure"
-    )
-
-    if enclosure is not None:
-
-        url = enclosure.attrib.get(
-            "url",
-            ""
-        )
-
-        mime_type = enclosure.attrib.get(
-            "type",
-            ""
-        ).lower()
-
-        if url and (
-            mime_type.startswith("image/")
-            or re.search(
-                r"\.(jpg|jpeg|png|webp|gif)(\?.*)?$",
-                url,
-                re.IGNORECASE
-            )
-        ):
-            return url.strip()
-
-
-    # --------------------------------
-    # IMAGEN DENTRO DE DESCRIPTION
-    # --------------------------------
-
-    description = item.findtext(
-        "description",
-        ""
-    )
-
-    image_url = extract_image_from_html(
-        description
-    )
-
-    if image_url:
-        return image_url
-
-
-    return ""
-
+# =========================================================
+# NORMALIZAR TITULAR
+# =========================================================
 
 def normalize_title(title):
 
@@ -223,27 +113,25 @@ def normalize_title(title):
     ).strip()
 
     stopwords = {
-
         "de", "la", "el", "los", "las",
         "un", "una", "unos", "unas",
         "y", "o", "en", "por", "para",
         "con", "del", "al", "se", "su",
         "sus", "que", "a"
-
     }
 
     words = [
-
         word
-
         for word in title.split()
-
         if word not in stopwords
-
     ]
 
     return " ".join(words)
 
+
+# =========================================================
+# DETECTAR DUPLICADOS
+# =========================================================
 
 def titles_are_duplicate(
     title_a,
@@ -273,6 +161,290 @@ def titles_are_duplicate(
     return similarity >= DUPLICATE_THRESHOLD
 
 
+# =========================================================
+# BUSCAR IMAGEN EN HTML
+# =========================================================
+
+def extract_image_from_html(
+    html_data,
+    base_url=""
+):
+
+    if not html_data:
+        return ""
+
+    # -----------------------------------------------------
+    # 1. og:image
+    # -----------------------------------------------------
+
+    patterns = [
+
+        r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+
+        r'<meta[^>]+property=["\']og:image:url["\'][^>]+content=["\']([^"\']+)["\']',
+
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image:url["\']',
+
+    ]
+
+    for pattern in patterns:
+
+        match = re.search(
+            pattern,
+            html_data,
+            re.IGNORECASE
+        )
+
+        if match:
+
+            image_url = (
+                match.group(1)
+                .strip()
+            )
+
+            return urljoin(
+                base_url,
+                image_url
+            )
+
+
+    # -----------------------------------------------------
+    # 2. twitter:image
+    # -----------------------------------------------------
+
+    patterns = [
+
+        r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']',
+
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image["\']',
+
+    ]
+
+    for pattern in patterns:
+
+        match = re.search(
+            pattern,
+            html_data,
+            re.IGNORECASE
+        )
+
+        if match:
+
+            image_url = (
+                match.group(1)
+                .strip()
+            )
+
+            return urljoin(
+                base_url,
+                image_url
+            )
+
+
+    # -----------------------------------------------------
+    # 3. Imagen dentro del contenido
+    # -----------------------------------------------------
+
+    patterns = [
+
+        r'<img[^>]+src=["\']([^"\']+)["\']',
+
+        r'<img[^>]+data-src=["\']([^"\']+)["\']',
+
+        r'<img[^>]+data-lazy-src=["\']([^"\']+)["\']',
+
+    ]
+
+    for pattern in patterns:
+
+        match = re.search(
+            pattern,
+            html_data,
+            re.IGNORECASE
+        )
+
+        if match:
+
+            image_url = (
+                match.group(1)
+                .strip()
+            )
+
+            if image_url.startswith(
+                (
+                    "http://",
+                    "https://"
+                )
+            ):
+
+                return image_url
+
+            return urljoin(
+                base_url,
+                image_url
+            )
+
+    return ""
+
+
+# =========================================================
+# OBTENER IMAGEN DESDE LA NOTICIA
+# =========================================================
+
+def fetch_article_image(
+    article_url
+):
+
+    if not article_url:
+        return ""
+
+    try:
+
+        html_data = download_url(
+            article_url,
+            timeout=IMAGE_TIMEOUT
+        ).decode(
+            "utf-8",
+            errors="ignore"
+        )
+
+        return extract_image_from_html(
+            html_data,
+            article_url
+        )
+
+    except Exception as error:
+
+        print(
+            f"  No se pudo obtener imagen: {error}"
+        )
+
+        return ""
+
+
+# =========================================================
+# EXTRAER IMAGEN DEL ITEM RSS
+# =========================================================
+
+def extract_image(
+    item,
+    description="",
+    link=""
+):
+
+    # -----------------------------------------------------
+    # 1. media:content
+    # -----------------------------------------------------
+
+    media_content = item.find(
+        f"{{{MEDIA_NS}}}content"
+    )
+
+    if media_content is not None:
+
+        url = media_content.attrib.get(
+            "url",
+            ""
+        )
+
+        if url:
+
+            return url
+
+
+    # -----------------------------------------------------
+    # 2. media:thumbnail
+    # -----------------------------------------------------
+
+    media_thumbnail = item.find(
+        f"{{{MEDIA_NS}}}thumbnail"
+    )
+
+    if media_thumbnail is not None:
+
+        url = media_thumbnail.attrib.get(
+            "url",
+            ""
+        )
+
+        if url:
+
+            return url
+
+
+    # -----------------------------------------------------
+    # 3. enclosure
+    # -----------------------------------------------------
+
+    enclosure = item.find(
+        "enclosure"
+    )
+
+    if enclosure is not None:
+
+        url = enclosure.attrib.get(
+            "url",
+            ""
+        )
+
+        mime_type = enclosure.attrib.get(
+            "type",
+            ""
+        ).lower()
+
+        if url and (
+            mime_type.startswith(
+                "image/"
+            )
+            or re.search(
+                r"\.(jpg|jpeg|png|webp|gif)(\?.*)?$",
+                url,
+                re.IGNORECASE
+            )
+        ):
+
+            return url
+
+
+    # -----------------------------------------------------
+    # 4. imagen dentro del description
+    # -----------------------------------------------------
+
+    image = extract_image_from_html(
+        description,
+        link
+    )
+
+    if image:
+        return image
+
+
+    # -----------------------------------------------------
+    # 5. intentar página original
+    # -----------------------------------------------------
+
+    if link:
+
+        print(
+            f"  Buscando imagen: {link}"
+        )
+
+        image = fetch_article_image(
+            link
+        )
+
+        if image:
+            return image
+
+    return ""
+
+
+# =========================================================
+# PARSEAR RSS / ATOM
+# =========================================================
+
 def parse_feed(
     xml_data,
     source_name
@@ -285,9 +457,9 @@ def parse_feed(
     items = []
 
 
-    # =================================
+    # =====================================================
     # RSS
-    # =================================
+    # =====================================================
 
     for item in root.findall(
         ".//item"
@@ -314,12 +486,14 @@ def parse_feed(
         ).strip()
 
 
-        image = extract_image(
-            item
-        )
-
-
         if title and link:
+
+            image = extract_image(
+                item,
+                description,
+                link
+            )
+
 
             items.append({
 
@@ -344,9 +518,9 @@ def parse_feed(
             })
 
 
-    # =================================
+    # =====================================================
     # ATOM
-    # =================================
+    # =====================================================
 
     namespace = (
         "{http://www.w3.org/2005/Atom}"
@@ -361,18 +535,11 @@ def parse_feed(
             f"{namespace}title"
         )
 
-
         title = (
-
             title_element.text.strip()
-
-            if (
-                title_element is not None
-                and title_element.text
-            )
-
+            if title_element is not None
+            and title_element.text
             else ""
-
         )
 
 
@@ -397,61 +564,69 @@ def parse_feed(
             f"{namespace}summary"
         )
 
-
         description = (
-
             summary_element.text.strip()
-
-            if (
-                summary_element is not None
-                and summary_element.text
-            )
-
+            if summary_element is not None
+            and summary_element.text
             else ""
-
         )
+
+
+        content_element = entry.find(
+            f"{namespace}content"
+        )
+
+        if (
+            not description
+            and content_element is not None
+            and content_element.text
+        ):
+
+            description = (
+                content_element.text.strip()
+            )
 
 
         updated_element = entry.find(
             f"{namespace}updated"
         )
 
-
         updated = (
-
             updated_element.text.strip()
+            if updated_element is not None
+            and updated_element.text
+            else ""
+        )
 
-            if (
-                updated_element is not None
-                and updated_element.text
+
+        try:
+
+            date = datetime.fromisoformat(
+                updated.replace(
+                    "Z",
+                    "+00:00"
+                )
             )
 
-            else ""
+        except Exception:
 
-        )
-
-
-        # Buscar imagen dentro del summary
-        image = extract_image_from_html(
-            description
-        )
+            date = datetime.now(
+                timezone.utc
+            )
 
 
         if title and link:
 
-            try:
+            image = extract_image_from_html(
+                description,
+                link
+            )
 
-                date = datetime.fromisoformat(
-                    updated.replace(
-                        "Z",
-                        "+00:00"
-                    )
-                )
 
-            except Exception:
+            if not image:
 
-                date = datetime.now(
-                    timezone.utc
+                image = fetch_article_image(
+                    link
                 )
 
 
@@ -481,14 +656,16 @@ def parse_feed(
     return items
 
 
+# =========================================================
+# ELIMINAR DUPLICADOS
+# =========================================================
+
 def remove_duplicates(
     items
 ):
 
-    # Ordenar por fecha
     items.sort(
-        key=lambda item:
-            item["date"],
+        key=lambda item: item["date"],
         reverse=True
     )
 
@@ -499,35 +676,29 @@ def remove_duplicates(
 
     for item in items:
 
-
-        # =================================
-        # NIVEL 1: URL EXACTA
-        # =================================
+        # -------------------------------------------------
+        # URL EXACTAMENTE IGUAL
+        # -------------------------------------------------
 
         if item["link"] in seen_links:
-
             continue
 
 
-        # =================================
-        # NIVEL 2: TITULARES SIMILARES
-        # =================================
+        # -------------------------------------------------
+        # TITULARES SIMILARES
+        # -------------------------------------------------
 
         duplicate_found = False
 
 
         for existing in unique_items:
 
-
             if titles_are_duplicate(
-
                 item["title"],
                 existing["title"]
-
             ):
 
                 duplicate_found = True
-
 
                 print(
                     "Duplicado detectado:"
@@ -545,7 +716,6 @@ def remove_duplicates(
 
 
         if duplicate_found:
-
             continue
 
 
@@ -561,11 +731,15 @@ def remove_duplicates(
     return unique_items
 
 
+# =========================================================
+# MAIN
+# =========================================================
+
 def main():
 
-    # =================================
+    # -----------------------------------------------------
     # LEER CONFIGURACIÓN
-    # =================================
+    # -----------------------------------------------------
 
     with open(
         CONFIG_FILE,
@@ -581,9 +755,9 @@ def main():
     all_items = []
 
 
-    # =================================
+    # -----------------------------------------------------
     # DESCARGAR FUENTES
-    # =================================
+    # -----------------------------------------------------
 
     for feed in config["feeds"]:
 
@@ -594,7 +768,7 @@ def main():
             )
 
 
-            xml_data = download_feed(
+            xml_data = download_url(
                 feed["url"]
             )
 
@@ -628,9 +802,9 @@ def main():
     )
 
 
-    # =================================
-    # ELIMINAR DUPLICADOS
-    # =================================
+    # -----------------------------------------------------
+    # DUPLICADOS
+    # -----------------------------------------------------
 
     unique_items = remove_duplicates(
         all_items
@@ -643,23 +817,21 @@ def main():
     )
 
 
-    # =================================
-    # LIMITAR RESULTADOS
-    # =================================
+    # -----------------------------------------------------
+    # LIMITAR
+    # -----------------------------------------------------
 
     unique_items = unique_items[
         :MAX_ITEMS
     ]
 
 
-    # =================================
+    # =====================================================
     # CREAR RSS
-    # =================================
+    # =====================================================
 
     rss = ET.Element(
-
         "rss",
-
         {
             "version": "2.0",
             "xmlns:atom":
@@ -667,7 +839,6 @@ def main():
             "xmlns:media":
                 MEDIA_NS
         }
-
     )
 
 
@@ -720,9 +891,9 @@ def main():
     )
 
 
-    # =================================
+    # =====================================================
     # AGREGAR NOTICIAS
-    # =================================
+    # =====================================================
 
     for item in unique_items:
 
@@ -764,31 +935,28 @@ def main():
         ).text = item["source"]
 
 
-        # =================================
+        # -------------------------------------------------
         # IMAGEN
-        # =================================
+        # -------------------------------------------------
 
         if item.get("image"):
 
-            media_content = ET.SubElement(
+            ET.SubElement(
                 rss_item,
-                f"{{{MEDIA_NS}}}content"
-            )
+                f"{{{MEDIA_NS}}}content",
+                {
+                    "url":
+                        item["image"],
 
-            media_content.set(
-                "url",
-                item["image"]
-            )
-
-            media_content.set(
-                "medium",
-                "image"
+                    "medium":
+                        "image"
+                }
             )
 
 
-    # =================================
-    # GUARDAR RSS
-    # =================================
+    # =====================================================
+    # GUARDAR
+    # =====================================================
 
     tree = ET.ElementTree(
         rss
@@ -821,4 +989,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
