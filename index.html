@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>INM — Noticias</title>
+  <title>Informados No Manipulados — Noticias</title>
 
   <style>
+
     * {
       box-sizing: border-box;
     }
@@ -23,40 +24,55 @@
       text-decoration: none;
     }
 
+
     /* =========================
        HERO
     ========================= */
 
     .hero {
       min-height: 360px;
+
       background:
         linear-gradient(
           rgba(0,0,0,.45),
           rgba(0,0,0,.78)
         ),
-        url("banner-g6austral.png") center/cover no-repeat;
+        url("banner-g6austral.png")
+        center/cover no-repeat;
 
       display: flex;
       align-items: flex-end;
+
       padding: 50px 6%;
     }
+
 
     .hero-content {
       max-width: 900px;
     }
 
+
     .hero h1 {
       margin: 0;
-      font-size: clamp(42px, 7vw, 82px);
+
+      font-size:
+        clamp(42px, 7vw, 82px);
+
       font-weight: 900;
+
       letter-spacing: -3px;
     }
 
+
     .hero p {
       margin: 10px 0 0;
-      font-size: clamp(16px, 2vw, 24px);
+
+      font-size:
+        clamp(16px, 2vw, 24px);
+
       color: #ddd;
     }
+
 
     /* =========================
        NAV
@@ -72,41 +88,199 @@
 
       padding: 12px 5%;
 
-      background: rgba(10,10,10,.96);
-      border-bottom: 1px solid #292929;
+      background:
+        rgba(10,10,10,.96);
+
+      border-bottom:
+        1px solid #292929;
 
       overflow-x: auto;
     }
 
+
     .nav button {
       flex-shrink: 0;
 
-      border: 1px solid #444;
+      border:
+        1px solid #444;
+
       background: #151515;
+
       color: #ddd;
 
-      padding: 9px 15px;
-      border-radius: 20px;
+      padding:
+        9px 15px;
+
+      border-radius:
+        20px;
 
       cursor: pointer;
+
       font-weight: bold;
     }
 
+
     .nav button:hover,
     .nav button.active {
+
       background: #ffffff;
       color: #000;
     }
+
 
     /* =========================
        CONTENEDOR
     ========================= */
 
     .container {
+
       width: 90%;
       max-width: 1400px;
-      margin: 35px auto 70px;
+
+      margin:
+        30px auto 70px;
     }
+
+
+    /* =========================
+       BUSCADOR
+    ========================= */
+
+    .search-container {
+
+      margin-bottom: 30px;
+
+      display: flex;
+
+      justify-content:
+        center;
+    }
+
+
+    .search-box {
+
+      width: 100%;
+
+      max-width: 800px;
+
+      position: relative;
+    }
+
+
+    .search-icon {
+
+      position: absolute;
+
+      left: 18px;
+
+      top: 50%;
+
+      transform:
+        translateY(-50%);
+
+      font-size: 20px;
+
+      color: #777;
+
+      pointer-events: none;
+    }
+
+
+    #searchInput {
+
+      width: 100%;
+
+      padding:
+        16px 50px 16px 50px;
+
+      border:
+        1px solid #383838;
+
+      border-radius:
+        30px;
+
+      background:
+        #151515;
+
+      color: #ffffff;
+
+      font-size: 17px;
+
+      outline: none;
+
+      transition:
+        border-color .2s ease,
+        box-shadow .2s ease;
+    }
+
+
+    #searchInput:focus {
+
+      border-color:
+        #777;
+
+      box-shadow:
+        0 0 0 3px
+        rgba(255,255,255,.06);
+    }
+
+
+    #searchInput::placeholder {
+      color: #777;
+    }
+
+
+    .clear-search {
+
+      position: absolute;
+
+      right: 15px;
+
+      top: 50%;
+
+      transform:
+        translateY(-50%);
+
+      width: 32px;
+      height: 32px;
+
+      border: none;
+
+      border-radius: 50%;
+
+      background: #292929;
+
+      color: #aaa;
+
+      cursor: pointer;
+
+      display: none;
+
+      font-size: 18px;
+    }
+
+
+    .clear-search:hover {
+
+      background: #444;
+
+      color: #fff;
+    }
+
+
+    .search-info {
+
+      text-align: center;
+
+      color: #777;
+
+      font-size: 13px;
+
+      margin-top: 10px;
+
+      min-height: 18px;
+    }
+
 
     /* =========================
        DESTACADA
@@ -116,88 +290,151 @@
       margin-bottom: 35px;
     }
 
+
     .featured-card {
+
       display: grid;
-      grid-template-columns: 1.35fr 1fr;
 
-      background: #151515;
-      border: 1px solid #292929;
+      grid-template-columns:
+        1.35fr 1fr;
 
-      border-radius: 14px;
+      background:
+        #151515;
+
+      border:
+        1px solid #292929;
+
+      border-radius:
+        14px;
+
       overflow: hidden;
 
-      transition: transform .2s ease;
+      transition:
+        transform .2s ease;
     }
+
 
     .featured-card:hover {
-      transform: translateY(-3px);
+      transform:
+        translateY(-3px);
     }
 
+
     .featured-image {
+
       width: 100%;
+
       height: 100%;
+
       min-height: 390px;
 
       object-fit: cover;
+
       display: block;
-      background: #202020;
+
+      background:
+        #202020;
     }
 
+
     .featured-content {
+
       padding: 35px;
+
       display: flex;
+
       flex-direction: column;
+
       justify-content: center;
     }
 
+
     .featured-source {
+
       color: #aaa;
+
       font-size: 13px;
+
       font-weight: bold;
-      text-transform: uppercase;
+
+      text-transform:
+        uppercase;
+
       margin-bottom: 12px;
     }
 
+
     .featured-title {
-      font-size: clamp(28px, 4vw, 48px);
+
+      font-size:
+        clamp(28px, 4vw, 48px);
+
       line-height: 1.08;
-      margin: 0 0 18px;
+
+      margin:
+        0 0 18px;
+
       font-weight: 900;
     }
 
+
     .featured-description {
+
       color: #bbb;
+
       line-height: 1.6;
+
       font-size: 16px;
     }
 
+
     .featured-date {
+
       color: #777;
+
       margin-top: 20px;
+
       font-size: 13px;
     }
+
 
     /* =========================
        GRID
     ========================= */
 
     .section-title {
+
       font-size: 26px;
-      margin: 0 0 20px;
+
+      margin:
+        0 0 20px;
+
       font-weight: 900;
     }
 
+
     .news-grid {
+
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
       gap: 22px;
     }
 
-    .news-card {
-      background: #151515;
-      border: 1px solid #292929;
 
-      border-radius: 12px;
+    .news-card {
+
+      background:
+        #151515;
+
+      border:
+        1px solid #292929;
+
+      border-radius:
+        12px;
+
       overflow: hidden;
 
       transition:
@@ -205,73 +442,126 @@
         border-color .2s ease;
     }
 
+
     .news-card:hover {
-      transform: translateY(-4px);
-      border-color: #555;
+
+      transform:
+        translateY(-4px);
+
+      border-color:
+        #555;
     }
+
 
     .news-image {
+
       width: 100%;
-      aspect-ratio: 16 / 9;
+
+      aspect-ratio:
+        16 / 9;
 
       object-fit: cover;
+
       display: block;
 
-      background: #202020;
+      background:
+        #202020;
     }
 
+
     .news-content {
+
       padding: 20px;
     }
 
+
     .news-source {
+
       color: #999;
+
       font-size: 12px;
+
       font-weight: bold;
-      text-transform: uppercase;
+
+      text-transform:
+        uppercase;
+
       margin-bottom: 8px;
     }
 
+
     .news-title {
+
       font-size: 20px;
+
       line-height: 1.25;
-      margin: 0 0 12px;
+
+      margin:
+        0 0 12px;
+
       font-weight: 800;
     }
 
+
     .news-description {
+
       color: #aaa;
+
       font-size: 14px;
+
       line-height: 1.5;
     }
 
+
     .news-date {
+
       margin-top: 15px;
+
       color: #666;
+
       font-size: 12px;
     }
 
+
     /* =========================
-       SIN NOTICIAS
+       SIN RESULTADOS
     ========================= */
 
     .empty {
+
+      grid-column:
+        1 / -1;
+
       text-align: center;
-      padding: 60px 20px;
+
+      padding:
+        60px 20px;
+
       color: #777;
+
+      font-size: 16px;
     }
+
 
     /* =========================
        FOOTER
     ========================= */
 
     footer {
-      border-top: 1px solid #222;
-      padding: 30px 5%;
+
+      border-top:
+        1px solid #222;
+
+      padding:
+        30px 5%;
+
       text-align: center;
+
       color: #666;
+
       font-size: 13px;
     }
+
 
     /* =========================
        RESPONSIVE
@@ -280,140 +570,290 @@
     @media (max-width: 1000px) {
 
       .news-grid {
-        grid-template-columns: repeat(2, 1fr);
+
+        grid-template-columns:
+          repeat(2, 1fr);
       }
+
 
       .featured-card {
-        grid-template-columns: 1fr;
+
+        grid-template-columns:
+          1fr;
       }
 
+
       .featured-image {
-        min-height: 280px;
+
+        min-height:
+          280px;
       }
     }
+
 
     @media (max-width: 650px) {
 
       .hero {
-        min-height: 300px;
-        padding: 35px 6%;
+
+        min-height:
+          300px;
+
+        padding:
+          35px 6%;
       }
+
 
       .container {
-        width: 94%;
+
+        width:
+          94%;
       }
+
 
       .news-grid {
-        grid-template-columns: 1fr;
+
+        grid-template-columns:
+          1fr;
       }
+
 
       .featured-content {
-        padding: 25px;
+
+        padding:
+          25px;
       }
 
+
       .featured-title {
-        font-size: 30px;
+
+        font-size:
+          30px;
+      }
+
+
+      #searchInput {
+
+        font-size:
+          16px;
       }
     }
+
   </style>
+
 </head>
+
 
 <body>
 
-  <!-- =========================
+
+  <!-- =================================================
        HERO
-  ========================= -->
+  ================================================== -->
 
   <header class="hero">
+
     <div class="hero-content">
-      <h1>Informados No Manipulados</h1>
-      <p>Noticias, actualidad, defensa, seguridad e internacional.</p>
+
+      <h1>
+        Informados No Manipulados
+      </h1>
+
+      <p>
+        Noticias, actualidad, defensa,
+        seguridad e internacional.
+      </p>
+
     </div>
+
   </header>
 
 
-  <!-- =========================
+  <!-- =================================================
        NAVEGACIÓN
-  ========================= -->
+  ================================================== -->
 
   <nav class="nav">
 
-    <button class="active" data-category="TODAS">
+    <button
+      class="active"
+      data-category="TODAS">
+
       ÚLTIMAS
+
     </button>
 
-    <button data-category="CHILE">
+
+    <button
+      data-category="CHILE">
+
       CHILE
+
     </button>
 
-    <button data-category="POLÍTICA">
+
+    <button
+      data-category="POLÍTICA">
+
       POLÍTICA
+
     </button>
 
-    <button data-category="DEFENSA">
+
+    <button
+      data-category="DEFENSA">
+
       DEFENSA
+
     </button>
 
-    <button data-category="SEGURIDAD">
+
+    <button
+      data-category="SEGURIDAD">
+
       SEGURIDAD
+
     </button>
 
-    <button data-category="INTERNACIONAL">
+
+    <button
+      data-category="INTERNACIONAL">
+
       INTERNACIONAL
+
     </button>
 
-    <button data-category="ECONOMÍA">
+
+    <button
+      data-category="ECONOMÍA">
+
       ECONOMÍA
+
     </button>
 
   </nav>
 
 
-  <!-- =========================
+  <!-- =================================================
        CONTENIDO
-  ========================= -->
+  ================================================== -->
 
   <main class="container">
 
-    <section class="featured" id="featured"></section>
 
-    <h2 class="section-title">
+    <!-- BUSCADOR -->
+
+    <div class="search-container">
+
+      <div class="search-box">
+
+        <span class="search-icon">
+          🔎
+        </span>
+
+
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Buscar noticias..."
+          autocomplete="off"
+        >
+
+
+        <button
+          class="clear-search"
+          id="clearSearch"
+          aria-label="Limpiar búsqueda">
+
+          ×
+
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="search-info"
+      id="searchInfo">
+    </div>
+
+
+    <!-- DESTACADA -->
+
+    <section
+      class="featured"
+      id="featured">
+    </section>
+
+
+    <h2
+      class="section-title"
+      id="sectionTitle">
+
       Últimas noticias
+
     </h2>
 
-    <section class="news-grid" id="news"></section>
+
+    <!-- NOTICIAS -->
+
+    <section
+      class="news-grid"
+      id="news">
+    </section>
+
 
   </main>
 
 
   <footer>
-    Informados No Manipulados · Noticias y actualidad
+
+    Informados No Manipulados · Noticias y Actualidad
+
   </footer>
 
 
   <script>
 
+
+    /* =================================================
+       CONFIGURACIÓN
+    ================================================== */
+
     const RSS_URL =
       "feed.xml";
 
 
+    const MEDIA_NAMESPACE =
+      "http://search.yahoo.com/mrss/";
+
+
     let allNews = [];
 
-    let currentCategory = "TODAS";
+    let currentCategory =
+      "TODAS";
+
+    let currentSearch =
+      "";
 
 
-    /* =========================
+    /* =================================================
        LIMPIAR TEXTO
-    ========================= */
+    ================================================== */
 
     function cleanText(text) {
 
-      if (!text) return "";
+      if (!text)
+        return "";
 
       const div =
-        document.createElement("div");
+        document.createElement(
+          "div"
+        );
 
-      div.innerHTML = text;
+      div.innerHTML =
+        text;
 
       return div.textContent
         .replace(/\s+/g, " ")
@@ -421,162 +861,201 @@
     }
 
 
-    /* =========================
+    /* =================================================
        CATEGORÍAS
-    ========================= */
+    ================================================== */
 
-    function categorize(title, description) {
+    function categorize(
+      title,
+      description
+    ) {
 
       const text =
         (
-          title + " " + description
+          title +
+          " " +
+          description
         ).toLowerCase();
 
 
       if (
-        /ejército|militar|militares|ffaa|fuerzas armadas|defensa|armada|fuerza aérea|carabineros de chile|infantería|otan|misil|misiles|tanque|tanques|guerra|conflicto armado/.test(text)
+        /ejército|militar|militares|ffaa|fuerzas armadas|defensa|armada|fuerza aérea|carabineros de chile|infantería|otan|misil|misiles|tanque|tanques|guerra|conflicto armado/
+        .test(text)
       ) {
+
         return "DEFENSA";
+
       }
 
 
       if (
-        /delito|crimen|criminal|asesinato|homicidio|robo|narcotráfico|narco|droga|carabinero|policía|seguridad|violencia|banda criminal|terrorismo/.test(text)
+        /delito|crimen|criminal|asesinato|homicidio|robo|narcotráfico|narco|droga|carabinero|policía|seguridad|violencia|banda criminal|terrorismo/
+        .test(text)
       ) {
+
         return "SEGURIDAD";
+
       }
 
 
       if (
-        /presidente|gobierno|congreso|diputado|diputada|senado|senador|senadora|elección|elecciones|política|ministro|ministra|partido político|kast|boric|jadue/.test(text)
+        /presidente|gobierno|congreso|diputado|diputada|senado|senador|senadora|elección|elecciones|política|ministro|ministra|partido político|kast|boric|jadue/
+        .test(text)
       ) {
+
         return "POLÍTICA";
+
       }
 
 
       if (
-        /economía|economia|mercado|bolsa|dólar|dolar|inflación|inflacion|banco central|empresas|empleo|desempleo|finanzas|petróleo|petróleo/.test(text)
+        /economía|economia|mercado|bolsa|dólar|dolar|inflación|inflacion|banco central|empresas|empleo|desempleo|finanzas|petróleo/
+        .test(text)
       ) {
+
         return "ECONOMÍA";
+
       }
 
 
       if (
-        /eeuu|estados unidos|china|rusia|ucrania|israel|palestina|irán|iran|europa|argentina|perú|peru|bolivia|venezuela|méxico|mexico|mundo|internacional|geopolítica|geopolitica/.test(text)
+        /eeuu|estados unidos|china|rusia|ucrania|israel|palestina|irán|iran|europa|argentina|perú|peru|bolivia|venezuela|méxico|mexico|mundo|internacional|geopolítica|geopolitica/
+        .test(text)
       ) {
+
         return "INTERNACIONAL";
+
       }
 
 
       return "CHILE";
+
     }
 
 
-    /* =========================
+    /* =================================================
        OBTENER IMAGEN
-    ========================= */
+    ================================================== */
 
     function getImage(item) {
 
-      /*
-       * Primero buscamos media:content
-       */
+
+      /* media:content */
 
       const mediaContent =
         item.getElementsByTagNameNS(
-          "http://search.yahoo.com/mrss/",
+          MEDIA_NAMESPACE,
           "content"
         )[0];
+
 
       if (mediaContent) {
 
         const url =
-          mediaContent.getAttribute("url");
+          mediaContent.getAttribute(
+            "url"
+          );
 
-        if (url) {
+        if (url)
           return url;
-        }
+
       }
 
 
-      /*
-       * Luego media:thumbnail
-       */
+      /* media:thumbnail */
 
       const thumbnail =
         item.getElementsByTagNameNS(
-          "http://search.yahoo.com/mrss/",
+          MEDIA_NAMESPACE,
           "thumbnail"
         )[0];
+
 
       if (thumbnail) {
 
         const url =
-          thumbnail.getAttribute("url");
+          thumbnail.getAttribute(
+            "url"
+          );
 
-        if (url) {
+        if (url)
           return url;
-        }
+
       }
 
 
-      /*
-       * Luego enclosure
-       */
+      /* enclosure */
 
       const enclosure =
-        item.querySelector("enclosure");
+        item.querySelector(
+          "enclosure"
+        );
+
 
       if (enclosure) {
 
-        const type =
-          enclosure.getAttribute("type") || "";
-
         const url =
-          enclosure.getAttribute("url");
+          enclosure.getAttribute(
+            "url"
+          );
+
+        const type =
+          enclosure.getAttribute(
+            "type"
+          ) || "";
+
 
         if (
           url &&
           (
-            type.startsWith("image/")
+            type.startsWith(
+              "image/"
+            )
             ||
-            /\.(jpg|jpeg|png|webp|gif)(\?.*)?$/i.test(url)
+            /\.(jpg|jpeg|png|webp|gif)(\?.*)?$/i
+              .test(url)
           )
         ) {
+
           return url;
+
         }
+
       }
 
 
-      /*
-       * Finalmente buscamos una imagen
-       * dentro de description.
-       */
+      /* imagen dentro de description */
 
       const description =
-        item.querySelector("description")?.textContent || "";
+        item.querySelector(
+          "description"
+        )?.textContent || "";
+
 
       const match =
         description.match(
           /<img[^>]+(?:src|data-src|data-lazy-src)=["']([^"']+)["']/i
         );
 
-      if (match && match[1]) {
+
+      if (
+        match &&
+        match[1]
+      ) {
+
         return match[1];
+
       }
 
 
-      /*
-       * Si no encontramos imagen
-       */
-
       return "";
+
     }
 
 
-    /* =========================
+    /* =================================================
        CARGAR RSS
-    ========================= */
+    ================================================== */
 
     async function loadRSS() {
 
@@ -584,14 +1063,18 @@
 
         const response =
           await fetch(
-            RSS_URL + "?t=" + Date.now()
+            RSS_URL +
+            "?t=" +
+            Date.now()
           );
 
 
         if (!response.ok) {
+
           throw new Error(
             "No se pudo cargar el RSS"
           );
+
         }
 
 
@@ -612,68 +1095,86 @@
 
         const items =
           Array.from(
-            xml.querySelectorAll("item")
+            xml.querySelectorAll(
+              "item"
+            )
           );
 
 
         allNews =
-          items.map(item => {
-
-            const title =
-              cleanText(
-                item.querySelector("title")?.textContent
-              );
+          items.map(
+            item => {
 
 
-            const link =
-              item.querySelector("link")?.textContent?.trim()
-              || "#";
+              const title =
+                cleanText(
+                  item.querySelector(
+                    "title"
+                  )?.textContent
+                );
 
 
-            const description =
-              cleanText(
-                item.querySelector("description")?.textContent
-              );
+              const link =
+                item.querySelector(
+                  "link"
+                )?.textContent?.trim()
+                || "#";
 
 
-            const source =
-              cleanText(
-                item.querySelector("source")?.textContent
-              );
+              const description =
+                cleanText(
+                  item.querySelector(
+                    "description"
+                  )?.textContent
+                );
 
 
-            const pubDate =
-              item.querySelector("pubDate")?.textContent
-              || "";
+              const source =
+                cleanText(
+                  item.querySelector(
+                    "source"
+                  )?.textContent
+                );
 
 
-            const image =
-              getImage(item);
+              const pubDate =
+                item.querySelector(
+                  "pubDate"
+                )?.textContent
+                || "";
 
 
-            return {
+              const image =
+                getImage(
+                  item
+                );
 
-              title,
-              link,
-              description,
-              source,
-              pubDate,
-              image,
 
-              category:
-                categorize(
-                  title,
-                  description
-                )
+              return {
 
-            };
+                title,
+                link,
+                description,
+                source,
+                pubDate,
+                image,
 
-          });
+                category:
+                  categorize(
+                    title,
+                    description
+                  )
+
+              };
+
+            }
+          );
 
 
         renderNews();
 
       }
+
 
       catch (error) {
 
@@ -701,20 +1202,27 @@
     }
 
 
-    /* =========================
+    /* =================================================
        FECHA
-    ========================= */
+    ================================================== */
 
-    function formatDate(date) {
+    function formatDate(
+      date
+    ) {
 
-      if (!date) return "";
+      if (!date)
+        return "";
+
 
       const d =
         new Date(date);
 
-      if (isNaN(d)) {
+
+      if (
+        isNaN(d)
+      )
         return "";
-      }
+
 
       return d.toLocaleString(
         "es-CL",
@@ -730,220 +1238,96 @@
     }
 
 
-    /* =========================
-       RENDER
-    ========================= */
+    /* =================================================
+       BUSCAR
+    ================================================== */
 
-    function renderNews() {
-
-      let filtered =
-        allNews;
-
+    function searchNews(
+      news
+    ) {
 
       if (
-        currentCategory !== "TODAS"
+        !currentSearch
       ) {
 
-        filtered =
-          allNews.filter(
-            news =>
-              news.category ===
-              currentCategory
+        return true;
+
+      }
+
+
+      const search =
+        currentSearch
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(
+            /[\u0300-\u036f]/g,
+            ""
           );
 
-      }
 
-
-      const featured =
-        filtered[0];
-
-
-      const remaining =
-        filtered.slice(1, 19);
-
-
-      /*
-       * DESTACADA
-       */
-
-      const featuredContainer =
-        document.getElementById(
-          "featured"
+      const text =
+        (
+          news.title +
+          " " +
+          news.source +
+          " " +
+          news.description
+        )
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(
+          /[\u0300-\u036f]/g,
+          ""
         );
 
 
-      if (!featured) {
-
-        featuredContainer.innerHTML =
-          "";
-
-      }
-
-      else {
-
-        const imageHTML =
-          featured.image
-            ? `
-              <img
-                class="featured-image"
-                src="${escapeAttribute(featured.image)}"
-                alt=""
-                loading="eager"
-              >
-            `
-            : "";
-
-
-        featuredContainer.innerHTML = `
-
-          <a
-            href="${escapeAttribute(featured.link)}"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-
-            <article class="featured-card">
-
-              ${imageHTML}
-
-              <div class="featured-content">
-
-                <div class="featured-source">
-                  ${escapeHTML(featured.source)}
-                </div>
-
-                <h2 class="featured-title">
-                  ${escapeHTML(featured.title)}
-                </h2>
-
-                <div class="featured-description">
-                  ${escapeHTML(
-                    featured.description
-                      .substring(0, 350)
-                  )}
-                </div>
-
-                <div class="featured-date">
-                  ${formatDate(featured.pubDate)}
-                </div>
-
-              </div>
-
-            </article>
-
-          </a>
-
-        `;
-
-      }
-
-
-      /*
-       * RESTO DE NOTICIAS
-       */
-
-      const newsContainer =
-        document.getElementById(
-          "news"
-        );
-
-
-      if (!remaining.length) {
-
-        newsContainer.innerHTML =
-          `
-            <div class="empty">
-              No hay noticias disponibles
-              para esta categoría.
-            </div>
-          `;
-
-        return;
-
-      }
-
-
-      newsContainer.innerHTML =
-        remaining.map(news => {
-
-          const imageHTML =
-            news.image
-              ? `
-                <img
-                  class="news-image"
-                  src="${escapeAttribute(news.image)}"
-                  alt=""
-                  loading="lazy"
-                >
-              `
-              : "";
-
-
-          return `
-
-            <a
-              href="${escapeAttribute(news.link)}"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-
-              <article class="news-card">
-
-                ${imageHTML}
-
-                <div class="news-content">
-
-                  <div class="news-source">
-                    ${escapeHTML(news.source)}
-                  </div>
-
-                  <h3 class="news-title">
-                    ${escapeHTML(news.title)}
-                  </h3>
-
-                  <div class="news-description">
-                    ${escapeHTML(
-                      news.description
-                        .substring(0, 180)
-                    )}
-                  </div>
-
-                  <div class="news-date">
-                    ${formatDate(news.pubDate)}
-                  </div>
-
-                </div>
-
-              </article>
-
-            </a>
-
-          `;
-
-        }).join("");
+      return text.includes(
+        search
+      );
 
     }
 
 
-    /* =========================
-       SEGURIDAD HTML
-    ========================= */
+    /* =================================================
+       ESCAPAR HTML
+    ================================================== */
 
-    function escapeHTML(text) {
+    function escapeHTML(
+      text
+    ) {
 
-      if (!text) return "";
+      if (!text)
+        return "";
+
 
       return text
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
+        .replace(
+          /&/g,
+          "&amp;"
+        )
+        .replace(
+          /</g,
+          "&lt;"
+        )
+        .replace(
+          />/g,
+          "&gt;"
+        )
+        .replace(
+          /"/g,
+          "&quot;"
+        )
+        .replace(
+          /'/g,
+          "&#039;"
+        );
 
     }
 
 
-    function escapeAttribute(text) {
+    function escapeAttribute(
+      text
+    ) {
 
       return escapeHTML(
         text || "#"
@@ -952,57 +1336,494 @@
     }
 
 
-    /* =========================
-       FILTROS
-    ========================= */
+    /* =================================================
+       RENDER
+    ================================================== */
 
-    document
-      .querySelectorAll(".nav button")
-      .forEach(button => {
-
-        button.addEventListener(
-          "click",
-          () => {
-
-            document
-              .querySelectorAll(
-                ".nav button"
-              )
-              .forEach(btn =>
-                btn.classList.remove(
-                  "active"
-                )
-              );
+    function renderNews() {
 
 
-            button.classList.add(
-              "active"
+      /* FILTRAR POR CATEGORÍA */
+
+      let filtered =
+        allNews.filter(
+          news => {
+
+            if (
+              currentCategory !==
+              "TODAS"
+            ) {
+
+              if (
+                news.category !==
+                currentCategory
+              ) {
+
+                return false;
+
+              }
+
+            }
+
+
+            return searchNews(
+              news
             );
-
-
-            currentCategory =
-              button.dataset.category;
-
-
-            renderNews();
 
           }
         );
 
-      });
+
+      /* INFORMACIÓN DEL BUSCADOR */
+
+      const searchInfo =
+        document.getElementById(
+          "searchInfo"
+        );
 
 
-    /* =========================
+      if (
+        currentSearch
+      ) {
+
+        searchInfo.textContent =
+          `${filtered.length} resultado${
+            filtered.length === 1
+              ? ""
+              : "s"
+          } para "${currentSearch}"`;
+
+      }
+
+      else {
+
+        searchInfo.textContent =
+          "";
+
+      }
+
+
+      /* TÍTULO */
+
+      const sectionTitle =
+        document.getElementById(
+          "sectionTitle"
+        );
+
+
+      if (
+        currentSearch
+      ) {
+
+        sectionTitle.textContent =
+          "Resultados de búsqueda";
+
+      }
+
+      else if (
+        currentCategory !==
+        "TODAS"
+      ) {
+
+        sectionTitle.textContent =
+          currentCategory;
+
+      }
+
+      else {
+
+        sectionTitle.textContent =
+          "Últimas noticias";
+
+      }
+
+
+      /* SIN RESULTADOS */
+
+      if (
+        !filtered.length
+      ) {
+
+        document.getElementById(
+          "featured"
+        ).innerHTML =
+          "";
+
+
+        document.getElementById(
+          "news"
+        ).innerHTML = `
+
+          <div class="empty">
+
+            🔎
+
+            <br><br>
+
+            No encontramos noticias
+            que coincidan con tu búsqueda.
+
+          </div>
+
+        `;
+
+        return;
+
+      }
+
+
+      /* DESTACADA */
+
+      const featured =
+        filtered[0];
+
+
+      const remaining =
+        filtered.slice(
+          1,
+          19
+        );
+
+
+      const featuredContainer =
+        document.getElementById(
+          "featured"
+        );
+
+
+      const featuredImage =
+        featured.image
+          ? `
+
+            <img
+              class="featured-image"
+              src="${escapeAttribute(
+                featured.image
+              )}"
+              alt=""
+              loading="eager"
+            >
+
+          `
+          : "";
+
+
+      featuredContainer.innerHTML = `
+
+        <a
+          href="${escapeAttribute(
+            featured.link
+          )}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          <article
+            class="featured-card"
+          >
+
+            ${featuredImage}
+
+
+            <div
+              class="featured-content"
+            >
+
+              <div
+                class="featured-source"
+              >
+
+                ${escapeHTML(
+                  featured.source
+                )}
+
+              </div>
+
+
+              <h2
+                class="featured-title"
+              >
+
+                ${escapeHTML(
+                  featured.title
+                )}
+
+              </h2>
+
+
+              <div
+                class="featured-description"
+              >
+
+                ${escapeHTML(
+                  featured.description
+                    .substring(
+                      0,
+                      350
+                    )
+                )}
+
+              </div>
+
+
+              <div
+                class="featured-date"
+              >
+
+                ${formatDate(
+                  featured.pubDate
+                )}
+
+              </div>
+
+            </div>
+
+          </article>
+
+        </a>
+
+      `;
+
+
+      /* NOTICIAS */
+
+      const newsContainer =
+        document.getElementById(
+          "news"
+        );
+
+
+      if (
+        !remaining.length
+      ) {
+
+        newsContainer.innerHTML =
+          "";
+
+        return;
+
+      }
+
+
+      newsContainer.innerHTML =
+        remaining
+          .map(
+            news => {
+
+
+              const imageHTML =
+                news.image
+                  ? `
+
+                    <img
+                      class="news-image"
+                      src="${escapeAttribute(
+                        news.image
+                      )}"
+                      alt=""
+                      loading="lazy"
+                    >
+
+                  `
+                  : "";
+
+
+              return `
+
+                <a
+                  href="${escapeAttribute(
+                    news.link
+                  )}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+
+                  <article
+                    class="news-card"
+                  >
+
+                    ${imageHTML}
+
+
+                    <div
+                      class="news-content"
+                    >
+
+                      <div
+                        class="news-source"
+                      >
+
+                        ${escapeHTML(
+                          news.source
+                        )}
+
+                      </div>
+
+
+                      <h3
+                        class="news-title"
+                      >
+
+                        ${escapeHTML(
+                          news.title
+                        )}
+
+                      </h3>
+
+
+                      <div
+                        class="news-description"
+                      >
+
+                        ${escapeHTML(
+                          news.description
+                            .substring(
+                              0,
+                              180
+                            )
+                        )}
+
+                      </div>
+
+
+                      <div
+                        class="news-date"
+                      >
+
+                        ${formatDate(
+                          news.pubDate
+                        )}
+
+                      </div>
+
+                    </div>
+
+                  </article>
+
+                </a>
+
+              `;
+
+            }
+          )
+          .join("");
+
+    }
+
+
+    /* =================================================
+       EVENTO BUSCADOR
+    ================================================== */
+
+    const searchInput =
+      document.getElementById(
+        "searchInput"
+      );
+
+
+    const clearSearch =
+      document.getElementById(
+        "clearSearch"
+      );
+
+
+    searchInput.addEventListener(
+      "input",
+      function() {
+
+        currentSearch =
+          this.value.trim();
+
+
+        clearSearch.style.display =
+          currentSearch
+            ? "block"
+            : "none";
+
+
+        renderNews();
+
+      }
+    );
+
+
+    clearSearch.addEventListener(
+      "click",
+      function() {
+
+        searchInput.value =
+          "";
+
+        currentSearch =
+          "";
+
+        clearSearch.style.display =
+          "none";
+
+        searchInput.focus();
+
+        renderNews();
+
+      }
+    );
+
+
+    /* =================================================
+       FILTROS
+    ================================================== */
+
+    document
+      .querySelectorAll(
+        ".nav button"
+      )
+      .forEach(
+        button => {
+
+          button.addEventListener(
+            "click",
+            () => {
+
+
+              document
+                .querySelectorAll(
+                  ".nav button"
+                )
+                .forEach(
+                  btn =>
+                    btn.classList
+                      .remove(
+                        "active"
+                      )
+                );
+
+
+              button.classList.add(
+                "active"
+              );
+
+
+              currentCategory =
+                button.dataset
+                  .category;
+
+
+              renderNews();
+
+            }
+          );
+
+        }
+      );
+
+
+    /* =================================================
        INICIO
-    ========================= */
+    ================================================== */
 
     loadRSS();
 
 
-    /*
-     * Actualizar automáticamente
-     * cada 5 minutos.
-     */
+    /* Actualización automática */
 
     setInterval(
       loadRSS,
