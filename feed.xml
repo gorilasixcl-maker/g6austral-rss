@@ -1,17 +1,127 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:ns0="http://search.yahoo.com/mrss/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>G6 Austral — Últimas Noticias</title>
     <link>https://gorilasixcl-maker.github.io/g6austral-rss/</link>
     <description>Noticias de Chile, defensa, seguridad e internacional seleccionadas por G6 Austral.</description>
     <language>es-CL</language>
-    <lastBuildDate>Wed, 25 Nov 2026 23:42:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:25:52 +0000</lastBuildDate>
+    <item>
+      <title>Aníbal Mosa le cierra la puerta de Colo Colo a Alexis Sánchez: “Le deseamos suerte en los desafíos que tenga”</title>
+      <link>https://www.latercera.com/el-deportivo/noticia/anibal-mosa-le-cierra-la-puerta-de-colo-colo-a-alexis-sanchez-le-deseamos-suerte-en-los-desafios-que-tenga/</link>
+      <description>El presidente de Blanco y Negro descartó el fichaje del tocopillano. "No está arriba de la mesa en este momento", afirmó.</description>
+      <pubDate>Thu, 26 Nov 2026 00:15:26 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/AS65VSBGYNEADAY5WW62KPI7SM.png?auth=5e563343c6839dfe7fd808ce682c57b0340e689260a9b599cd3c4aea0b9ad784&amp;smart=true&amp;width=1312&amp;height=892" medium="image" />
+    </item>
+    <item>
+      <title>Tribunal dictamina que la ONU despidió a personal palestino basándose en acusaciones israelíes no probadas</title>
+      <link>https://www.latercera.com/mundo/noticia/tribunal-dictamina-que-la-onu-despidio-a-personal-palestino-basandose-en-acusaciones-israelies-no-probadas/</link>
+      <description>El juzgado de resolución de conflictos de la Agencia de las Naciones Unidas para los Refugiados de Palestina (UNRWA) calificó las imputaciones de Israel de infundadas y de “escaso valor probatorio y fiabilidad”.</description>
+      <pubDate>Thu, 26 Nov 2026 00:13:32 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/5VVLIYY4XRHQHBDB6DVSD2JY7Y.jpeg?auth=a8961da459571599225c26190caacf67824c1cf4d417283b05a830eb44ed25a5&amp;smart=true&amp;width=2038&amp;height=1229" medium="image" />
+    </item>
+    <item>
+      <title>Histórico: después de casi una década de discusión, el Senado despacha a ley Sala Cuna Universal</title>
+      <link>https://www.theclinic.cl/2026/11/25/historico-despues-de-casi-una-decada-de-discusion-el-senado-despacha-a-ley-sala-cuna-universal/</link>
+      <description>La iniciativa que elimina la discriminación hacia la contratacion de mujeres, crea un sistema de financiamiento progresivo que ampliará la cobertura a trabajadoras, trabajadores independientes, padres y cuidadores, con implementación gradual en cuatro años. Revisa acá cómo funcionará su implementación. The post Histórico: después de casi una década de discusión, el Senado despacha a ley Sala Cuna Universal appeared first on The Clinic .</description>
+      <pubDate>Thu, 26 Nov 2026 00:12:58 +0000</pubDate>
+      <source>The Clinic</source>
+    </item>
+    <item>
+      <title>Chile tendrá Sala Cuna Universal: Congreso despacha reforma que cambia el acceso y financiamiento del beneficio</title>
+      <link>http://www.df.cl/economia-y-politica/laboral-personas/sala-cuna-universal-las-claves-de-la-reforma-que-cambia-el-acceso-y</link>
+      <description>El nuevo sistema contempla una entrada en régimen gradual, que se extenderá por cuatro años. Las primeras en acceder serán las trabajadoras con contrato, incluidas las de casa particular.</description>
+      <pubDate>Thu, 26 Nov 2026 00:10:55 +0000</pubDate>
+      <source>Diario Financiero</source>
+    </item>
+    <item>
+      <title>Congreso despacha proyecto que da acceso a Sala Cuna Universal tras ocho años de debate del tema durante tres gobiernos</title>
+      <link>https://www.latercera.com/pulso/noticia/congreso-despacha-proyecto-que-da-acceso-a-sala-cuna-universal-tras-ocho-anos-de-debate-del-tema-durante-tres-gobiernos/</link>
+      <description>El Senado aprobó este miércoles el proyecto, por lo que quedó listo para convertirse en ley. Eso significa que dentro de un año las mujeres trabajadoras podrían acceder a este beneficio, y luego se incorporarán gradualmente otros beneficiarios.</description>
+      <pubDate>Thu, 26 Nov 2026 00:10:07 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/PPREVRZPTJDCRPDCTRHDAW7IZI.jpg?auth=08a7c1c89d7b5a014d245d1bd818eb603cfa75105f9398f8964de409c8397cff&amp;smart=true&amp;width=3294&amp;height=2196" medium="image" />
+    </item>
+    <item>
+      <title>Economistas prevén que mayor impacto del alza del dólar en precios locales se dejaría sentir el primer trimestre de 2027</title>
+      <link>https://www.latercera.com/pulso/noticia/economistas-preven-que-mayor-impacto-del-alza-del-dolar-en-precios-locales-se-dejaria-sentir-el-primer-trimestre-de-2027/</link>
+      <description>Los expertos afirman que el primer impacto de esta alza se comenzará a sentir en los productos del retail, ya que son en un 100% importados. Entre ellos, los televisores, celulares, computadores, pero también en los automóviles.</description>
+      <pubDate>Thu, 26 Nov 2026 00:06:50 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/BLNUZIVPKVFGDAUEVQHWYLZHRI.jpg?auth=7591eccd0106b597bded073b1f85b91495b7ff4066e0f13e20757fcc65d108ef&amp;smart=true&amp;width=900&amp;height=600" medium="image" />
+    </item>
+    <item>
+      <title>Medir para llegar a tiempo</title>
+      <link>https://www.latercera.com/cartas-al-director/noticia/medir-para-llegar-a-tiempo/</link>
+      <description />
+      <pubDate>Wed, 25 Nov 2026 23:58:00 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/NXQJG54AN5D75GHYON6QYLMKEY.jpg?auth=3695300b0e3ea15a3e7b91b49f48a2c91a61927c0388f6da4ad5cd39abfdc275&amp;smart=true&amp;width=912&amp;height=672" medium="image" />
+    </item>
+    <item>
+      <title>Presupuesto y derechos humanos</title>
+      <link>https://www.latercera.com/cartas-al-director/noticia/presupuesto-y-derechos-humanos/</link>
+      <description />
+      <pubDate>Wed, 25 Nov 2026 23:56:00 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/KBESKJ5IBRGUBLAZAM3BB7G5AY.jpg?auth=576d0d069a72c960fab51e8cb1858fd8a9657878158375a602a7c988b004c965&amp;smart=true&amp;width=4474&amp;height=2983" medium="image" />
+    </item>
+    <item>
+      <title>Habrá competencia en la UDI: diputada Hube y senador Sanhueza sellan acuerdo para disputar la directiva del partido</title>
+      <link>https://www.latercera.com/politica/noticia/habra-competencia-en-la-udi-diputada-hube-y-senador-sanhueza-sellan-acuerdo-para-disputar-la-directiva-del-partido/</link>
+      <description>La dupla medirá fuerzas con Jorge Alessandri y Pablo Longueira en la elección del 16 de enero de 2027. Esta lista es respaldada por figuras como Javier Macaya, Iván Moreira y Eduardo Cretton. "Queremos recuperar una UDI granítica, fuerte y confiable, pero construida con la participación de todos sus militantes”, sostuvo la diputada, quien es la carta a la presidencia del partido.</description>
+      <pubDate>Wed, 25 Nov 2026 23:55:33 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/2QOUTUNXHNEPFIIO7IV6H5INFQ.jpeg?auth=54e16185727cd771bf6156a0daed15553b11a1e85fa394fe6d7bc7d9288a23d0&amp;smart=true&amp;width=1280&amp;height=852" medium="image" />
+    </item>
+    <item>
+      <title>SEA apelará ante la Suprema anulación de proyecto inmobiliario ligado a la familia Piñera Morel en la Región de Los Ríos</title>
+      <link>http://www.df.cl/regiones/los-rios/empresas/sea-apelara-ante-la-suprema-anulacion-de-proyecto-inmobiliario-ligado-a-la</link>
+      <description>La Corte de Apelaciones de Valdivia dejó sin efecto la aprobación ambiental de la iniciativa de Inmobiliaria Arenas Blancas y ordenó realizar una consulta indígena. La compañía defendió el cumplimiento normativo del proyecto.</description>
+      <pubDate>Wed, 25 Nov 2026 23:54:55 +0000</pubDate>
+      <source>Diario Financiero</source>
+    </item>
+    <item>
+      <title>¿En qué se traducen los US$ 820 millones?</title>
+      <link>https://www.latercera.com/cartas-al-director/noticia/en-que-se-traducen-los-us-820-millones/</link>
+      <description />
+      <pubDate>Wed, 25 Nov 2026 23:54:00 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/QR55KMEKPRC3LH2FA5FBB4NR3E.jpg?auth=e206e37a7f83f4598d896396631b07e79bb49c36089db691cc6a5c335d20293f&amp;smart=true&amp;width=1200&amp;height=800" medium="image" />
+    </item>
+    <item>
+      <title>Educación parvularia</title>
+      <link>https://www.latercera.com/cartas-al-director/noticia/educacion-parvularia/</link>
+      <description />
+      <pubDate>Wed, 25 Nov 2026 23:52:00 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/HQBXYUQGEFAU3BIP33OJLHRCZQ.jpg?auth=62223f6b698453152eb5b0f44921fb24897a846786caecfe794e613011c39a30&amp;smart=true&amp;width=899&amp;height=600" medium="image" />
+    </item>
+    <item>
+      <title>Caída de los fondos D y E</title>
+      <link>https://www.latercera.com/cartas-al-director/noticia/caida-de-los-fondos-d-y-e/</link>
+      <description />
+      <pubDate>Wed, 25 Nov 2026 23:50:00 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/4VVBBASTNVA2JJJQI7Q55PCPRU.jpg?auth=92a304ab3f926b76463b0374a49d4d1dec4ce180d5790f22b0bde18c25d919a4&amp;smart=true&amp;width=5144&amp;height=3336" medium="image" />
+    </item>
+    <item>
+      <title>Dólar alcanza su segundo mayor nivel histórico, y BC y Hacienda se pronuncian por eventual intervención cambiaria</title>
+      <link>https://www.latercera.com/pulso/noticia/dolar-alcanza-su-segundo-mayor-nivel-historico-y-bc-y-hacienda-se-pronuncian-por-eventual-intervencion-cambiaria/</link>
+      <description>Al cierre de la edición de este miércoles, la divisa estadounidense subió $5,40 versus el martes, a $1.038,90 en la BEC, su mayor valor desde el 14 de julio de 2022 ($1.051), pero alejado del máximo del día ($1.049,70). La presidenta del Banco Central dijo que “el tipo de cambio en lo más reciente se ha estado moviendo con sus fundamentos".</description>
+      <pubDate>Wed, 25 Nov 2026 23:46:13 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/BURUPN2BXJHILGKFF4AATL72KI.jpg?auth=ad8551f64e8315f9bf075574135ba1d03cf7615348fc47c3c960ec6d253e6bfc&amp;smart=true&amp;width=5183&amp;height=3360" medium="image" />
+    </item>
     <item>
       <title>Expertas respaldan mecanismo de financiamiento de sala cuna, pero difieren en alcance del impacto en empleo femenino</title>
       <link>https://www.latercera.com/pulso/noticia/expertas-respaldan-mecanismo-de-financiamiento-de-sala-cuna-pero-difieren-en-alcance-del-impacto-en-empleo-femenino/</link>
       <description>Si bien las especialistas en el tema afirman que será un incentivo para el empleo de las mujeres, algunas de ellas señalan que no es la solución única para que se avance en una mayor participación en el ámbito del trabajo.</description>
       <pubDate>Wed, 25 Nov 2026 23:40:00 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/2NNF5JOVYZE5BLMVS4A7AQ7EOU.jpeg?auth=5bf65dd99d977ea62f5a1bd8386b78d084ecf236b685b7c52855412624900ba6&amp;smart=true&amp;width=6000&amp;height=4000" medium="image" />
     </item>
     <item>
       <title>Arrau valora detenciones por disparos y pirotecnia en conmemoración de hincha en Conchalí y llama a “no naturalizar” estos actos</title>
@@ -19,6 +129,7 @@
       <description>Los hechos se registraron la noche del martes, cuando cerca de 200 personas participaban en una conmemoración por el fallecimiento de un aficionado de Colo Colo, en esa comuna del norte de la capital.</description>
       <pubDate>Wed, 25 Nov 2026 23:35:02 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/Z4FWL6VVRVDDXEXDDNHVOOADOI.jpg?auth=597d6ee0eb95e6621b59b6a74defebac849cd023000e425b3b4c885083e0af5c&amp;smart=true&amp;width=3648&amp;height=2432" medium="image" />
     </item>
     <item>
       <title>MK4: las indicaciones que adelantó Hacienda en la gobernanza del Fonavi y su duración</title>
@@ -26,6 +137,7 @@
       <description>Este miércoles el tamaño y la gobernanza del Fonavi, el corazón de la reforma al mercado de capitales, se tomó la discusión en la Comisión de Hacienda del Senado. Las críticas siguen apuntando al hecho de que BancoEstado origine hipotecas y al mismo tiempo administre el fondo.</description>
       <pubDate>Wed, 25 Nov 2026 23:30:00 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/CZ33RNE7A5AP5L7OUGYMYXV2EI.jpeg?auth=27c3e81c22981e6a9c58f6f42326584f668f8b1ef387231c5005fccbb25499b6&amp;smart=true&amp;width=6048&amp;height=4032" medium="image" />
     </item>
     <item>
       <title>Cochilco: Producción de oro crecerá 10% este año y Chile se convertirá en el productor mundial número 23</title>
@@ -33,6 +145,7 @@
       <description>Chile produciría 50 toneladas de oro este año, cifra que haría avanzar al país dos puestos en el ranking mundial de productores de oro de mina. Se prevé que el precio del metal para el próximo año promedie US$ 4.650 la onza. Hasta 2025, las mineras de cobre eran las principales productoras de oro del país, pues trabajaban el metal como subproducto. Tras la entrada de nuevas minas de oro, el escenario cambió.</description>
       <pubDate>Wed, 25 Nov 2026 23:30:00 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/D6RSYVZHBVDYHP2NTN4SJ3DUBA.jpg?auth=63b9f9c0a06117bd19fd822810e625bbf23ba78ae069cf1d6658385c7f069685&amp;smart=true&amp;width=3840&amp;height=2160" medium="image" />
     </item>
     <item>
       <title>Entrega de datos sobre crimen organizado</title>
@@ -40,6 +153,7 @@
       <description>La labor de recolección, análisis y difusión de información sobre actividades criminales que está realiza en forma periódica el Ministerio Público es un valioso aporte para poder ir mejorando las definiciones y estrategias en seguridad pública.</description>
       <pubDate>Wed, 25 Nov 2026 23:30:00 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/XWFF5O6FOJEUJEYFBRJ7IL73DQ.jpg?auth=1eedff8e4168f21d1d728434087d091ccd0a9a4d643371b0868068b217b1ec8b&amp;smart=true&amp;width=5184&amp;height=3456" medium="image" />
     </item>
     <item>
       <title>El mensaje de Mara Sedini al vocero Gonzalo Arenas tras sus críticas a la gestión comunicacional</title>
@@ -47,6 +161,7 @@
       <description>La otrora portavoz del Ejecutivo tomó contacto con su sucesor luego de los cuestionamientos que realizó a la estrategia de comunicaciones del gobierno.</description>
       <pubDate>Wed, 25 Nov 2026 23:27:54 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/SQXJSJKF2NDNNJCVXBWN4DNNH4.jpg?auth=4bc4b923e270ae5fac143e64f55861f6a6bb61c83223085ebe42ab2aa2eb4479&amp;smart=true&amp;width=1600&amp;height=900" medium="image" />
     </item>
     <item>
       <title>La IA como nuevo consultorio: la mitad de las personas ya la utiliza para resolver dudas de salud</title>
@@ -54,6 +169,7 @@
       <description>De acuerdo a un estudio realizado por la Cámara de Comercio de Santiago, los chilenos recurren a estas plataformas para interpretar, diagnosticar, orientarse con enfermedades, e incluso, medicamentos. En ese contexto, los especialistas llaman a ser cuidadosos porque esta tecnología no reemplaza a los profesionales.</description>
       <pubDate>Wed, 25 Nov 2026 23:27:39 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/EOLSIH7I4BAGJBKPEO23CJX4HQ.jpg?auth=9368b6391af6fb3fd48c21b988737bb04d2b679a18b453b6e445d275dc981598&amp;smart=true&amp;width=3240&amp;height=2000" medium="image" />
     </item>
     <item>
       <title>120 internos rendirán la PAES en la ex Penitenciaría</title>
@@ -61,13 +177,15 @@
       <description>Los estudiantes pertenecen al Liceo de Adultos Herbert Vargas Wallis y así como miles de otras personas, a partir de este lunes darán la Prueba de Acceso a la Educación Superior. Antes de eso, este viernes serán parte de una ceremonia junto a Fernando Chomali, quien bendecirá los lápices que usarán para la prueba, y autoridades de la educación pública.</description>
       <pubDate>Wed, 25 Nov 2026 23:27:17 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/UP545ZBYZ5DSBG2AF5KJ5FMI74.jpeg?auth=079465826cc48a5648aa49b4ac4e93cc641bdabe0acdc37f2228fd9335a190c5&amp;smart=true&amp;width=1024&amp;height=683" medium="image" />
     </item>
     <item>
       <title>Rabat presenta plan transitorio para derogar ley de reducción de penas y luego unificar los beneficios en un solo sistema de reinserción</title>
       <link>https://www.latercera.com/nacional/noticia/rabat-presenta-plan-transitorio-para-derogar-ley-de-reduccion-de-penas-y-luego-unificar-los-beneficios-en-un-solo-sistema-de-reinsercion/</link>
-      <description>El ministro de Justicia expuso ante los senadores que su idea es combatir la fragmentación del modelo penitenciario que está disgregado en cuatro cuerpos normativos. Por eso su diseño de sumarse a eliminar la actual normativa no implica dejar un vacío, sino que avanzar hacia un mecanismo que quede en manos del Servicio de Reinserción Social Adulto, los nuevos tribunales de ejecución de penas, la Defensoría de las Víctimas y Gendarmería.</description>
+      <description>El ministro de Justicia expuso ante los senadores que su idea es combatir la fragmentación del modelo penitenciario que está disgregado en cuatro cuerpos normativos. Por eso su diseño, al apoyar la eliminación de la actual normativa, no implica dejar un vacío, sino que avanzar hacia un mecanismo que quede en manos del Servicio de Reinserción Social Adulto, los nuevos tribunales de ejecución de penas, la Defensoría de las Víctimas y Gendarmería.</description>
       <pubDate>Wed, 25 Nov 2026 23:27:03 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/I52I4PS7RJFDPFE4X5GX3CSP7M.jpg?auth=2aad29c9b75b09e8754f1ba5c0d31baf05c9a5552faf550cbd43d4bd887c5f93&amp;smart=true&amp;width=3500&amp;height=2333" medium="image" />
     </item>
     <item>
       <title>“Partidos que estuvieron para los acuerdos”: Quiroz agradece veladamente al PC y a la DC tras despachar presupuesto</title>
@@ -75,6 +193,7 @@
       <description>A pesar de que el primer ejercicio presupuestario del ministro de Hacienda le salió un poco más caro de lo previsto (cerca de 140 millones de dólares adicionales), la principal secuela de esta tramitación fue política, ya que la oposición terminó dividida.</description>
       <pubDate>Wed, 25 Nov 2026 23:26:28 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/UAXK3QCQMNCOPCITZ45LXXB2DQ.jpg?auth=db8dea59cd2d9d1e8eded5564c237b2a9d9892eeeebce9ad5a2903102a638103&amp;smart=true&amp;width=3500&amp;height=2333" medium="image" />
     </item>
     <item>
       <title>Correos en la mira por caso Firmas: Fiscalía traza recorrido de permisos y citará a declarar a Castro y Vodanovic</title>
@@ -82,13 +201,7 @@
       <description>El fiscal a cargo de las diligencias aseguró que la investigación se encuentra en etapa preliminar y que la convocatoria a ambos parlamentarios en calidad de imputados, por ahora, responde a que hay querellas nominativas en su contra.</description>
       <pubDate>Wed, 25 Nov 2026 23:25:58 +0000</pubDate>
       <source>La Tercera</source>
-    </item>
-    <item>
-      <title>Senado despacha a ley el Presupuesto 2027; Hermosilla declara que Chadwick habría hablado con Piñera para nombrar a Vivanco en la Suprema, y Castro y Vodanovic son imputados en caso firmas</title>
-      <link>https://www.ciperchile.cl/2026/11/25/radar-25-11-26/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=radar-25-11-26</link>
-      <description>La entrada Senado despacha a ley el Presupuesto 2027; Hermosilla declara que Chadwick habría hablado con Piñera para nombrar a Vivanco en la Suprema, y Castro y Vodanovic son imputados en caso firmas se publicó primero en CIPER Chile .</description>
-      <pubDate>Wed, 25 Nov 2026 23:25:40 +0000</pubDate>
-      <source>CIPER Chile</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/WY6AZFX7SBE5ZBFWIKATHIMR3E.jpg?auth=643ba91a1855e1aa4f6d1350e5d00fc845400000a785194b378bae4fef7bcfd6&amp;smart=true&amp;width=3518&amp;height=2346" medium="image" />
     </item>
     <item>
       <title>Dólar cierra con fuerte alza una sesión donde llegó a tocar los $ 1.050 por la venta global de activos ligados a la IA</title>
@@ -110,6 +223,7 @@
       <description>El grupo, respaldado por Irán, está cosechando victorias en el país, asegurándose territorios estratégicos mientras lucha contra Arabia Saudita y sus aliados yemeníes en una guerra de desgaste asimétrica.</description>
       <pubDate>Wed, 25 Nov 2026 23:02:10 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/X3IUNLWE2ZGH3JH32K5F65SCWE.jpg?auth=1e457208a6afb214ade229c09126c8927e3fa81d467aa2b74933e895fc86c096&amp;smart=true&amp;width=3000&amp;height=2000" medium="image" />
     </item>
     <item>
       <title>Caso Firmas: Regreso de Juan Pablo Letelier deja contra las cuerdas la continuidad de Castro en el Senado</title>
@@ -124,6 +238,7 @@
       <description>La Comisión Federal de Comunicaciones de Estados Unidos (FCC) autorizó a SpaceX desplegar miles de satélites orbitales Starmind, en la primera licencia de este tipo en la historia estadounidense. Su implementación debería ser, a más tardar, en noviembre de 2033.</description>
       <pubDate>Wed, 25 Nov 2026 22:52:08 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/W6YQPLOLOVGHJCKIPO6F34M324.jpeg?auth=f4f0c7bbaa6137e08370107ad6b8c5ac8a3e95ffc01c787a5d958d1f463ba8a9&amp;smart=true&amp;width=2048&amp;height=1152" medium="image" />
     </item>
     <item>
       <title>Con respaldo transversal: comisión de Constitución de la Cámara aprueba en general reforma que eleva exigencias para las acusaciones constitucionales</title>
@@ -131,6 +246,7 @@
       <description>La iniciativa propone duplicar de 10 a 20 el mínimo de firmas necesarias para presentar un libelo, exigir una interpelación previa y establecer nuevas restricciones para acusar a ministros de Estado y magistrados. Se fijó un plazo de dos semanas para presentar indicaciones.</description>
       <pubDate>Wed, 25 Nov 2026 22:44:57 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/QR3ZFFDLLVDBTO4344NHOZIS6U.jpg?auth=1881e6c4f80335b1a2c0efca879b0b36fe51ebb38152e0e09b71276a120fd6d8&amp;smart=true&amp;width=5472&amp;height=3648" medium="image" />
     </item>
     <item>
       <title>Sofofa advierte que proyectos destinan en promedio 15 meses a estudios ambientales antes de ingresar al SEIA</title>
@@ -166,6 +282,7 @@
       <description>Los agentes Kevin David Torres y Bayron Jesús Riascos, junto a otros cuatro compañeros, se encontraban escoltando a funcionarios municipales a la inauguración de un parque cuando fueron víctimas de una emboscada con fusiles.</description>
       <pubDate>Wed, 25 Nov 2026 22:22:22 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/3XVZJM3YHFBHPNRGOZFXUCU3TU.jpeg?auth=8e2afb9e79adf2dfdadc6e60d8bb6b9de47f94ed30954f22d275b97b05967a7b&amp;smart=true&amp;width=1197&amp;height=706" medium="image" />
     </item>
     <item>
       <title>Quiroz celebra aprobación del Presupuesto 2027 y rebate críticas por recortes: “Aumenta el gasto”</title>
@@ -173,6 +290,7 @@
       <description>El ministro de Hacienda destacó los acuerdos alcanzados con sectores de la oposición durante la tramitación legislativa y cifró en $140 mil millones los recursos adicionales respecto de la propuesta original del Ejecutivo.</description>
       <pubDate>Wed, 25 Nov 2026 22:14:42 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/DVZBUJA6Q5DJDM753GPGDQUPD4.jpg?auth=e11d9b640016a1b3e18af43303109d5794da1464c001eb9fcd33c4c3c8ec87b6&amp;smart=true&amp;width=3500&amp;height=2334" medium="image" />
     </item>
     <item>
       <title>Fin de una era en la agroindustria chilena: Iansa abandona la producción de azúcar de remolacha tras 73 años de historia</title>
@@ -187,6 +305,7 @@
       <description>El sujeto de 24 años fue aprehendido en un condominio de departamentos y posee antecedentes penales.</description>
       <pubDate>Wed, 25 Nov 2026 22:11:00 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/3EI7C5SPVRD6RBPYVAH57LF77I.jpg?auth=0b8d408c3499230025f1a066f0eff75f27df291b8e4985d6856b8c521013a7b5&amp;smart=true&amp;width=1280&amp;height=854" medium="image" />
     </item>
     <item>
       <title>Congreso despacha a Ley el primer Presupuesto de la era Kast luego de acuerdos entre Quiroz y parte de la oposición</title>
@@ -208,6 +327,7 @@
       <description />
       <pubDate>Wed, 25 Nov 2026 22:04:00 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/WFFX3LBTFNEWFCHOSYYO3NCIIA.jpg?auth=63037d3b074518938e35b39aaee224f505229f5a6393830e151ec0e9fa57a5d6&amp;smart=true&amp;width=9504&amp;height=6336" medium="image" />
     </item>
     <item>
       <title>Vinexpo Explorer: el gigante francés del vino trae por primera vez a Chile su feria boutique, con compradores de 29 países</title>
@@ -229,6 +349,7 @@
       <description />
       <pubDate>Wed, 25 Nov 2026 22:02:00 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/L57B3DZRY5FJ3M5CHLNC2JI5YY.jpg?auth=65ab11100ad9e4f8bd7f638313e858974933a5a40c1a8f154f21ec2b66229850&amp;smart=true&amp;width=7926&amp;height=5287" medium="image" />
     </item>
     <item>
       <title>Con su creciente poder sobre el mundo empresarial, Trump desafía el síndrome del “pato cojo”</title>
@@ -243,6 +364,7 @@
       <description>Además el convenio tiene como objetivo cautelar la libre competencia en los mercados de provisión de servicios de intermediación o plataformas tecnológicas para la liquidación, pago y/o emisión electrónica de bonos de atención en salud y licencias médicas electrónicas.</description>
       <pubDate>Wed, 25 Nov 2026 22:00:30 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/LXC44JSEOBET3EFL5CJAVMDQ2U.jpg?auth=4207fc351c1f25e5666aa43d53137076a0a07c96e4209bb87cf2217fa70d0637&amp;smart=true&amp;width=3888&amp;height=2592" medium="image" />
     </item>
     <item>
       <title>I-Med acuerda pagar US$ 4 millones al Fisco tras investigación de la FNE por riesgos a la libre competencia</title>
@@ -257,6 +379,7 @@
       <description />
       <pubDate>Wed, 25 Nov 2026 22:00:00 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/5F5WDTOD2BFJPEGYAJC6PFM6PI.jpg?auth=5924a96085ebcf92f2de059f75a7c08b7e49462add3987322233d5b0c4ca319c&amp;smart=true&amp;width=1554&amp;height=890" medium="image" />
     </item>
     <item>
       <title>El PSG no puede con la Roma y deja al Real Madrid de Mourinho como el único con puntaje ideal en la Champions League</title>
@@ -264,6 +387,7 @@
       <description>El elenco de Luis Enrique, con Doué y Kvaratskhelia descartados por el resto de la temporada por lesiones ligamentarias, empató 2-2 con la escuadra de la Loba, en el Parque de los Príncipes. Con esto, los merengues son los exclusivos líderes de la Fase de Liga.</description>
       <pubDate>Wed, 25 Nov 2026 21:59:58 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/FDGVYXG2ENDC7NMPFPWN57OYHE.jpg?auth=b2749f312a357d586d46b85c1dc1321c85889026b1c605783b63cd34dbf6ef32&amp;smart=true&amp;width=2047&amp;height=1364" medium="image" />
     </item>
     <item>
       <title>Muere a los 65 años Andy Taylor, guitarrista de Duran Duran</title>
@@ -271,6 +395,7 @@
       <description>El músico británico había sido diagnosticado en 2018 con un cáncer de próstata metastásico. Sus compañeros de la agrupación destacaron la valentía con que afrontó su enfermedad.</description>
       <pubDate>Wed, 25 Nov 2026 21:49:21 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/VUFELUKNEVALHGVZGFSFV6BNQE.webp?auth=25f573c64e961799eda68fb317d6ac4f05c4acc4eae5e5e71ac69998a489c52a&amp;smart=true&amp;width=1360&amp;height=907" medium="image" />
     </item>
     <item>
       <title>Impresionante postal del Cristo Redentor entre cascada de nubes</title>
@@ -278,6 +403,7 @@
       <description>En redes sociales se ha viralizado un impresionante video del Cristo Redentor en Río de Janeiro, grabado a unos 700 metros de altura por el fotógrafo brasileño Ricardo Cyrilla. En las imágenes se ve la estatua rodeada de una 'cascada de nubes': un fenómeno que ocurre cuando el viento empuja aire húmedo contra la montaña, este se enfría y se condensa, y forma un denso manto de nubes.</description>
       <pubDate>Wed, 25 Nov 2026 21:48:43 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/O2ARZ45Q3BHBTEXGFNRZCKOJNA.jpg?auth=8e3f53a7fba3012ce7dea10a291942add5f4a17df657d584551b1653bd4a5d9e&amp;smart=true&amp;width=888&amp;height=500" medium="image" />
     </item>
     <item>
       <title>Accionistas de Grupo Saesa buscan un socio y en próximos días comenzará contacto formal con potenciales interesados</title>
@@ -348,6 +474,7 @@
       <description>Por 44 votos a favor y 4 en contra fue visado el informe de la comisión mixta, que horas antes había sido aprobado por la Cámara de Diputados.</description>
       <pubDate>Wed, 25 Nov 2026 21:30:01 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/UZYVSYPUWBD4TFUPRTHLNQDS34.jpg?auth=ba3c8b3843f1bfc0ec289faa865e2ad58124b0268a791dd809d328263c54dcd0&amp;smart=true&amp;width=5864&amp;height=3909" medium="image" />
     </item>
     <item>
       <title>La expulsaron de Odontología UDD por copiar con ChatGPT: Corte rechaza recurso de alumna que acusó sanción desproporcionada</title>
@@ -397,6 +524,7 @@
       <description>Debido a las dudas que generaba que el proyecto no considerara presupuesto para los municipios se acordó que Interior informará semestralmente el avance de la implementación tecnológica necesaria para la aplicación de la iniciativa.</description>
       <pubDate>Wed, 25 Nov 2026 21:20:52 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/UTWYMNWYXRGXPHHKPVPEYUTO6M.jpg?auth=5786b3f7c1d0ef24168b531dac43f15c500f263094a8051be2eab5cfb444cdbb&amp;smart=true&amp;width=1262&amp;height=586" medium="image" />
     </item>
     <item>
       <title>Desde pasajes de avión, Uber y hasta pagos en ferreterías: cuáles son los gastos que más rinden las empresas en Chile</title>
@@ -432,13 +560,7 @@
       <description>Solemos esperar que reconocer la violencia sea suficiente para querer salir de una relación, pero los sentimientos no siempre desaparecen cuando comienza el maltrato. Entender cómo pueden coexistir el apego afectivo y el miedo nos permite acompañar mejor a quienes viven relaciones violentas, incluso cuando todavía no han decidido separarse.</description>
       <pubDate>Wed, 25 Nov 2026 21:03:43 +0000</pubDate>
       <source>La Tercera</source>
-    </item>
-    <item>
-      <title>Fran García-Huidobro sufrió emergencia y terminó en una clínica: Renata Bravo le hizo maniobra de Heimlich - Chilevisión</title>
-      <link>https://news.google.com/rss/articles/CBMi7gFBVV95cUxPclRtTi1FaG1TekxPNE1tclBVVUt0NTBuNDNHV0dVYmlyb3J4VWdxdmxwZjg2bkxNSHo0Z1VqWWNnYXdZRkxOTDNURV9VR3RQWkozaTJvSXFZUzVBMkdYTm02RW1UVVYzRG9oQnlsUnNVOU9YZHRuYWNnVE5lanZpZWFlOFB1VDF5WTFXNnNCdkl2QzdaMjVlWXBnLTQyZ2JzQ08zdi0xUHdob3hwNlJsR3ZlV1NzSEdTWXZxNXZPX3RZTngzM2JhczlodkJTdmt0N0xmLUlIQVktRzExalFWOTRiQ2Q3Y1gxY1pEMllB?oc=5</link>
-      <description>Fran García-Huidobro sufrió emergencia y terminó en una clínica: Renata Bravo le hizo maniobra de Heimlich Chilevisión Fran García Huidobro terminó en la clínica tras atorarse: maniobra de Heimlich y gaseosa la salvaron BioBioChile Vio en peligro su vida y panelista la salvó: Fran García-Huidobro sufrió grave emergencia y terminó en la clínica La Cuarta "Fue muy angustiante": Renata Bravo salvó a Francisca García-Huidobro de incidente que pudo ser fatal La Hora Fran García-Huidobro sufrió crítico episodio: Se atoró con un trozo de carne y terminó en la clínica Cooperativa</description>
-      <pubDate>Wed, 25 Nov 2026 20:59:02 +0000</pubDate>
-      <source>Google News Chile</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/HTZGOFEU2FFPXJ7BLRLVRUGUPQ.png?auth=6c64dcbd9a3a7c7b135315419668abd1b2da2d31f29e7ff712dc6c6541958228&amp;smart=true&amp;width=1600&amp;height=900" medium="image" />
     </item>
     <item>
       <title>Eni y Repsol se comprometen a invertir US$ 2.000 millones en empresas mixtas en Venezuela</title>
@@ -453,6 +575,7 @@
       <description>La venta comercial de los boletos para el evento comenzará el próximo 30 de noviembre a las 10:00 horas</description>
       <pubDate>Wed, 25 Nov 2026 20:55:42 +0000</pubDate>
       <source>Publimetro Chile</source>
+      <ns0:content url="https://www.publimetro.cl/resizer/v2/CDHJFZBZEFFN5LS6KLO3CJLWBQ.jpg?auth=31efc07eff16619088ff59a2c72c350285bb60cf90c4913ce64c05fc0d36ccf3&amp;smart=true&amp;width=1920&amp;height=1080" medium="image" />
     </item>
     <item>
       <title>Cobre cae más de 20% desde su máximo de septiembre y entra en mercado bajista</title>
@@ -467,6 +590,7 @@
       <description>Revisa a continuación el detalle con los sectores afectados y horarios de la interrupción del servicio, requerida para la realización de trabajos.</description>
       <pubDate>Wed, 25 Nov 2026 20:51:54 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/Q6C5H6HYYZD6RHMZBTCY3EGYOE.jpg?auth=ef5a03043aad5a06f833ec590667254fc031db7961112629f1b7375e02198d44&amp;smart=true&amp;width=4784&amp;height=3189" medium="image" />
     </item>
     <item>
       <title>Natura Ekos presenta Maracuyá Naturaleza de los sueños: una fragancia cosechada de madrugada - www.ossom.cl</title>
@@ -481,18 +605,19 @@
       <description>En Chile, el IPSA siguió la tendencia de la Bolsa de Nueva York y remontó una jornada que parecía condenada a los números rojos.</description>
       <pubDate>Wed, 25 Nov 2026 20:48:42 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/PIVP5UUBPFL6ZG43QVTKNYMBBA.jpg?auth=5563fd070310325c0e06d25873bf89dc810799962d87b2876e563f0de0c5a6cc&amp;smart=true&amp;width=6000&amp;height=4000" medium="image" />
     </item>
     <item>
-      <title>El giro en el PDG que haría salvar a Rabat de la AC en su contra y por qué La Moneda recibió un nuevo aire</title>
-      <link>https://www.theclinic.cl/2026/11/25/el-giro-en-el-pdg-que-haria-salvar-a-rabat-de-la-ac-en-su-contra-y-por-que-la-moneda-recibio-un-nuevo-aire/</link>
-      <description>Las licencias médicas presentadas por Pamela Jiles y Zandra Parisi mermaron los respaldos contemplados al interior de la bancada a la ofensiva impulsada por la izquierda. El viernes está contemplada una reunión telemática para afinar los últimos alcances sobre la posición a tomar, que debería notificarse el lunes por la mañana, el mismo día en que se votará la acusación. En caso de que la distancia numérica entre quienes estén a favor y en contra sea muy estrecha, el partido tiene una regla que dictamina que opere la libertad de acción. The post El giro en el PDG que haría salvar a Rabat de la AC en su contra y por qué La Moneda recibió un nuevo aire appeared first on The Clinic .</description>
-      <pubDate>Wed, 25 Nov 2026 20:48:27 +0000</pubDate>
-      <source>The Clinic</source>
+      <title>Dilema geopolítico en Roma: por qué una escalada bélica Ucrania-Rusia frente a Libia preocupa a Italia - BioBioChile</title>
+      <link>https://news.google.com/rss/articles/CBMihgJBVV95cUxNUmd1YmFac0x0ZUprQzZwZllCblZheHc3VVhUNTBVbnUyZzZOS2NWNXhHR0JlT2NOaVNseW9Qalp0aDhqQThUSlFtNjk3MXg2LTMxc2RfUVBhNDJISFBrUElNMG03N2puaUhZaEJ6UFhNNUhXa2JzSkF1Qm41U1BkbVBBcUY0ZEJlU3QzVFo0dUc5SkxxQzczc1MxRlZkLWhLNkF3aG1aT3pNYlAyZ2pya2RlcmVqUW9QaGZSTWlkc2M3R3I4VnVCS3MxampQaWxBMmtOSW5xY1I2ZFFmNGlXdXRCNE9lVmpKbXJlbzZjM01rUVJLMTFESWcyWnpYcjlYUEZVTTZn?oc=5</link>
+      <description>Dilema geopolítico en Roma: por qué una escalada bélica Ucrania-Rusia frente a Libia preocupa a Italia BioBioChile Lo que el ataque contra un buque militar ruso en Libia revela sobre los peligros de la propagación de la guerra de Ucrania más allá del frente BBC Libia se convierte en el nuevo frente entre Ucrania y Rusia EL PAÍS Libia tilda de “declaración de guerra” el ataque en Benghazi y pide que Zelenski sea declarado un “terrorista” La Tercera Ataque ucraniano contra buque mercante ruso en Libia PortalPortuario</description>
+      <pubDate>Wed, 25 Nov 2026 20:46:48 +0000</pubDate>
+      <source>Google News Chile</source>
     </item>
     <item>
       <title>Empresas Iansa cierra su producción de azúcar de remolacha tras 73 años y prevé impacto negativo por casi US$38 millones - La Tercera</title>
       <link>https://news.google.com/rss/articles/CBMi4AFBVV95cUxQekFwSGxrUllmeUNtR092enNQbkllUkNoUVRhMjlsVFpab3VtTUdzWWJEcXhkSWJQX1doV1RlazZDcWNXUEJUd1BEWnZoNkZacERXRzBTT0M2X2hnMXNDZE8zR1FrN3R0ZjVUZDBZSVV4OS0zS2UxOC1iTW12TVFYei1zZVdzMmFQV1hzckZqbjNZTjJHQjlGYVA0dGg2c0FidURrbHpMWlNoUmpWbXhBR1pqYWQyYTVtQmpXa2g5TUVhd2taU3Z0OGl4Y0tITllOWlFkU0swMElCTXg5Y1MxddIBggJBVV95cUxQaU1BbVZYUWtDWUNEbmdtejJnNElUeUtQbUs1TEQyUlNKXzVSeU5QWTczNnhxRDhKb0QwZXN1RUJ5R0FkTGdhdnl0UFNzNUdIOVM4V0pCSlI3YXgwMmp6SWYycUM3QWhZb3Z3NmdHcVR0Q2FkUHcybFIyUkx2T2p1QjQwR19BVEFSeTNNV0pzUW1OXy1IdG5DeWFzSHlZb3BUZlFsampTR2t2WEROc3BDaTQ5WHpnNzBucG9TcUhTaGdzZmdyWkhVRVc3cFZvUHQyamtrWVY2RHJ0UkU0QWg4cmF4MGJMRkZwRFlPQm5zdWpqOWdiMjhycEF6ZEhwTGd6OHc?oc=5</link>
-      <description>Empresas Iansa cierra su producción de azúcar de remolacha tras 73 años y prevé impacto negativo por casi US$38 millones La Tercera Histórico golpe a la industria azucarera chilena: Iansa deja de producir azúcar de remolacha después de 73 años ADN Radio El fin de una era para Iansa: la empresa dice adiós a la producción de azúcar de remolacha en Chile The Clinic Fin de una era en la agroindustria chilena: Iansa abandona la producción de azúcar de remolacha tras 73 años de historia Diario Financiero Fin de una era: Iansa pone término a la producción de azúcar de remolacha tras 73 años de historia BioBioChile</description>
+      <description>Empresas Iansa cierra su producción de azúcar de remolacha tras 73 años y prevé impacto negativo por casi US$38 millones La Tercera Cierre de producción de azúcar de remolacha de Iansa provoca alarma por golpe a la agricultura BioBioChile Fin de una era en la agroindustria chilena: Iansa abandona la producción de azúcar de remolacha tras 73 años de historia Diario Financiero Iansa pone fin a la producción de azúcar de remolacha y golpea a Ñuble, región con mayor desempleo El Mostrador Iansa pone fin al azúcar de remolacha: Fenare advierte impacto en el agro de Biobío La Tribuna</description>
       <pubDate>Wed, 25 Nov 2026 20:45:21 +0000</pubDate>
       <source>Google News Chile</source>
     </item>
@@ -511,16 +636,16 @@
       <source>Ex-Ante</source>
     </item>
     <item>
-      <title>Matías Walker ingresó indicación escrita por Sergio Yáber al proyecto de Ley de Notarios en 2023</title>
-      <link>https://www.ciperchile.cl/2026/11/25/matias-walker-ingreso-indicacion-escrita-por-sergio-yaber-al-proyecto-de-ley-de-notarios-en-2023/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=matias-walker-ingreso-indicacion-escrita-por-sergio-yaber-al-proyecto-de-ley-de-notarios-en-2023</link>
-      <description>La entrada Matías Walker ingresó indicación escrita por Sergio Yáber al proyecto de Ley de Notarios en 2023 se publicó primero en CIPER Chile .</description>
-      <pubDate>Wed, 25 Nov 2026 20:18:30 +0000</pubDate>
-      <source>CIPER Chile</source>
+      <title>Scarleth Cárdenas: "Tengo metástasis en los huesos" - Cooperativa</title>
+      <link>https://news.google.com/rss/articles/CBMixgFBVV95cUxPVHdxU1h6M21lWHpQLXNsVzhSdmotMWs2cTlOSG1zNWlTSlRQd3FacUlvbVNrNGtFT3lCNFRPRHgzVzZVaVVHbDRXN05XNHB5Y05TVzJJekdxYzJ3ajR0QTMtWmxDdHpEdU85Y3lHZFV2a1BUcHc1VEpDcEIzLTIyakdvcDYwUW5CNVg2M2ZVUlZxWl8zd2ZPQjRfVEMzRWlrUEpfTGdwMVpEMGhfTDRhMTZoMzlWd3FQZ09IVVpsV1ZpM3lSdEHSAYwBQVVfeXFMT0p0UU1RTjJwTVRoV1NtRHM4RkVuTnRYZUFaU1AyRzlEaGNGeksxWF9xNnBaRlFoNG51ZGZ4VjR3MTc3M1hmVFJyZTk4UVoyUTktZG8wSFhfQnVEQ0ZncVQ4QnVMOUFLQ0x6WjNmNXBIb1Y1UzNkZ00zU2NMaXNkMVNOX1hYUTU3QTE5VlY?oc=5</link>
+      <description>Scarleth Cárdenas: "Tengo metástasis en los huesos" Cooperativa El nuevo golpe que sacude a Scarleth Cárdenas tras diagnóstico de cáncer: tiene metástasis en huesos y columna vertebral La Cuarta Scarleth Cárdenas sorprendió con cambio de look tras revelar diagnóstico de cáncer Canal 13 Periodista chilena impacta con radical cambio a días de anunciar que fue diagnosticada con cáncer: "Que la fuerza me acompañe" FMDOS — La radio de los dos "Tengo metástasis en los huesos": Scarleth Cárdenas actualiza su estado de salud TVN</description>
+      <pubDate>Wed, 25 Nov 2026 20:26:00 +0000</pubDate>
+      <source>Google News Chile</source>
     </item>
     <item>
       <title>Chile alcanza nivel 2 del Sistema de Catalogación OTAN: traerá beneficios para la industria militar - BioBioChile</title>
       <link>https://news.google.com/rss/articles/CBMi-gFBVV95cUxOMjRFSjMwRjVsaElSYXBabG85OUluc0xXVWo3RDExWF9sTFllY0N0N0ZucnNVc1RDNHFsQWdPeVozX1l2UWh3a1lxQV9zZ1RBUHFXVW1fazJoSGRfZ1pFNVlvSFRhRUxNVUI3aVc3UWZ5VEFhbzhael95VENaaDdsX1JndWhBOWUtRV84RzlTWmhNN1kwRkVxcERRSWw2c3hzQnRnMkR0YUhaZnFUSlE1RVJ3ejRDSTZ2S1JjNGFmdkJZWDVVSW02S04xTktXSE5BTTFOa1lOZl9KbE9ycno3YWdMM0w5TklZVWZZSkMzQTF6NHRtT29KNl9n?oc=5</link>
-      <description>Chile alcanza nivel 2 del Sistema de Catalogación OTAN: traerá beneficios para la industria militar BioBioChile Chile asciende al Nivel 2 del sistema de catalogación de la OTAN: Qué es, qué cambia y qué países están en esta categoría CNN Chile Favorece industria militar: Chile alcanza el Nivel 2 en el sistema de catalogación de la OTAN La Tercera Chile alcanza el Nivel 2 en el Sistema de Catalogación de la OTAN: qué significa y qué países de Latinoamérica lo tienen ADN Radio Chile obtiene reconocimiento de Nivel 2 en sistema de catalogación de la OTAN Nuevo Poder</description>
+      <description>Chile alcanza nivel 2 del Sistema de Catalogación OTAN: traerá beneficios para la industria militar BioBioChile Chile asciende al Nivel 2 del sistema de catalogación de la OTAN: Qué significa y qué países lo integran CNN Chile Favorece industria militar: Chile alcanza el Nivel 2 en el sistema de catalogación de la OTAN La Tercera Chile alcanza el Nivel 2 en el Sistema de Catalogación de la OTAN: qué significa y qué países de Latinoamérica lo tienen ADN Radio Chile obtiene reconocimiento de Nivel 2 en sistema de catalogación de la OTAN Nuevo Poder</description>
       <pubDate>Wed, 25 Nov 2026 20:15:48 +0000</pubDate>
       <source>Google News Chile</source>
     </item>
@@ -530,6 +655,7 @@
       <description>La iniciativa fija exigencias de privacidad digital para adolescentes y prohíbe el acceso a sitios de apuestas y contenido para adultos</description>
       <pubDate>Wed, 25 Nov 2026 20:13:18 +0000</pubDate>
       <source>Publimetro Chile</source>
+      <ns0:content url="https://www.publimetro.cl/resizer/v2/PD3RX6P3CFE35EXX2SVMZ66EME.jpg?auth=aa4a394bbf0bbb62bd2900829c991c56f2d6db99df15e7ac91b00e35beda7959&amp;smart=true&amp;width=1920&amp;height=1080" medium="image" />
     </item>
     <item>
       <title>3 películas para descubrir en el FIC Viña 2026</title>
@@ -537,6 +663,7 @@
       <description>Como todos los años, la 38º versión del festival de cine más antiguo de Chile trae varias joyas en su programación. Acá escogimos tres que no te puedes perder. Todas las funciones son gratuitas.</description>
       <pubDate>Wed, 25 Nov 2026 20:12:35 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/VDGT2KIUMVEFDBB5SNBWRNNH7Y.jpg?auth=c861d55fd9e3f45c996c536671297f319262aadb1713376df08593526d41bc53&amp;smart=true&amp;width=2250&amp;height=2250" medium="image" />
     </item>
     <item>
       <title>Porsche lanzó su nueva generación de cámaras de abordo o "Dashcam" - Autocosmos</title>
@@ -558,6 +685,7 @@
       <description>“Esta herramienta se traduce en acompañamiento y seguridad por parte del municipio para nuestras vecinas que se sienten vulnerables y que han vivido episodios de violencia", manifestó la alcaldesa Catalina San Martín.</description>
       <pubDate>Wed, 25 Nov 2026 20:02:55 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/FJUK7TUGF5ERTNLAJ5Y5RRAPTM.jpg?auth=a20e8dc63cd6fb9df4f6a9f9178ba5d374ebba8712b7f032d5641642e25aca57&amp;smart=true&amp;width=4128&amp;height=2752" medium="image" />
     </item>
     <item>
       <title>Cómo evitar sentirte mal y enfriar tu casa durante el calor extremo pronosticado para estos días en la zona central</title>
@@ -565,6 +693,7 @@
       <description>Senapred entregó una serie de recomendaciones para enfrentar las altas temperaturas, desde cómo hidratarse y protegerse del sol hasta las señales de alerta que podrían indicar un problema de salud.</description>
       <pubDate>Wed, 25 Nov 2026 20:00:00 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/DCDDQIMRG5HBNI4XW4FBMCDOZE.jpg?auth=e6c37a082261283af97c74dfe4cfe57d7f18181a56f64283d76f7a1018477482&amp;smart=true&amp;width=1180&amp;height=787" medium="image" />
     </item>
     <item>
       <title>De The Strokes a New Order y el nuevo rock chileno: guía musical con Fauna Primavera 2026</title>
@@ -572,6 +701,7 @@
       <description>El festival se extenderá por primera vez durante tres días en Parque Ciudad Empresarial. Junto a referentes del indie internacional como Johnny Marr, Underworld y Hot Chip, la programación destaca a artistas nacionales en ascenso como Hesse Kassel, Asia Menor y Javiera Electra.</description>
       <pubDate>Wed, 25 Nov 2026 19:59:39 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/N7DFUANGRFDPHLV5WW4AETOELI.jpg?auth=ba8de7dd62e7f195d3a8b8290e39a6b350619dbc77191b744048cf262fd0ff4b&amp;smart=true&amp;width=1800&amp;height=1200" medium="image" />
     </item>
     <item>
       <title>Diputada Santelices y su saludo a Pinochet en medio de discusiones por la ley de presupuesto</title>
@@ -579,6 +709,7 @@
       <description>En el marco del debate por la ley de presupuesto 2027, la diputada independiente de la UDI, Macarena Santelices, dedicó un saludo al exdictador: “Feliz cumpleaños, presidente Augusto Pinochet, que hoy cumpliría un nuevo año”, fueron las palabras de la parlamentaria.</description>
       <pubDate>Wed, 25 Nov 2026 19:56:53 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/HXUPMF24I5A4ZMYXGBMTONLKBY.jpg?auth=c786bdc295818eb601d6479a4e3ac8de23142d479f59fa7a7d8831cf695c1111&amp;smart=true&amp;width=888&amp;height=500" medium="image" />
     </item>
     <item>
       <title>Las acciones de Embraer caen tras la amenaza de Trump de imponer aranceles a los aviones brasileños</title>
@@ -588,11 +719,11 @@
       <source>Diario Financiero</source>
     </item>
     <item>
-      <title>Presidente de la U y opción de un terreno para el estadio: “Es parte de lo que se va a incluir en el convenio”</title>
-      <link>https://www.latercera.com/el-deportivo/noticia/presidente-de-azul-azul-y-opcion-de-un-terreno-para-la-u-es-parte-de-lo-que-se-va-a-incluir-en-un-convenio/</link>
-      <description>Eduardo Álamos se reunió con Dorotea López, prorrectora de la Universidad de Chile, en un encuentro donde se afinaron detalles para un nuevo convenio.</description>
+      <title>Presidente de la U y opción de un terreno para el estadio: “Es parte de lo que se va a incluir en el convenio” - La Tercera</title>
+      <link>https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaDV3WVZyN3ZHSXBLVFZCVjFYQ2xrM0VTcHp6THVab3VETUp5RnlQUG9sc1UtdGNldE0zdExHMHBveEkwM1dxLWVUQ0w1VW10eEtiRm1sRzM3SWFDeV9SVEg4ek1TenBXNDlTRDNzZ3pvTnYtWHBhUVVVa0ZoRjF3ckQ0bG1BaTROUkVmNk12R1NydWJKR3dBMklnMXVmejRzM0NKUUdIWEJXMWhIR0hELXZfRVJjdzFhZmFvSkY0ai1aamlfRGIxX1BDUWxSd0lFR1RXOUFTa1pmR0ZYT050Q01mVkk3N2I2aGfSAYsCQVVfeXFMUFgtUkdLMXZwVUpKSXhkbzRUX0phVEVFakdLcG9lbDVjZmU2cHAxQ0t0M1lUMnlKQ1VxMWpBV1ZWQ21ERHgtNU5MNDE4ajB1a1IwS2w5MWRtZk9DOElWMHBSeFNKdllmS2pGMGhmYWE5UVdNajFJNHJ6RjlHc1VNUGtwWlREdDFWTm8yZmRuRTFJbGhhR1VxMUpkd1hNbDFVWVd5OFFDM3hpS0ZucUhZYWJBWXNqNGcyZmJ0VVlNMl8wT1pDVkhFcXVVT3F5Wk1HakZscWt1amx0TXZTTkJWb1FCOUF0cHlfdFlRcmczYnRNVHl0YzVXdmtrWHpUZ2xKNmptNGhhQkxTTkZZ?oc=5</link>
+      <description>Presidente de la U y opción de un terreno para el estadio: “Es parte de lo que se va a incluir en el convenio” La Tercera Los Tenores, entre las renovaciones en Colo Colo y la reunión entre Azul Azul y la Universidad de Chile ADN Radio Presidente de Azul Azul: Iniciamos una nueva etapa con la Casa de Estudios Cooperativa Noticias de la U hoy miércoles 25 de noviembre: Azul Azul se sienta con la Universidad y la Copa Chile ya tiene fecha AlAireLibre.cl Presidente de la U logra la primera reunión con la Universidad: nombres, símbolos y estadio en carpeta RedGol</description>
       <pubDate>Wed, 25 Nov 2026 19:51:28 +0000</pubDate>
-      <source>La Tercera</source>
+      <source>Google News Chile</source>
     </item>
     <item>
       <title>No es un bache: es una tendencia</title>
@@ -607,6 +738,7 @@
       <description>JP Morgan prevé un escenario bajista para el peso chileno el cual podría revertirse caídas significativas del precio del petróleo y si la economía local muestra una “recuperación sostenida”.</description>
       <pubDate>Wed, 25 Nov 2026 19:49:36 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/BPIABVDNOZGTLJICXXJOJRL76E.png?auth=d512705af09527d206370cf21977f74333f9d88bf0d41724333725ea631cd979&amp;smart=true&amp;width=1581&amp;height=995" medium="image" />
     </item>
     <item>
       <title>Repasa el empate en Francia entre PSG y Roma por la Champions League</title>
@@ -614,6 +746,7 @@
       <description>Ambos elencos se ven las caras en París, por la quinta fecha de la fase de liga de la competencia.</description>
       <pubDate>Wed, 25 Nov 2026 19:40:23 +0000</pubDate>
       <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/SD3SCHP6J5EZBPUUFKWGNEOVXU.jpg?auth=a1173cac5c674d3d8db19a6b9894c3dac7c8bcdd83557cc5429e0b4fcee508b0&amp;smart=true&amp;width=1200&amp;height=800" medium="image" />
     </item>
     <item>
       <title>Mon Laferte en el Estadio Nacional: ¿Cuándo comenzará la venta de entradas?</title>
@@ -621,90 +754,7 @@
       <description>La artista confirmó al coloso de Ñuñoa como parte de su gira por el Femme Fatale Tour.</description>
       <pubDate>Wed, 25 Nov 2026 19:26:47 +0000</pubDate>
       <source>La Tercera</source>
-    </item>
-    <item>
-      <title>El cobre se hunde a su menor nivel en 11 meses y se acerca a mercado bajista por temores sobre aranceles y alza de tasas</title>
-      <link>http://www.df.cl/mercados/commodities/el-precio-del-cobre-toca-sus-minimos-de-un-ano-luego-que-se-agota-el</link>
-      <description>El cobre de referencia a tres meses en la Bolsa de Metales de Londres (LME) bajó un 1,9% a US$ 11.596 por tonelada métrica o US$ 5,25 por libra a las 1530 GMT, su mínimo desde el 16 de diciembre.</description>
-      <pubDate>Wed, 25 Nov 2026 19:25:52 +0000</pubDate>
-      <source>Diario Financiero</source>
-    </item>
-    <item>
-      <title>Nuevo caso de rabia en Ovalle enciende alerta: Ya van 14 casos durante 2026 en la Región de Coquimbo - El Observatodo</title>
-      <link>https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOWp5YnFmTWVfSHZibFNTLUZMUUM5NGRkYm1Gdld0WFF5YjM0QzQ1SHVZTU9jblpBR1FHWHNTS1JYSFdkRlZna29OY1AxWEZBenVSdXJlaUNFaERzcjBOX2NUekVaeTZYZXZHSF9fdTJSU3JicnNLckxaVzVWLUNVVHJKbXlhV0xUT0QySExMdkM3UnlYSjJ4WC01YXctcVIxclFob1BQSTU2enZacDl3bnU4eGxnWkw5TzZpUUYxSjRiOUdQVzhxdw?oc=5</link>
-      <description>Nuevo caso de rabia en Ovalle enciende alerta: Ya van 14 casos durante 2026 en la Región de Coquimbo El Observatodo Illapel registra nuevo caso de rabia en murciélagos y acumula cinco positivos durante 2026 El Diario de Illapel Seremi de Salud refuerza medidas de prevención tras nuevos casos de rabia en murciélagos en la región La Serena Online Rabia en murciélagos: Región de Coquimbo registra 13 casos positivos durante 2026 y confirman tres nuevos contagios en noviembre Mi Radio Van 14 en la región este año: Confirman nuevo caso de murciélago con rabia en Ovalle Mi Radio</description>
-      <pubDate>Wed, 25 Nov 2026 19:18:05 +0000</pubDate>
-      <source>Google News Chile</source>
-    </item>
-    <item>
-      <title>Favorece industria militar: Chile alcanza el Nivel 2 en el sistema de catalogación de la OTAN</title>
-      <link>https://www.latercera.com/nacional/noticia/favorece-industria-militar-chile-alcanza-el-nivel-2-en-el-sistema-de-catalogacion-de-la-otan/</link>
-      <description>Desde el Ministerio de Defensa destacan que desarrollos chilenos en el área, incluidos aquellos provenientes de astilleros, maestranzas y proveedores civiles, podrán contar con una mayor visibilidad y proyección internacional.</description>
-      <pubDate>Wed, 25 Nov 2026 19:14:23 +0000</pubDate>
-      <source>La Tercera</source>
-    </item>
-    <item>
-      <title>Chile alcanza el Nivel 2 en el Sistema de Catalogación de la OTAN</title>
-      <link>https://www.defensa.cl/chile-alcanza-el-nivel-2-en-el-sistema-de-catalogacion-de-la-otan/</link>
-      <description>Chile fue reconocido oficialmente como país de Nivel 2 (Tier 2) del Sistema de Catalogación de la Organización del Tratado del Atlántico Norte (OTAN), un significativo avance que permitirá proyectar internacionalmente los productos nacionales del ámbito militar, de defensa e industrial estratégico, mediante el uso de códigos reconocidos a nivel mundial. Así, este reconocimiento abre […]</description>
-      <pubDate>Wed, 25 Nov 2026 19:10:34 +0000</pubDate>
-      <source>Ministerio de Defensa</source>
-    </item>
-    <item>
-      <title>Operativo por el caso Pirata Gate: Detienen a exalcalde de Coquimbo y a vocalista de Los Viking’s 5 por fraude al fisco</title>
-      <link>https://www.publimetro.cl/noticias/2026/11/25/operativo-por-el-caso-pirata-gate-detienen-a-exalcalde-de-coquimbo-y-a-vocalista-de-los-vikings-5-por-fraude-al-fisco/</link>
-      <description>La Brigada Anticorrupción de la PDI ejecutó los arrestos también por los presuntos delitos de lavado de activos y asociación criminal</description>
-      <pubDate>Wed, 25 Nov 2026 19:05:40 +0000</pubDate>
-      <source>Publimetro Chile</source>
-    </item>
-    <item>
-      <title>El desconocido rol del actual embajador de Chile en Brasil, Issa Kort, en el nombramiento de tres ministros de cortes de apelaciones</title>
-      <link>https://www.ciperchile.cl/2026/11/25/el-desconocido-rol-del-actual-embajador-de-chile-en-brasil-issa-kort-en-el-nombramiento-de-tres-ministros-de-cortes-de-apelaciones/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=el-desconocido-rol-del-actual-embajador-de-chile-en-brasil-issa-kort-en-el-nombramiento-de-tres-ministros-de-cortes-de-apelaciones</link>
-      <description>La entrada El desconocido rol del actual embajador de Chile en Brasil, Issa Kort, en el nombramiento de tres ministros de cortes de apelaciones se publicó primero en CIPER Chile .</description>
-      <pubDate>Wed, 25 Nov 2026 19:03:59 +0000</pubDate>
-      <source>CIPER Chile</source>
-    </item>
-    <item>
-      <title>Cuestionamientos a licencias médicas suman tensión en el Congreso previo a la votación de la AC contra Rabat - La Tercera</title>
-      <link>https://news.google.com/rss/articles/CBMi5wFBVV95cUxQN2xpMXZIQmxOQ2lNSjhldk1lcHNNOFlRakJqaTUzMEk5TXRXN3VHbHJENEZ1YjJmWWlzazNQX194WTFjdTVfR0NlN2lEREJRdEF1aFI3SWNiYk9UNks2bzFxU0pSaXoxSjVIR05qaFZiRkY0V3VtTkpUSUFRRk8xU3VrcmFIN2RvVjhVTGFzNDRqNnpnZ3RoNlZFUGxwY1h2ZnFNYkx2NTZDQXBTVUVqMWhBUGpLN3lTX3pjY09PSEZzVFZaSFQ4S0xnT1JmQWk3RmpSNDE5aWszX204OVlkZkliZTRzSXPSAYgCQVVfeXFMUDh2ZUs1N08wcnhkTEFzZ1ZCcEhnS1FPeURYbDlBX0h4UkgxWDhOY0JjQzdxaTF3dEp5T0ZLb2YxSGxhdkZTQnRtQ0FHb29UNDhpZ3dsMks2cU9yclFKdGU3NVVYTHhvaFJPRzA5bGw5Nzk2QlJUQ0RsbWVOMTI2dnlZd0NvdHhGUHcwazlIVGY2NHFWNllOall2cjJFY3dWT1dHWjdJYWg5NHBSTHAyVUpNckRvRmZ5c0lGaWhwSk5TTlBCYkMtV2VYV29pWmctY1BkSEVsX0I4YmNoX3BWdlRieTFyRDZLMm5Pd25CTzhTOEZwRVoyTlp4clNOd25kN0N3UGt2R1kt?oc=5</link>
-      <description>Cuestionamientos a licencias médicas suman tensión en el Congreso previo a la votación de la AC contra Rabat La Tercera Operación salvataje de Rabat: La Moneda cuenta votos y ausencias marcan la recta final de la AC El Mostrador Gonzalo Arenas y AC contra Rabat: “Hicimos la suma de los 155 (diputados) y consideramos que están los votos para rechazar esa acusación” La Tercera ¿Tiembla la AC contra Rabat? Oposición redobla presión al PDG para que respalde el libelo Universidad de Chile Acusación contra Rabat pierde fuerza entre licencias médicas, divisiones y cálculos políticos BioBioChile</description>
-      <pubDate>Wed, 25 Nov 2026 19:00:38 +0000</pubDate>
-      <source>Google News Chile</source>
-    </item>
-    <item>
-      <title>Diego de Almagro sale del olvido: Santiago restaurará monumento que lleva 7 años en una bodega tras el estallido</title>
-      <link>https://www.latercera.com/nacional/noticia/lleva-7-anos-en-una-bodega-tras-ser-vandalizado-en-el-estallido-santiago-restaurara-monumento-a-diego-de-almagro/</link>
-      <description>A cargo de la Municipalidad de Santiago, los trabajos comenzarán durante 2027 por un monto estimado de más de $6.000 millones, incluyendo la plaza del mismo nombre donde estaba ubicada la figura.</description>
-      <pubDate>Wed, 25 Nov 2026 19:00:00 +0000</pubDate>
-      <source>La Tercera</source>
-    </item>
-    <item>
-      <title>Una prueba crucial para las negociaciones en Venezuela</title>
-      <link>https://www.latercera.com/mundo/noticia/una-prueba-crucial-para-las-negociaciones-en-venezuela/</link>
-      <description>El país aspira a establecer un Tribunal Supremo independiente, lo que podría ser un primer paso real hacia una transición democrática, si se lleva a cabo con transparencia.</description>
-      <pubDate>Wed, 25 Nov 2026 19:00:00 +0000</pubDate>
-      <source>La Tercera</source>
-    </item>
-    <item>
-      <title>Exalcalde Aguilera pide pasar de la ex Penitenciaría a Capitán Yáber para cumplir condena por caso de corrupción en San Ramón</title>
-      <link>https://www.latercera.com/nacional/noticia/exalcalde-aguilera-pide-pasar-de-la-ex-penitenciaria-a-capitan-yaber-para-cumplir-condena-por-caso-de-corrupcion-en-san-ramon/</link>
-      <description>La exautoridad se encuentra recluido luego de que el tribunal revirtiera el pago de una multa de más de $200 millones por la reclusión durante seis meses. Aquello, luego de que el exjefe comunal no pagara el monto impuesto en su condena por los hechos de corrupción mientras encabezó la Municipalidad de San Ramón.</description>
-      <pubDate>Wed, 25 Nov 2026 18:58:56 +0000</pubDate>
-      <source>La Tercera</source>
-    </item>
-    <item>
-      <title>Ministro Quiroz plantea cautela ante el desplome del precio del cobre: “Aún es un precio muy positivo para Chile”</title>
-      <link>https://www.latercera.com/pulso/noticia/ministro-quiroz-plantea-cautela-ante-el-desplome-del-precio-del-cobre-aun-es-un-precio-muy-positivo-para-chile/</link>
-      <description>El ministro de Hacienda, Jorge Quiroz, analizó la baja sostenida en el precio del cobre y el alza del dólar por sobre los $1.000 cerca de máximos históricos.</description>
-      <pubDate>Wed, 25 Nov 2026 18:49:25 +0000</pubDate>
-      <source>La Tercera</source>
-    </item>
-    <item>
-      <title>Confirman la distancia del candidato a “pequeño punto rojo” más lejano del Universo - G5noticias</title>
-      <link>https://news.google.com/rss/articles/CBMitgFBVV95cUxPdkVoVEpfM19nM0NLYV9VVk9SWHhQcFhDdTlncndFamZhRmw0Qnd2bHZlSGZlY2RlVFZZcEhSZXVhREw3dXF0R1g0Nk5DXzFHSDB1ZXh4VVhMWEpNVGNQV3VOM1FRcXpKaUhuYXFrbS1USl85QXFxTUdGckc2ZjZEaWRxaHJaM1RtWHdLWXNZa1dHRGFSVmtkalFhTGdLSTB0MEdKQzdPdUhmNGVMMTk1UHV4azIxZw?oc=5</link>
-      <description>Confirman la distancia del candidato a “pequeño punto rojo” más lejano del Universo G5noticias</description>
-      <pubDate>Wed, 25 Nov 2026 18:45:25 +0000</pubDate>
-      <source>Google News Chile</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/7XGSI4ZIKJAAZECHFK5CBBPJT4.jpg?auth=90ee81d794545b4e964089c225eb5e6f58dcd062a4052f2510a9ed995097b801&amp;smart=true&amp;width=1200&amp;height=800" medium="image" />
     </item>
   </channel>
 </rss>
