@@ -1,1076 +1,1015 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Informados y No Manipulados | Noticias</title>
+  <title>INM — Noticias</title>
 
-<meta name="description" content="INM — Noticias, defensa, seguridad, política, economía e información internacional.">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-<style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0b0b;
+      color: #ffffff;
+    }
 
-* {
-    box-sizing: border-box;
-}
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-html {
-    scroll-behavior: smooth;
-}
+    /* =========================
+       HERO
+    ========================= */
 
-body {
-    margin: 0;
-    background: #080808;
-    color: #f4f4f4;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* =========================
-   HEADER
-========================= */
-
-.hero {
-    position: relative;
-    width: 100%;
-    min-height: 360px;
-    background-image:
+    .hero {
+      min-height: 360px;
+      background:
         linear-gradient(
-            to bottom,
-            rgba(0,0,0,0.05) 0%,
-            rgba(0,0,0,0.15) 45%,
-            rgba(8,8,8,1) 100%
+          rgba(0,0,0,.45),
+          rgba(0,0,0,.78)
         ),
-        url("banner-g6austral.png");
+        url("banner-g6austral.png") center/cover no-repeat;
 
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: flex-end;
-}
+      display: flex;
+      align-items: flex-end;
+      padding: 50px 6%;
+    }
 
-.hero-overlay {
-    width: 100%;
-    padding: 40px 25px 30px;
-    background: linear-gradient(
-        to top,
-        rgba(8,8,8,1),
-        rgba(8,8,8,0)
-    );
-}
+    .hero-content {
+      max-width: 900px;
+    }
 
-.hero-content {
-    max-width: 1250px;
-    margin: auto;
-}
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(42px, 7vw, 82px);
+      font-weight: 900;
+      letter-spacing: -3px;
+    }
 
-.brand-title {
-    font-size: clamp(30px, 5vw, 58px);
-    font-weight: 900;
-    letter-spacing: 3px;
-    text-shadow: 0 3px 12px #000;
-}
+    .hero p {
+      margin: 10px 0 0;
+      font-size: clamp(16px, 2vw, 24px);
+      color: #ddd;
+    }
 
-.brand-subtitle {
-    margin-top: 8px;
-    color: #d6a82c;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
+    /* =========================
+       NAV
+    ========================= */
 
-/* =========================
-   NAVIGATION
-========================= */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
 
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background: rgba(8,8,8,0.97);
-    border-top: 1px solid #282828;
-    border-bottom: 2px solid #b00000;
-    backdrop-filter: blur(8px);
-}
+      display: flex;
+      gap: 8px;
 
-.nav-container {
-    max-width: 1250px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    overflow-x: auto;
-    padding: 0 15px;
-}
+      padding: 12px 5%;
 
-.nav-button {
-    background: transparent;
-    color: #ddd;
-    border: 0;
-    padding: 16px 13px;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: bold;
-    white-space: nowrap;
-    letter-spacing: .5px;
-}
+      background: rgba(10,10,10,.96);
+      border-bottom: 1px solid #292929;
 
-.nav-button:hover,
-.nav-button.active {
-    color: #d6a82c;
-}
+      overflow-x: auto;
+    }
 
-/* =========================
-   MAIN
-========================= */
+    .nav button {
+      flex-shrink: 0;
 
-main {
-    max-width: 1250px;
-    margin: auto;
-    padding: 30px 20px 60px;
-}
+      border: 1px solid #444;
+      background: #151515;
+      color: #ddd;
 
-.section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 22px;
-}
+      padding: 9px 15px;
+      border-radius: 20px;
 
-.section-title {
-    margin: 0;
-    padding-left: 14px;
-    border-left: 5px solid #b00000;
-    font-size: 25px;
-    font-weight: 900;
-}
+      cursor: pointer;
+      font-weight: bold;
+    }
 
-.update-status {
-    color: #888;
-    font-size: 12px;
-}
+    .nav button:hover,
+    .nav button.active {
+      background: #ffffff;
+      color: #000;
+    }
 
-/* =========================
-   FEATURED
-========================= */
+    /* =========================
+       CONTENEDOR
+    ========================= */
 
-.featured {
-    display: grid;
-    grid-template-columns: 1.7fr 1fr;
-    gap: 18px;
-    margin-bottom: 30px;
-}
+    .container {
+      width: 90%;
+      max-width: 1400px;
+      margin: 35px auto 70px;
+    }
 
-.feature-card {
-    min-height: 330px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    background: #151515;
-    border: 1px solid #292929;
-}
-
-.feature-main {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background:
-        linear-gradient(
-            to top,
-            rgba(0,0,0,0.95),
-            rgba(0,0,0,0.15)
-        );
-}
-
-.feature-label {
-    display: inline-block;
-    width: fit-content;
-    background: #b00000;
-    color: #fff;
-    padding: 6px 9px;
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-bottom: 12px;
-}
-
-.feature-title {
-    margin: 0;
-    font-size: clamp(25px, 3vw, 38px);
-    line-height: 1.15;
-}
-
-.feature-description {
-    color: #bbb;
-    line-height: 1.5;
-    margin: 14px 0;
-}
-
-.feature-link {
-    color: #d6a82c;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.feature-link:hover {
-    text-decoration: underline;
-}
-
-.side-news {
-    display: grid;
-    gap: 18px;
-}
-
-.side-card {
-    background: #151515;
-    border: 1px solid #292929;
-    border-radius: 8px;
-    padding: 20px;
-}
-
-.side-card:hover,
-.news-card:hover {
-    border-color: #b00000;
-}
-
-.side-source,
-.news-source {
-    color: #d6a82c;
-    font-size: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 8px;
-}
-
-.side-title {
-    font-size: 18px;
-    line-height: 1.3;
-    margin: 0;
-}
-
-/* =========================
-   NEWS GRID
-========================= */
-
-.news-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
-}
-
-.news-card {
-    background: #141414;
-    border: 1px solid #272727;
-    border-radius: 8px;
-    padding: 20px;
-    transition: .2s ease;
-}
-
-.news-title {
-    font-size: 19px;
-    line-height: 1.3;
-    margin: 0 0 12px;
-}
-
-.news-description {
-    color: #aaa;
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
-
-.news-meta {
-    color: #777;
-    font-size: 11px;
-    margin-bottom: 15px;
-}
-
-.read-button {
-    display: inline-block;
-    padding: 9px 13px;
-    border: 1px solid #555;
-    color: #fff;
-    text-decoration: none;
-    font-size: 11px;
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-.read-button:hover {
-    background: #b00000;
-    border-color: #b00000;
-}
-
-/* =========================
-   LOADING / ERROR
-========================= */
-
-.loading,
-.error {
-    padding: 40px;
-    text-align: center;
-    background: #121212;
-    border: 1px solid #292929;
-    border-radius: 8px;
-    color: #999;
-}
-
-.error {
-    color: #d77;
-}
-
-/* =========================
-   FOOTER
-========================= */
-
-footer {
-    border-top: 1px solid #222;
-    background: #050505;
-    padding: 35px 20px;
-    text-align: center;
-}
-
-.footer-brand {
-    color: #d6a82c;
-    font-size: 20px;
-    font-weight: 900;
-    letter-spacing: 2px;
-}
-
-.footer-text {
-    color: #666;
-    font-size: 12px;
-    margin-top: 10px;
-}
-
-/* =========================
-   RESPONSIVE
-========================= */
-
-@media (max-width: 900px) {
+    /* =========================
+       DESTACADA
+    ========================= */
 
     .featured {
-        grid-template-columns: 1fr;
+      margin-bottom: 35px;
+    }
+
+    .featured-card {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+
+      background: #151515;
+      border: 1px solid #292929;
+
+      border-radius: 14px;
+      overflow: hidden;
+
+      transition: transform .2s ease;
+    }
+
+    .featured-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .featured-image {
+      width: 100%;
+      height: 100%;
+      min-height: 390px;
+
+      object-fit: cover;
+      display: block;
+      background: #202020;
+    }
+
+    .featured-content {
+      padding: 35px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .featured-source {
+      color: #aaa;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .featured-title {
+      font-size: clamp(28px, 4vw, 48px);
+      line-height: 1.08;
+      margin: 0 0 18px;
+      font-weight: 900;
+    }
+
+    .featured-description {
+      color: #bbb;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    .featured-date {
+      color: #777;
+      margin-top: 20px;
+      font-size: 13px;
+    }
+
+    /* =========================
+       GRID
+    ========================= */
+
+    .section-title {
+      font-size: 26px;
+      margin: 0 0 20px;
+      font-weight: 900;
     }
 
     .news-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .news-card {
+      background: #151515;
+      border: 1px solid #292929;
+
+      border-radius: 12px;
+      overflow: hidden;
+
+      transition:
+        transform .2s ease,
+        border-color .2s ease;
+    }
+
+    .news-card:hover {
+      transform: translateY(-4px);
+      border-color: #555;
+    }
+
+    .news-image {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+
+      object-fit: cover;
+      display: block;
+
+      background: #202020;
+    }
+
+    .news-content {
+      padding: 20px;
+    }
+
+    .news-source {
+      color: #999;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .news-title {
+      font-size: 20px;
+      line-height: 1.25;
+      margin: 0 0 12px;
+      font-weight: 800;
+    }
+
+    .news-description {
+      color: #aaa;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .news-date {
+      margin-top: 15px;
+      color: #666;
+      font-size: 12px;
+    }
+
+    /* =========================
+       SIN NOTICIAS
+    ========================= */
+
+    .empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: #777;
+    }
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    footer {
+      border-top: 1px solid #222;
+      padding: 30px 5%;
+      text-align: center;
+      color: #666;
+      font-size: 13px;
+    }
+
+    /* =========================
+       RESPONSIVE
+    ========================= */
+
+    @media (max-width: 1000px) {
+
+      .news-grid {
         grid-template-columns: repeat(2, 1fr);
-    }
+      }
 
-    .hero {
-        min-height: 300px;
-    }
-}
-
-@media (max-width: 600px) {
-
-    .hero {
-        min-height: 240px;
-        background-position: center;
-    }
-
-    .hero-overlay {
-        padding: 30px 15px 22px;
-    }
-
-    main {
-        padding: 25px 12px 45px;
-    }
-
-    .section-header {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    .news-grid {
+      .featured-card {
         grid-template-columns: 1fr;
+      }
+
+      .featured-image {
+        min-height: 280px;
+      }
     }
 
-    .feature-card {
+    @media (max-width: 650px) {
+
+      .hero {
         min-height: 300px;
-    }
+        padding: 35px 6%;
+      }
 
-    .feature-main {
-        padding: 22px;
-    }
-}
+      .container {
+        width: 94%;
+      }
 
-</style>
+      .news-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .featured-content {
+        padding: 25px;
+      }
+
+      .featured-title {
+        font-size: 30px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<!-- =========================
-     HERO
-========================= -->
+  <!-- =========================
+       HERO
+  ========================= -->
 
-<header class="hero">
-
-    <div class="hero-overlay">
-
-        <div class="hero-content">
-
-            <div class="brand-title">
-                Informados y No Manipulados
-            </div>
-
-            <div class="brand-subtitle">
-                INFORMACIÓN · DEFENSA · SEGURIDAD · INTERNACIONAL
-            </div>
-
-        </div>
-
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Informados No Manipulados</h1>
+      <p>Noticias, actualidad, defensa, seguridad e internacional.</p>
     </div>
-
-</header>
-
-
-<!-- =========================
-     NAVIGATION
-========================= -->
-
-<nav class="navbar">
-
-    <div class="nav-container">
-
-        <button class="nav-button active" data-category="todos">
-            ÚLTIMAS
-        </button>
-
-        <button class="nav-button" data-category="chile">
-            CHILE
-        </button>
-
-        <button class="nav-button" data-category="politica">
-            POLÍTICA
-        </button>
-
-        <button class="nav-button" data-category="defensa">
-            DEFENSA
-        </button>
-
-        <button class="nav-button" data-category="seguridad">
-            SEGURIDAD
-        </button>
-
-        <button class="nav-button" data-category="internacional">
-            INTERNACIONAL
-        </button>
-
-        <button class="nav-button" data-category="economia">
-            ECONOMÍA
-        </button>
-
-    </div>
-
-</nav>
+  </header>
 
 
-<!-- =========================
-     CONTENT
-========================= -->
+  <!-- =========================
+       NAVEGACIÓN
+  ========================= -->
 
-<main>
+  <nav class="nav">
 
-    <div class="section-header">
+    <button class="active" data-category="TODAS">
+      ÚLTIMAS
+    </button>
 
-        <h1 class="section-title">
-            Últimas Noticias
-        </h1>
+    <button data-category="CHILE">
+      CHILE
+    </button>
 
-        <div class="update-status" id="updateStatus">
-            Conectando con INM...
-        </div>
+    <button data-category="POLÍTICA">
+      POLÍTICA
+    </button>
 
-    </div>
+    <button data-category="DEFENSA">
+      DEFENSA
+    </button>
 
+    <button data-category="SEGURIDAD">
+      SEGURIDAD
+    </button>
 
-    <section id="featured">
+    <button data-category="INTERNACIONAL">
+      INTERNACIONAL
+    </button>
 
-        <div class="loading">
-            Cargando noticias...
-        </div>
+    <button data-category="ECONOMÍA">
+      ECONOMÍA
+    </button>
 
-    </section>
-
-
-    <section>
-
-        <div class="section-header">
-
-            <h2 class="section-title">
-                Más Noticias
-            </h2>
-
-        </div>
-
-        <div
-            id="newsGrid"
-            class="news-grid"
-        >
-
-        </div>
-
-    </section>
-
-</main>
+  </nav>
 
 
-<!-- =========================
-     FOOTER
-========================= -->
+  <!-- =========================
+       CONTENIDO
+  ========================= -->
 
-<footer>
+  <main class="container">
 
-    <div class="footer-brand">
-        Informados y No Manipulados
-    </div>
+    <section class="featured" id="featured"></section>
 
-    <div class="footer-text">
-        Noticias y actualidad · Chile · Defensa · Seguridad · Internacional
-    </div>
+    <h2 class="section-title">
+      Últimas noticias
+    </h2>
 
-    <div class="footer-text">
-        Las noticias enlazan a sus fuentes originales.
-    </div>
+    <section class="news-grid" id="news"></section>
 
-</footer>
+  </main>
 
 
-<script>
-
-/* =========================
-   RSS
-========================= */
-
-const RSS_URL = "feed.xml";
-
-let noticias = [];
+  <footer>
+    Informados No Manipulados · Noticias y actualidad
+  </footer>
 
 
-/* =========================
-   LIMPIAR HTML
-========================= */
+  <script>
 
-function limpiarHTML(texto) {
-
-    const div = document.createElement("div");
-
-    div.innerHTML = texto || "";
-
-    return div.textContent || div.innerText || "";
-
-}
+    const RSS_URL =
+      "feed.xml";
 
 
-/* =========================
-   FORMATEAR FECHA
-========================= */
+    let allNews = [];
 
-function formatearFecha(fecha) {
+    let currentCategory = "TODAS";
 
-    if (!fecha) {
-        return "";
+
+    /* =========================
+       LIMPIAR TEXTO
+    ========================= */
+
+    function cleanText(text) {
+
+      if (!text) return "";
+
+      const div =
+        document.createElement("div");
+
+      div.innerHTML = text;
+
+      return div.textContent
+        .replace(/\s+/g, " ")
+        .trim();
     }
 
-    const date = new Date(fecha);
 
-    if (isNaN(date)) {
-        return "";
+    /* =========================
+       CATEGORÍAS
+    ========================= */
+
+    function categorize(title, description) {
+
+      const text =
+        (
+          title + " " + description
+        ).toLowerCase();
+
+
+      if (
+        /ejército|militar|militares|ffaa|fuerzas armadas|defensa|armada|fuerza aérea|carabineros de chile|infantería|otan|misil|misiles|tanque|tanques|guerra|conflicto armado/.test(text)
+      ) {
+        return "DEFENSA";
+      }
+
+
+      if (
+        /delito|crimen|criminal|asesinato|homicidio|robo|narcotráfico|narco|droga|carabinero|policía|seguridad|violencia|banda criminal|terrorismo/.test(text)
+      ) {
+        return "SEGURIDAD";
+      }
+
+
+      if (
+        /presidente|gobierno|congreso|diputado|diputada|senado|senador|senadora|elección|elecciones|política|ministro|ministra|partido político|kast|boric|jadue/.test(text)
+      ) {
+        return "POLÍTICA";
+      }
+
+
+      if (
+        /economía|economia|mercado|bolsa|dólar|dolar|inflación|inflacion|banco central|empresas|empleo|desempleo|finanzas|petróleo|petróleo/.test(text)
+      ) {
+        return "ECONOMÍA";
+      }
+
+
+      if (
+        /eeuu|estados unidos|china|rusia|ucrania|israel|palestina|irán|iran|europa|argentina|perú|peru|bolivia|venezuela|méxico|mexico|mundo|internacional|geopolítica|geopolitica/.test(text)
+      ) {
+        return "INTERNACIONAL";
+      }
+
+
+      return "CHILE";
     }
 
-    return date.toLocaleString(
-        "es-CL",
-        {
-            day: "2-digit",
-            month: "2-digit",
-            year: "numeric",
-            hour: "2-digit",
-            minute: "2-digit"
+
+    /* =========================
+       OBTENER IMAGEN
+    ========================= */
+
+    function getImage(item) {
+
+      /*
+       * Primero buscamos media:content
+       */
+
+      const mediaContent =
+        item.getElementsByTagNameNS(
+          "http://search.yahoo.com/mrss/",
+          "content"
+        )[0];
+
+      if (mediaContent) {
+
+        const url =
+          mediaContent.getAttribute("url");
+
+        if (url) {
+          return url;
         }
-    );
-
-}
-
-
-/* =========================
-   CATEGORIZAR
-========================= */
-
-function obtenerCategoria(noticia) {
-
-    const texto = (
-        noticia.titulo +
-        " " +
-        noticia.descripcion +
-        " " +
-        noticia.fuente
-    ).toLowerCase();
-
-
-    if (
-        texto.includes("defensa") ||
-        texto.includes("militar") ||
-        texto.includes("ejército") ||
-        texto.includes("ejercito") ||
-        texto.includes("armada") ||
-        texto.includes("fuerza aérea") ||
-        texto.includes("fuerza aerea") ||
-        texto.includes("ffaa") ||
-        texto.includes("otan") ||
-        texto.includes("misil") ||
-        texto.includes("tanque") ||
-        texto.includes("soldado") ||
-        texto.includes("infodefensa") ||
-        texto.includes("ministerio de defensa")
-    ) {
-        return "defensa";
-    }
-
-
-    if (
-        texto.includes("seguridad") ||
-        texto.includes("carabineros") ||
-        texto.includes("policía") ||
-        texto.includes("policia") ||
-        texto.includes("pdi") ||
-        texto.includes("delito") ||
-        texto.includes("crimen") ||
-        texto.includes("narcotráfico") ||
-        texto.includes("narcotrafico")
-    ) {
-        return "seguridad";
-    }
-
-
-    if (
-        texto.includes("economía") ||
-        texto.includes("economia") ||
-        texto.includes("dólar") ||
-        texto.includes("dolar") ||
-        texto.includes("inflación") ||
-        texto.includes("inflacion") ||
-        texto.includes("mercado") ||
-        texto.includes("banco central") ||
-        texto.includes("empresas")
-    ) {
-        return "economia";
-    }
+      }
 
 
-    if (
-        texto.includes("elección") ||
-        texto.includes("elecciones") ||
-        texto.includes("presidente") ||
-        texto.includes("congreso") ||
-        texto.includes("senado") ||
-        texto.includes("diputados") ||
-        texto.includes("gobierno") ||
-        texto.includes("ministro") ||
-        texto.includes("partido") ||
-        texto.includes("ley")
-    ) {
-        return "politica";
-    }
+      /*
+       * Luego media:thumbnail
+       */
 
+      const thumbnail =
+        item.getElementsByTagNameNS(
+          "http://search.yahoo.com/mrss/",
+          "thumbnail"
+        )[0];
 
-    if (
-        texto.includes("chile") ||
-        texto.includes("santiago") ||
-        texto.includes("valparaíso") ||
-        texto.includes("valparaiso") ||
-        texto.includes("región") ||
-        texto.includes("region")
-    ) {
-        return "chile";
-    }
+      if (thumbnail) {
 
+        const url =
+          thumbnail.getAttribute("url");
 
-    return "internacional";
+        if (url) {
+          return url;
+        }
+      }
 
-}
 
+      /*
+       * Luego enclosure
+       */
 
-/* =========================
-   CREAR TARJETA
-========================= */
+      const enclosure =
+        item.querySelector("enclosure");
 
-function crearTarjeta(noticia) {
+      if (enclosure) {
 
-    const article = document.createElement("article");
+        const type =
+          enclosure.getAttribute("type") || "";
 
-    article.className = "news-card";
+        const url =
+          enclosure.getAttribute("url");
 
-    article.dataset.category = noticia.categoria;
+        if (
+          url &&
+          (
+            type.startsWith("image/")
+            ||
+            /\.(jpg|jpeg|png|webp|gif)(\?.*)?$/i.test(url)
+          )
+        ) {
+          return url;
+        }
+      }
 
 
-    article.innerHTML = `
+      /*
+       * Finalmente buscamos una imagen
+       * dentro de description.
+       */
 
-        <div class="news-source">
-            ${noticia.fuente}
-        </div>
+      const description =
+        item.querySelector("description")?.textContent || "";
 
-        <h3 class="news-title">
-            ${noticia.titulo}
-        </h3>
-
-        <div class="news-description">
-            ${noticia.descripcion}
-        </div>
-
-        <div class="news-meta">
-            ${formatearFecha(noticia.fecha)}
-        </div>
-
-        <a
-            class="read-button"
-            href="${noticia.enlace}"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            LEER NOTICIA →
-        </a>
-
-    `;
-
-    return article;
-
-}
-
-
-/* =========================
-   MOSTRAR NOTICIAS
-========================= */
-
-function mostrarNoticias(lista) {
-
-    const featured = document.getElementById("featured");
-
-    const grid = document.getElementById("newsGrid");
-
-
-    featured.innerHTML = "";
-
-    grid.innerHTML = "";
-
-
-    if (!lista.length) {
-
-        featured.innerHTML = `
-            <div class="loading">
-                No hay noticias disponibles en esta categoría.
-            </div>
-        `;
-
-        return;
-
-    }
-
-
-    /* NOTICIA PRINCIPAL */
-
-    const principal = lista[0];
-
-
-    const featureCard =
-        document.createElement("article");
-
-    featureCard.className =
-        "feature-card feature-main";
-
-
-    featureCard.innerHTML = `
-
-        <div class="feature-label">
-            NOTICIA DESTACADA
-        </div>
-
-        <h2 class="feature-title">
-            ${principal.titulo}
-        </h2>
-
-        <div class="feature-description">
-            ${principal.descripcion}
-        </div>
-
-        <div class="news-meta">
-            ${principal.fuente}
-            ·
-            ${formatearFecha(principal.fecha)}
-        </div>
-
-        <a
-            class="feature-link"
-            href="${principal.enlace}"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            LEER NOTICIA COMPLETA →
-        </a>
-
-    `;
-
-
-    featured.appendChild(featureCard);
-
-
-    /* RESTO DE NOTICIAS */
-
-    lista.slice(1, 19).forEach(noticia => {
-
-        grid.appendChild(
-            crearTarjeta(noticia)
+      const match =
+        description.match(
+          /<img[^>]+(?:src|data-src|data-lazy-src)=["']([^"']+)["']/i
         );
 
-    });
-
-}
-
-
-/* =========================
-   CARGAR RSS
-========================= */
-
-async function cargarRSS() {
-
-    try {
-
-        const respuesta =
-            await fetch(
-                RSS_URL + "?t=" + Date.now()
-            );
+      if (match && match[1]) {
+        return match[1];
+      }
 
 
-        if (!respuesta.ok) {
+      /*
+       * Si no encontramos imagen
+       */
 
-            throw new Error(
-                "No se pudo cargar el RSS"
-            );
+      return "";
+    }
 
+
+    /* =========================
+       CARGAR RSS
+    ========================= */
+
+    async function loadRSS() {
+
+      try {
+
+        const response =
+          await fetch(
+            RSS_URL + "?t=" + Date.now()
+          );
+
+
+        if (!response.ok) {
+          throw new Error(
+            "No se pudo cargar el RSS"
+          );
         }
 
 
-        const texto =
-            await respuesta.text();
+        const text =
+          await response.text();
 
 
         const parser =
-            new DOMParser();
+          new DOMParser();
 
 
         const xml =
-            parser.parseFromString(
-                texto,
-                "application/xml"
-            );
+          parser.parseFromString(
+            text,
+            "application/xml"
+          );
 
 
         const items =
-            xml.querySelectorAll("item");
+          Array.from(
+            xml.querySelectorAll("item")
+          );
 
 
-        noticias = [];
+        allNews =
+          items.map(item => {
+
+            const title =
+              cleanText(
+                item.querySelector("title")?.textContent
+              );
 
 
-        items.forEach(item => {
-
-            const titulo =
-                item.querySelector("title")
-                ?.textContent
-                ?.trim() || "";
+            const link =
+              item.querySelector("link")?.textContent?.trim()
+              || "#";
 
 
-            const enlace =
-                item.querySelector("link")
-                ?.textContent
-                ?.trim() || "#";
+            const description =
+              cleanText(
+                item.querySelector("description")?.textContent
+              );
 
 
-            const descripcion =
-                limpiarHTML(
-                    item.querySelector("description")
-                    ?.textContent || ""
-                );
+            const source =
+              cleanText(
+                item.querySelector("source")?.textContent
+              );
 
 
-            const fuente =
-                item.querySelector("source")
-                ?.textContent
-                ?.trim() ||
-                "G6 Austral";
+            const pubDate =
+              item.querySelector("pubDate")?.textContent
+              || "";
 
 
-            const fecha =
-                item.querySelector("pubDate")
-                ?.textContent
-                ?.trim() || "";
+            const image =
+              getImage(item);
 
 
-            if (!titulo) {
-                return;
-            }
+            return {
 
+              title,
+              link,
+              description,
+              source,
+              pubDate,
+              image,
 
-            const noticia = {
-
-                titulo:
-                    titulo,
-
-                enlace:
-                    enlace,
-
-                descripcion:
-                    descripcion,
-
-                fuente:
-                    fuente,
-
-                fecha:
-                    fecha
+              category:
+                categorize(
+                  title,
+                  description
+                )
 
             };
 
-
-            noticia.categoria =
-                obtenerCategoria(noticia);
+          });
 
 
-            noticias.push(noticia);
+        renderNews();
 
-        });
+      }
 
+      catch (error) {
 
-        /* Ordenar por fecha */
-
-        noticias.sort(
-            (a, b) =>
-                new Date(b.fecha) -
-                new Date(a.fecha)
+        console.error(
+          "Error cargando RSS:",
+          error
         );
 
 
-        mostrarNoticias(noticias);
-
-
-        const ahora =
-            new Date().toLocaleTimeString(
-                "es-CL",
-                {
-                    hour: "2-digit",
-                    minute: "2-digit"
-                }
-            );
-
-
         document.getElementById(
-            "updateStatus"
-        ).textContent =
-            `Actualizado · ${ahora}`;
-
-
-    } catch (error) {
-
-        console.error(error);
-
-
-        document.getElementById(
-            "featured"
+          "news"
         ).innerHTML = `
 
-            <div class="error">
+          <div class="empty">
 
-                No fue posible cargar las noticias.
+            No se pudieron cargar
+            las noticias.
 
-                <br><br>
-
-                Intenta actualizar la página.
-
-            </div>
+          </div>
 
         `;
 
-        document.getElementById(
-            "updateStatus"
-        ).textContent =
-            "Error al actualizar";
+      }
 
     }
 
-}
+
+    /* =========================
+       FECHA
+    ========================= */
+
+    function formatDate(date) {
+
+      if (!date) return "";
+
+      const d =
+        new Date(date);
+
+      if (isNaN(d)) {
+        return "";
+      }
+
+      return d.toLocaleString(
+        "es-CL",
+        {
+          day: "2-digit",
+          month: "2-digit",
+          year: "numeric",
+          hour: "2-digit",
+          minute: "2-digit"
+        }
+      );
+
+    }
 
 
-/* =========================
-   FILTROS
-========================= */
+    /* =========================
+       RENDER
+    ========================= */
 
-document
-    .querySelectorAll(".nav-button")
-    .forEach(button => {
+    function renderNews() {
 
-        button.addEventListener(
-            "click",
-            () => {
-
-                document
-                    .querySelectorAll(".nav-button")
-                    .forEach(btn =>
-                        btn.classList.remove("active")
-                    );
+      let filtered =
+        allNews;
 
 
-                button.classList.add("active");
+      if (
+        currentCategory !== "TODAS"
+      ) {
+
+        filtered =
+          allNews.filter(
+            news =>
+              news.category ===
+              currentCategory
+          );
+
+      }
 
 
-                const categoria =
-                    button.dataset.category;
+      const featured =
+        filtered[0];
 
 
-                if (categoria === "todos") {
-
-                    mostrarNoticias(
-                        noticias
-                    );
-
-                    return;
-
-                }
+      const remaining =
+        filtered.slice(1, 19);
 
 
-                const filtradas =
-                    noticias.filter(
-                        noticia =>
-                            noticia.categoria ===
-                            categoria
-                    );
+      /*
+       * DESTACADA
+       */
 
-
-                mostrarNoticias(
-                    filtradas
-                );
-
-            }
+      const featuredContainer =
+        document.getElementById(
+          "featured"
         );
 
-    });
+
+      if (!featured) {
+
+        featuredContainer.innerHTML =
+          "";
+
+      }
+
+      else {
+
+        const imageHTML =
+          featured.image
+            ? `
+              <img
+                class="featured-image"
+                src="${escapeAttribute(featured.image)}"
+                alt=""
+                loading="eager"
+              >
+            `
+            : "";
 
 
-/* =========================
-   INICIO
-========================= */
+        featuredContainer.innerHTML = `
 
-cargarRSS();
+          <a
+            href="${escapeAttribute(featured.link)}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <article class="featured-card">
+
+              ${imageHTML}
+
+              <div class="featured-content">
+
+                <div class="featured-source">
+                  ${escapeHTML(featured.source)}
+                </div>
+
+                <h2 class="featured-title">
+                  ${escapeHTML(featured.title)}
+                </h2>
+
+                <div class="featured-description">
+                  ${escapeHTML(
+                    featured.description
+                      .substring(0, 350)
+                  )}
+                </div>
+
+                <div class="featured-date">
+                  ${formatDate(featured.pubDate)}
+                </div>
+
+              </div>
+
+            </article>
+
+          </a>
+
+        `;
+
+      }
 
 
-/* Actualización visual cada 5 minutos */
+      /*
+       * RESTO DE NOTICIAS
+       */
 
-setInterval(
-    cargarRSS,
-    5 * 60 * 1000
-);
+      const newsContainer =
+        document.getElementById(
+          "news"
+        );
 
-</script>
+
+      if (!remaining.length) {
+
+        newsContainer.innerHTML =
+          `
+            <div class="empty">
+              No hay noticias disponibles
+              para esta categoría.
+            </div>
+          `;
+
+        return;
+
+      }
+
+
+      newsContainer.innerHTML =
+        remaining.map(news => {
+
+          const imageHTML =
+            news.image
+              ? `
+                <img
+                  class="news-image"
+                  src="${escapeAttribute(news.image)}"
+                  alt=""
+                  loading="lazy"
+                >
+              `
+              : "";
+
+
+          return `
+
+            <a
+              href="${escapeAttribute(news.link)}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              <article class="news-card">
+
+                ${imageHTML}
+
+                <div class="news-content">
+
+                  <div class="news-source">
+                    ${escapeHTML(news.source)}
+                  </div>
+
+                  <h3 class="news-title">
+                    ${escapeHTML(news.title)}
+                  </h3>
+
+                  <div class="news-description">
+                    ${escapeHTML(
+                      news.description
+                        .substring(0, 180)
+                    )}
+                  </div>
+
+                  <div class="news-date">
+                    ${formatDate(news.pubDate)}
+                  </div>
+
+                </div>
+
+              </article>
+
+            </a>
+
+          `;
+
+        }).join("");
+
+    }
+
+
+    /* =========================
+       SEGURIDAD HTML
+    ========================= */
+
+    function escapeHTML(text) {
+
+      if (!text) return "";
+
+      return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+
+    }
+
+
+    function escapeAttribute(text) {
+
+      return escapeHTML(
+        text || "#"
+      );
+
+    }
+
+
+    /* =========================
+       FILTROS
+    ========================= */
+
+    document
+      .querySelectorAll(".nav button")
+      .forEach(button => {
+
+        button.addEventListener(
+          "click",
+          () => {
+
+            document
+              .querySelectorAll(
+                ".nav button"
+              )
+              .forEach(btn =>
+                btn.classList.remove(
+                  "active"
+                )
+              );
+
+
+            button.classList.add(
+              "active"
+            );
+
+
+            currentCategory =
+              button.dataset.category;
+
+
+            renderNews();
+
+          }
+        );
+
+      });
+
+
+    /* =========================
+       INICIO
+    ========================= */
+
+    loadRSS();
+
+
+    /*
+     * Actualizar automáticamente
+     * cada 5 minutos.
+     */
+
+    setInterval(
+      loadRSS,
+      5 * 60 * 1000
+    );
+
+  </script>
 
 </body>
 </html>
