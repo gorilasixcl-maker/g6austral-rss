@@ -5,22 +5,246 @@
     <link>https://gorilasixcl-maker.github.io/g6austral-rss/</link>
     <description>Noticias de Chile, defensa, seguridad e internacional seleccionadas por G6 Austral.</description>
     <language>es-CL</language>
-    <lastBuildDate>Fri, 27 Nov 2026 17:53:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 18:50:59 +0000</lastBuildDate>
     <item>
-      <title>Caso Firmas: el pacto con el Gobierno que Castro rompió y desató la indignación de Quiroz en el Senado(vea video)</title>
+      <title>¿Cuánto vale Jensen Huang para el mercado?</title>
+      <link>http://www.df.cl/senal-df/cuanto-vale-jensen-huang-para-el-mercado</link>
+      <description>Según el método, el mercado le asigna a Jensen Huang entre US$ 520.000 millones y un billón de dólares del valor de Nvidia, y hasta 5 billones si se mide su efecto en todas las bolsas. Para Wall Street, no es solo el rostro de la inteligencia artificial, es un activo de la empresa. Y como todo activo concentrado en una sola persona, también es su mayor riesgo.</description>
+      <pubDate>Fri, 27 Nov 2026 18:48:23 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000520261127095710/JensenHang.png" medium="image" />
+    </item>
+    <item>
+      <title>Más allá de Chile: cinco acciones que esquivan frenazo de la economía local</title>
+      <link>http://www.df.cl/senal-df/senales-financieras/mas-alla-de-chile-cinco-acciones-que-esquivan-frenazo-de-la-economia-local</link>
+      <description>Mientras la economía chilena muestra señales de debilidad, las operaciones internacionales están permitiendo a un grupo de compañías locales sostener sus resultados. Perú se ha convertido en uno de los principales motores de crecimiento.</description>
+      <pubDate>Fri, 27 Nov 2026 18:44:36 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000920261127095420/bolsa.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Comisión Revisora de AC contra Rabat recomienda aprobar la medida fiscalizadora</title>
+      <link>http://www.df.cl/economia-y-politica/congreso/comision-revisora-de-ac-contra-rabat-recomienda-aprobar-la-medida</link>
+      <description>El presidente de la instancia llamó a sus pares a no ausentarse de la sesión del lunes 30 de noviembre.</description>
+      <pubDate>Fri, 27 Nov 2026 18:44:32 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000620261127153540/camara.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Nicolás Donoso, socio de Vinci Compass: "Se juntaron muchas cosas que contaminaron las expectativas y eso hizo que la bolsa chilena corrigiera"</title>
+      <link>http://www.df.cl/senal-df/senales-financieras/nicolas-donoso-socio-de-vinci-compass-se-juntaron-muchas-cosas-que</link>
+      <description>El head of equities atribuye la reciente corrección al alza del petróleo, las tasas externas, la sorpresa electoral en Brasil y el deterioro de las expectativas de crecimiento en Chile, que pasaron de más de 2% a cerca de 0%. Pese a este escenario, mantiene una visión positiva del mercado, respaldada por la generación de caja de varias compañías.</description>
+      <pubDate>Fri, 27 Nov 2026 18:43:27 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000520261127150427/NicolsDonosoViciCompass.jpg" medium="image" />
+    </item>
+    <item>
+      <title>TDLC condena a Cencosud y Walmart a pagar $ 70.000 millones a consumidores por la colusión del pollo</title>
+      <link>http://www.df.cl/empresas/retail/tdlc-condena-a-cencosud-y-walmart-a-pagar-70-000-millones-a-consumidores</link>
+      <description>El tribunal dispuso que un tercero identifique a los beneficiarios y proponga un mecanismo de pago directo. Cencosud anunció que ejercerá las acciones y recursos que correspondan, mientras que Walmart analiza el fallo.</description>
+      <pubDate>Fri, 27 Nov 2026 18:42:09 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000120261127140903/TDLCGENERICASRJ_151215_4.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Black Friday en recesión: estudio revela comportamiento de los consumidores ante un presupuesto ajustado</title>
+      <link>https://www.latercera.com/pulso/noticia/black-friday-consumo-presupuesto-ajustado-en-recesion/</link>
+      <description>Según un estudio de EY, el 25% de los encuestados aseguró que su hogar enfrenta presión financiera, por lo que la comparación de precios se ha vuelto más relevante.</description>
+      <pubDate>Fri, 27 Nov 2026 18:41:36 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/VRQLML3FPUHVEAJ2QPJZB5VZYY.jpg?auth=a1ff408706af3dc71eace9f664d8c2935abdde963e1437b4f6e7b73ceec66444&amp;smart=true&amp;width=4128&amp;height=2752" medium="image" />
+    </item>
+    <item>
+      <title>Cinco empresas del IPSA aportaron el 50% de la utilidad y otras cinco anotaron pérdidas en el tercer trimestre</title>
+      <link>http://www.df.cl/empresas/resultados-de-empresas/cinco-empresas-del-ipsa-aportaron-el-50-de-la-utilidad-y-otras-cinco</link>
+      <description>La utilidad agregada de las 31 empresas del índice subió 21,7% interanual a $ 3,5 billones (millones de millones). Medido en dólares, el aumento es de 28,1% hasta los US$ 3.900 millones, por la caída que tuvo el tipo de cambio promedio.</description>
+      <pubDate>Fri, 27 Nov 2026 18:41:20 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000920261127143651/Aton_1050961.jpeg" medium="image" />
+    </item>
+    <item>
+      <title>Un 2026 con aperturas a medio camino: qué hay tras el millonario capex de Falabella para 2027</title>
+      <link>http://www.df.cl/senal-df/el-deal/un-2026-con-aperturas-a-medio-camino-que-hay-tras-el-millonario-capex-de</link>
+      <description>El grupo anunció en Nueva York un plan récord de más de US$ 1.100 millones para 2027, que contempla 20 tiendas nuevas. La meta llega tras un 2026 en que abrirá solo nueve de los 17 locales comprometidos y en que tampoco alcanzará a ejecutar toda la inversión anunciada.</description>
+      <pubDate>Fri, 27 Nov 2026 18:39:57 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000001120261127152530/falabellacopia.jpg" medium="image" />
+    </item>
+    <item>
+      <title>RADAR LT: Balance de la COP31: avances climáticos, acuerdos pendientes y desafíos para Chile</title>
+      <link>https://www.latercera.com/videos/noticia/radar-lt-balance-de-la-cop31-avances-climaticos-acuerdos-pendientes-y-desafios-para-chile/</link>
+      <description>La COP31 termina sin un acuerdo político general después de que varios países— Panamá, Reino Unido, Unión Europea y países insulares del pacífico— rechazarán el pacto de Antalia por no mencionar el abandono de los combustibles fósiles como se había acordado. Felipe Pino, abogado especialista en política climática, transición justa y energía de la ONG Fima nos comenta sobre esto y más.</description>
+      <pubDate>Fri, 27 Nov 2026 18:39:29 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/LZFQLSZFVFEAPBC3RHCXNQYJUY.jpg?auth=3b4ff3a41d4d256363b27ac4910a47fcdb414468a42ca29f984b87abfb5ff754&amp;smart=true&amp;width=3354&amp;height=2516" medium="image" />
+    </item>
+    <item>
+      <title>Kast en medio de complejo momento económico: “Aquellos que están esperando que retrocedamos, les quiero decir que no lo vamos a hacer”</title>
+      <link>http://www.df.cl/economia-y-politica/politica/kast-en-medio-de-complejo-momento-economico-afirma-que-aquellos-que-estan</link>
+      <description>En Osorno, el mandatario sostuvo que lo ha que hecho en estos ocho meses es adoptar medidas “responsables que permiten tener los cimientos sólidos para sacar una nación adelante”. “No estoy aislado en La Moneda", dijo.</description>
+      <pubDate>Fri, 27 Nov 2026 18:38:10 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000520261127141041/osorno.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Prisión preventiva para 15 imputados por fraude tributario por más de $ 7.400 millones en “Operación Ganaderos”</title>
+      <link>http://www.df.cl/regiones/la-araucania/prision-preventiva-para-15-imputados-por-fraude-tributario-por-mas-de</link>
+      <description>El Ministerio Público había solicitado la cautelar para 17 de los imputados, por lo que anunció que apelará. La precautoria responde a que el persecutor considera que se trata de personas que ponen en riesgo la investigación.</description>
+      <pubDate>Fri, 27 Nov 2026 18:35:43 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000320261127114833.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Oro y plata en el corazón de la Patagonia: australianos reactivan mina con enormes reservas minerales</title>
+      <link>https://www.latercera.com/mineria/noticia/oro-y-plata-en-el-corazon-de-la-patagonia-australianos-reactivan-mina-con-enormes-reservas-minerales/</link>
+      <description>La empresa Andean Silver está detrás de la reactivación de una operación que extrajo mineral en una de las faenas más australes de América, y que cerró sus puertas en 2022. Para ello, lleva adelante una campaña de exploración que ha dado buenos resultados.</description>
+      <pubDate>Fri, 27 Nov 2026 18:34:21 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/EEPA22RBP5GGLED22TCQWRPURU.JPG?auth=cd3f7ce7725e56524ee5bec070a3fb3e1bfd99c681ff234b9f1299ad9340aab7&amp;smart=true&amp;width=1402&amp;height=864" medium="image" />
+    </item>
+    <item>
+      <title>Los planes de Rappi para crecer en su apuesta por las farmacias</title>
+      <link>http://www.df.cl/senal-df/el-deal/los-planes-de-rappi-para-crecer-en-su-apuesta-por-las-farmacias</link>
+      <description>La plataforma de delivery colombiana evalúa instalar espacios para comercializar medicamentos dentro de sus tiendas de despacho rápido, siguiendo un modelo que ya opera en Colombia.</description>
+      <pubDate>Fri, 27 Nov 2026 18:33:20 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000001120261127152214/BF6A0137.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Primer Click de la semana | Entre Jensen y la Fed</title>
+      <link>http://www.df.cl/senal-df/primer-click-de-la-semana/entre-jensen-y-la-fed</link>
+      <description>El CEO de Nvidia va al Capitolio. El reporte laboral de EEUU aportará al debate sobre las tasas de interés.</description>
+      <pubDate>Fri, 27 Nov 2026 18:30:20 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000001120261127151929/20261117NVIDIACEOINSURANCELIABILITYReutersJPGcopia.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Sacyr y Cointer cierran financiamiento por US$ 375 millones para ampliar los aeropuertos de Antofagasta y Atacama</title>
+      <link>http://www.df.cl/empresas/construccion/sacyr-y-cointer-cierran-financiamiento-por-us-375-millones-para-ampliar</link>
+      <description>Las obras contemplan triplicar la superficie del terminal Andrés Sabella y aumentar en más de seis veces la del recinto Desierto de Atacama.</description>
+      <pubDate>Fri, 27 Nov 2026 18:30:20 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000220261127135835/AeropuertoAndrsSabella.png" medium="image" />
+    </item>
+    <item>
+      <title>Lo que debes saber a esta hora de la tarde</title>
+      <link>http://www.df.cl/doble-click/lo-que-debes-saber-a-esta-hora-de-la-tarde-blyvp</link>
+      <description>Desocupación llega a dos dígitos + SEA defiende proyecto de Clan Piñera en Ranco + Dólar cae</description>
+      <pubDate>Fri, 27 Nov 2026 18:29:49 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000620261127152645/DOBLE_CLICK_1.jpeg" medium="image" />
+    </item>
+    <item>
+      <title>Activos de Codelco se desvalorizan casi US$ 5 mil millones y estatal anota pérdidas a septiembre</title>
+      <link>http://www.df.cl/empresas/mineria/activos-de-codelco-se-desvalorizan-casi-us-5-mil-millones-y-estatal-anota</link>
+      <description>La minera registró un deterioro de activos por US$ 4.820 millones, que no implicó salida de caja, y un ajuste de inventarios por US$ 123 millones. Tras reconocer ambos ajustes, cerró el período con una pérdida neta de US$ 377 millones. Eso sí, aumentó sus aportes al fisco en 57%.</description>
+      <pubDate>Fri, 27 Nov 2026 18:29:40 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000220261127140629.jpg" medium="image" />
+    </item>
+    <item>
+      <title>De Apple y Tesla a SQM y Latam, cómo cambian las inversiones de los chilenos con la edad</title>
+      <link>http://www.df.cl/senal-df/senales-financieras/de-apple-y-tesla-a-sqm-y-latam-como-cambian-las-inversiones-de-los</link>
+      <description>Un análisis de XTB muestra que los menores de 30 años prefieren acciones de marcas que conocen y usan a diario. Los inversionistas de mayor edad, en cambio, operan con más frecuencia, recurren en mayor medida a los derivados y aumentan su exposición a minería, salud, transporte y oro.</description>
+      <pubDate>Fri, 27 Nov 2026 18:27:36 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000001220261127151253/ff.jpg" medium="image" />
+    </item>
+    <item>
+      <title>La U va por Copa Libertadores y pueden sellarse los descensos: todo lo que se juega en la Fecha 29 de la Liga de Primera</title>
+      <link>https://www.latercera.com/el-deportivo/noticia/desde-el-chile-2-hasta-la-opcion-de-dos-descensos-todo-lo-que-se-juega-en-la-penultima-fecha-de-la-liga-de-primera/</link>
+      <description>Los azules pueden certificar su clasificación directa al torneo más importante de clubes si derrotan a Deportes Concepción. La UC quiere impedirlo, pero no depende de sí misma. En la parte baja, se vivirá una verdadera final, cuando Universidad de Concepción visite a La Calera. Ambos pueden perder la categoría este fin de semana.</description>
+      <pubDate>Fri, 27 Nov 2026 18:24:43 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/NC2FUAILO5HL7ACZYS6QZDTIJY.png?auth=6df86a9d5b74ebdbe25c53e1b336b809f0b66d9eff7d49af741bee2cab193aa0&amp;smart=true&amp;width=1920&amp;height=1080" medium="image" />
+    </item>
+    <item>
+      <title>Los retos de Forus en su año más desafiante desde la pandemia</title>
+      <link>http://www.df.cl/senal-df/senales-financieras/los-retos-de-forus-en-su-ano-mas-desafiante-desde-la-pandemia</link>
+      <description>Tras años de ganancias y rentabilidades consistentes, el retailer enfrentó una caída de 45% en sus utilidades en septiembre, pese al aumento de 2,6% en las ventas. Moody’s advierte presiones relevantes sobre la eficiencia operacional, aunque no prevé riesgos significativos de que la compañía cierre el año con pérdidas. En este escenario, la firma profundiza su estrategia de contención de gastos con un riguroso plan de eficiencia.</description>
+      <pubDate>Fri, 27 Nov 2026 18:22:13 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000001120261127145720/FORUS.jpg" medium="image" />
+    </item>
+    <item>
+      <title>El conflicto que enfrenta a un haras de caballos fina sangre con Grupo Saesa</title>
+      <link>http://www.df.cl/df-mas/coffee-break/el-conflicto-que-enfrenta-a-un-haras-de-caballos-fina-sangre-con-grupo</link>
+      <description>Esta haras, fundada en 1989, se ubica en un campo en la zona de Linderos, en la comuna de Buin.</description>
+      <pubDate>Fri, 27 Nov 2026 18:21:31 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000002220261127141841/PHOTO20261127152023.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Laura Pausini, Pablo Alborán y Jihyo: Los platos fuertes confirmados para encender el Festival de Viña del Mar 2027</title>
+      <link>https://www.publimetro.cl/entretenimiento/2026/11/27/festival-de-vina-2027-anuncian-parrilla-oficial-y-las-fechas-de-venta-de-entradas/</link>
+      <description>La tradicional Gala se realizará el 19 de febrero en el Hotel Sheraton</description>
+      <pubDate>Fri, 27 Nov 2026 18:19:27 +0000</pubDate>
+      <source>Publimetro Chile</source>
+      <ns0:content url="https://www.publimetro.cl/resizer/v2/URHPT3UJLVH2NKFKXQRF2JRFCE.jpg?auth=249b5d17d08dd4a6063cfcf556798ce1bf21faf2825a2778bae4e435609a0b69&amp;smart=true&amp;width=1920&amp;height=1080" medium="image" />
+    </item>
+    <item>
+      <title>Videojuego chileno sobre el golpe de Estado de 1973 obtiene dos premios internacionales en Polonia</title>
+      <link>https://www.theclinic.cl/2026/11/27/videojuego-chileno-golpe-de-estado-premios-internacionales/</link>
+      <description>Desarrollado por César Jara, “Historias de un Golpe: Los Tres Hermanos” es una novela visual que retrata los primeros días de la dictadura a través de una familia. El título fue distinguido en un festival que recibió 192 videojuegos de 32 países. The post Videojuego chileno sobre el golpe de Estado de 1973 obtiene dos premios internacionales en Polonia appeared first on The Clinic .</description>
+      <pubDate>Fri, 27 Nov 2026 18:19:21 +0000</pubDate>
+      <source>The Clinic</source>
+      <ns0:content url="https://static.theclinic.cl/media/og-watermarked/20261127-1827764-videojuego-3.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Danny L Harle, productor de Dua Lipa y Charli XCX: “La clave para crear buena música pop es la audacia”</title>
+      <link>https://www.latercera.com/culto/noticia/danny-l-harle-productor-de-dua-lipa-y-charli-xcx-la-clave-para-crear-buena-musica-pop-es-la-audacia/</link>
+      <description>El músico británico publicó esta temporada Cerulean, su primer álbum como artista, después de trabajar con algunas de las figuras más relevantes del pop contemporáneo. En entrevista con Culto repasa sus colaboraciones con Dua Lipa, Charli XCX, Skrillex y Caroline Polachek, y reflexiona sobre la creación musical.</description>
+      <pubDate>Fri, 27 Nov 2026 18:13:48 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/ZRUNQIZ5WFHU3HBQ7KRQPAPB4M.jpg?auth=b1fd58a46b99bd1f25a8b3ff38b354cfad918e9b7e1f05516751cce9b18b623c&amp;smart=true&amp;width=1800&amp;height=1252" medium="image" />
+    </item>
+    <item>
+      <title>El efecto “Lula” en el interés por los activos de la región</title>
+      <link>http://www.df.cl/senal-df/senales-financieras/el-efecto-lula-en-el-interes-por-los-activos-de-la-region</link>
+      <description>Tanto como Wall Street, el mercado chileno debería seguir con atención los movimientos de Brasil.</description>
+      <pubDate>Fri, 27 Nov 2026 18:11:22 +0000</pubDate>
+      <source>Diario Financiero</source>
+      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000920261127150947/20261127T104627Z_98676053_RC2SBDARBF4Q_RTRMADP_3_B.jpg" medium="image" />
+    </item>
+    <item>
+      <title>El jefe del Ejército de Tierra plantea reforzar la reserva voluntaria para aumentar los efectivos y cubrir especialidades</title>
+      <link>https://www.infodefensa.com/texto-diario/mostrar/6112242/jefe-ejercito-plantea-reforzar-reserva-voluntaria-aumentar-efectivos-cubrir-especialidades</link>
+      <description>El planteamiento lo ha expuesto durante su participación en el XII Foro de Jefes de Estado Mayor de los Ejércitos de Tierra europeos, celebrado entre el 23 y el 25 de noviembre en Toulouse (Francia).En su intervención en una mesa redonda dedicada al desafío demográfico, Enseñat ha presentado el modelo de recursos humanos del Ejército de Tierra español y ha situado la reserva voluntaria entre las herramientas para afrontar las necesidades de personal de las fuerzas terrestres.</description>
+      <pubDate>Fri, 27 Nov 2026 18:04:49 +0000</pubDate>
+      <source>Infodefensa</source>
+      <ns0:content url="https://www.infodefensa.com/images/showid/8249501" medium="image" />
+    </item>
+    <item>
+      <title>En los últimos tres periodos se ha decomisado más de un millón de plantas: Carabineros lanza nueva temporada del Plan Cannabis</title>
+      <link>https://www.latercera.com/nacional/noticia/en-los-ultimos-tres-periodos-se-ha-decomisado-mas-de-un-millon-de-plantas-carabineros-lanza-nueva-temporada-del-plan-de-erradicacion-de-cannabis/</link>
+      <description>La estrategia contempla un despliegue coordinado de unidades especializadas entre las regiones de Coquimbo y Ñuble, durante los meses de octubre y abril.</description>
+      <pubDate>Fri, 27 Nov 2026 18:01:09 +0000</pubDate>
+      <source>La Tercera</source>
+      <ns0:content url="https://www.latercera.com/resizer/v2/VRABKHT5DNDWNLL7CE4SFLPQ3A.jpeg?auth=5851e3795bd8a026f793cb43465f7ee1af5a00c78cfec47ed2134a19876395e7&amp;smart=true&amp;width=1280&amp;height=854" medium="image" />
+    </item>
+    <item>
+      <title>Investigan certificado médico de diputada Zandra Parisi tras denuncia por firma no autorizada</title>
+      <link>https://www.publimetro.cl/noticias/2026/11/27/investigan-certificado-medico-de-diputada-zandra-parisi-tras-denuncia-por-firma-no-autorizada/</link>
+      <description>La Fiscalía abrió una investigación luego de que un odontólogo desconociera la autoría de un documento que concedía 14 días de reposo a la parlamentaria</description>
+      <pubDate>Fri, 27 Nov 2026 17:57:20 +0000</pubDate>
+      <source>Publimetro Chile</source>
+      <ns0:content url="https://www.publimetro.cl/resizer/v2/6ENH2MPCJJC2RC6D33QSFASRBE.jpg?auth=117a2b55f1ff167ba0cd34867217be836f399e853e73ece4fe2039fee3e0b48a&amp;smart=true&amp;width=1920&amp;height=1080" medium="image" />
+    </item>
+    <item>
+      <title>Salud mental y seguridad laboral convocan a comunidades educativas de Tarapacá - CEI Noticias</title>
+      <link>https://news.google.com/rss/articles/CBMipAFBVV95cUxPWXgwNmttbVhyMU4wWDRBR21xMlhBenVCcHdDa2hoTTZ4MVN6WFBlSkxmWjQxYjlOUzI2QXN3aDhpTXphaGVPTzVjYVJ4aW8wUGdDQkhRSU1iQjBXN1RTOHBybXIwaURvbngtR19zS0tpQmlXWXpyczdoSjVVOEdlWTJONElfb0NoaGdIbFIyUEJyWlMzeDZ1c1ByTHEtRGtSd1pSZw?oc=5</link>
+      <description>Salud mental y seguridad laboral convocan a comunidades educativas de Tarapacá CEI Noticias</description>
+      <pubDate>Fri, 27 Nov 2026 17:57:15 +0000</pubDate>
+      <source>Google News Chile</source>
+      <ns0:content url="https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300" medium="image" />
+    </item>
+    <item>
+      <title>Caso Firmas: el pacto con el Gobierno que Castro rompió y desató la indignación de Quiroz en el Senado (vea video)</title>
       <link>https://www.ex-ante.cl/politica/firmas-pacto-castro-rompio-molestia-quiroz/</link>
       <description>El registro audiovisual de la sesión del Senado del miércoles 17 revela la tensión del ministro Quiroz al enterarse del retiro de los permisos constitucionales…</description>
       <pubDate>Fri, 27 Nov 2026 17:52:22 +0000</pubDate>
       <source>Ex-Ante</source>
       <ns0:content url="https://www.ex-ante.cl/wp-content/uploads/2026/11/Nunez-Quiroz.jpg" medium="image" />
-    </item>
-    <item>
-      <title>TDLC condena a Cencosud y Walmart a pagar $ 70.000 millones a los consumidores por la colusión del pollo</title>
-      <link>http://www.df.cl/empresas/retail/tdlc-condena-a-cencosud-y-walmart-a-pagar-69-542-millones-a-los</link>
-      <description>Con el voto en contra del ministro Ignacio Parot, el tribunal fijó indemnizaciones por daño patrimonial para todos los mayores de 18 años a fines de 2011, desestimó el daño moral y ordenó que el pago se haga sin que los afectados tengan que comparecer.</description>
-      <pubDate>Fri, 27 Nov 2026 17:45:28 +0000</pubDate>
-      <source>Diario Financiero</source>
-      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000120261127140903/TDLCGENERICASRJ_151215_4.jpg" medium="image" />
     </item>
     <item>
       <title>Desempleo golpea fuerte a las regiones del centro sur con índices de dos dígitos: Ñuble lidera con 11,6%</title>
@@ -53,14 +277,6 @@
       <pubDate>Fri, 27 Nov 2026 17:20:49 +0000</pubDate>
       <source>Ex-Ante</source>
       <ns0:content url="https://www.ex-ante.cl/wp-content/uploads/2026/11/Portadas-Ex-Ante-9-2.jpg" medium="image" />
-    </item>
-    <item>
-      <title>El conflicto que enfrenta a un haras de caballos fina sangre con Grupo Saesa</title>
-      <link>http://www.df.cl/df-mas/coffee-break/el-conflicto-que-enfrenta-a-un-haras-de-caballos-fina-sangre-con-grupo</link>
-      <description>Esta haras, fundada en 1989, se ubica en un campo en la zona de Linderos, en la comuna de Buin.</description>
-      <pubDate>Fri, 27 Nov 2026 17:19:37 +0000</pubDate>
-      <source>Diario Financiero</source>
-      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000420261127141841/gil2.png" medium="image" />
     </item>
     <item>
       <title>Por qué una consulta indígena en La Araucanía puede tardar el doble que en Atacama (y qué pasa en otras regiones)</title>
@@ -127,6 +343,14 @@
       <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000001020261127141045/20261126T204111Z_2099076319_RC2WVOA2OVXA_RTRMADP_3.jpg" medium="image" />
     </item>
     <item>
+      <title>La OMS destaca que las muertes por sarampión caen un 91% desde el año 2000, aunque millones de niños siguen sin vacunar - Diario Estrategia</title>
+      <link>https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSmdfeXA5aDZpTVFIU1pIS2h0TmVLaVZHVDVjRElkRVNUdjNvMXBCak9fTUhaTDhFQjBIdy04ckYwcE55V2RzUDEySzRzRUNUTEVaSjh2MW5qcGRXVmt6S2pLNTdCQ3BYUURPa3Uta3ZtaVJqUXQzaG56Ykg5NF91cVN1TllzejVBWloxRDZ4X29lLU1tZEVaTE4zcmRYQzhDM29WSmdLMGF0TFQyWk50RzNCbTQ5Y256Q0ZHWjlXbGgwRkpMYlFOdVJWOGJaY05VWC1rbUNCbjlKaXB4Z2M3ZUZXQ1M?oc=5</link>
+      <description>La OMS destaca que las muertes por sarampión caen un 91% desde el año 2000, aunque millones de niños siguen sin vacunar Diario Estrategia Columna de Osvaldo Artaza Barrios : Cuando el sarampión nos recuerda que la salud es colectiva Opinión - Cooperativa Resumen semanal: Saber, y hacer, en pro de un mundo más sano La Web de la Salud</description>
+      <pubDate>Fri, 27 Nov 2026 17:11:18 +0000</pubDate>
+      <source>Google News Chile</source>
+      <ns0:content url="https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300" medium="image" />
+    </item>
+    <item>
       <title>Tras la muerte de Paolo Bulgari: el pisco chileno que se sirve en dos bares de la marca en Tokio</title>
       <link>http://www.df.cl/df-mas/coffee-break/tras-la-muerte-de-paolo-bulgari-el-pisco-chileno-que-se-sirve-en-dos-bares</link>
       <description>Se trata de Waqar, de Pisquera Tulahuén, de Monte Patria.</description>
@@ -159,20 +383,20 @@
       <ns0:content url="https://www.latercera.com/resizer/v2/RTOLQRE37RFBROI3S635BX4X6U.jpg?auth=c54059c165fc8a3377525f131669a83bf1f53d31005ac3ffdd642ece5bc53574&amp;smart=true&amp;width=5814&amp;height=3876" medium="image" />
     </item>
     <item>
-      <title>Sacyr y Cointer cierran financiamiento por US$ 375 millones para ampliar los aeropuertos de Antofagasta y Atacama</title>
-      <link>http://www.df.cl/empresas/construccion/sacyr-y-cointer-cierran-financiamiento-por-us-375-millones-para-ampliar</link>
-      <description>Las obras contemplan triplicar la superficie del terminal Andrés Sabella y aumentar en más de seis veces la del recinto Desierto de Atacama.</description>
-      <pubDate>Fri, 27 Nov 2026 17:06:41 +0000</pubDate>
-      <source>Diario Financiero</source>
-      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000000220261127135835/AeropuertoAndrsSabella.png" medium="image" />
-    </item>
-    <item>
       <title>Exrepostera presidencial de La Moneda escala disputa por despido injustificado y presenta respuesta ante la Corte Suprema</title>
       <link>https://www.theclinic.cl/2026/11/27/exrepostera-presidencial-de-la-moneda-escala-disputa-por-despido-injustificado-y-presenta-respuesta-ante-la-corte-suprema/</link>
       <description>La nutricionista Beatriz Ponce contestó a la apelación de su restitución en el Palacio que hizo el Consejo de Defensa del Estado (CDE) en septiembre, entidad que cuestionó el fallo que en primera instancia tuvo la Corte de Apelaciones de Santiago. Su abogado, Paolo Torrejón, reafirmó que la "exclusiva confianza" a la que se sujetó su despido no puede ser utilizada en funcionarios a contrata, pues la ley contempla que aquello recae en funcionarios de planta. The post Exrepostera presidencial de La Moneda escala disputa por despido injustificado y presenta respuesta ante la Corte Suprema appeared first on The Clinic .</description>
       <pubDate>Fri, 27 Nov 2026 17:06:28 +0000</pubDate>
       <source>The Clinic</source>
       <ns0:content url="https://static.theclinic.cl/media/og-watermarked/20261127-1827739-la-moneda-13.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Escaras: cómo prevenirlas y detectarlas a tiempo en personas mayores o con movilidad reducida - Cooperativa Ciencia</title>
+      <link>https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTW8tUG84M190RmR5a2hJTEhrY0dicmhBRmtkenV2Y2o3YzZkVHBSTGRJaHdoOHBQVXZ5RjFpNlNzT2sxOUxxQ3NMajN4UWJnLWMxZlRXMml5cEhNdU42RTJIMTlFVEt2dVQwX1I3ZlhpaW5RemZ1WmR6T09ncjNtOWdjWDIwRHlSeGRMZmRKejQ3MUpQRkRPc0g0bDhWWUFEYmZuRGFRbmY1b0kwSGxHc2VFdk5UVVVDZm5NN18tWnlsWVNqeU1RRlViQWhBbTlJRFpxcEFWSnB3UktM?oc=5</link>
+      <description>Escaras: cómo prevenirlas y detectarlas a tiempo en personas mayores o con movilidad reducida Cooperativa Ciencia</description>
+      <pubDate>Fri, 27 Nov 2026 17:02:32 +0000</pubDate>
+      <source>Google News Chile</source>
+      <ns0:content url="https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300" medium="image" />
     </item>
     <item>
       <title>Clasifica a la próxima ronda: la Roja vence con sufrimiento a Montenegro y gana su grupo en el Mundial Sub 17</title>
@@ -191,7 +415,7 @@
       <ns0:content url="https://www.latercera.com/resizer/v2/JU6C64PQOZFAXKDAKNCN6X6PYU.jpg?auth=8c794c64ea5c0a1a85e4a19245a3e2bd6d58d97f1e0365f2b04b3f28113138f8&amp;smart=true&amp;width=582&amp;height=680" medium="image" />
     </item>
     <item>
-      <title>Largara desde el fondo en Qatar: Nicolás Pino cierra su primera qualy en la Fórmula 2</title>
+      <title>Largará desde el fondo en Qatar: Nicolás Pino cierra su primera qualy en la Fórmula 2</title>
       <link>https://www.latercera.com/el-deportivo/noticia/largara-desde-el-fondo-en-qatar-nicolas-pino-cierra-su-primera-qualy-en-la-formula-2/</link>
       <description>El piloto chileno terminó 22° en la clasificación del circuito de Lusail, a 3.588 segundos de la pole position conseguida por el estadounidense Ugo Ugochukwu. Disputará su primera carrera en la categoría.</description>
       <pubDate>Fri, 27 Nov 2026 16:55:22 +0000</pubDate>
@@ -212,7 +436,7 @@
       <description>La mayoría opositora se hizo valer en la instancia. Lorena Pizarro (PC), Lorena Fries (FA) y Raúl Soto (PPD), votaron a favor. El libertario Germán Verdugo y el RN Carlos Chandía votaron en contra.</description>
       <pubDate>Fri, 27 Nov 2026 16:44:56 +0000</pubDate>
       <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/4F4QTBPT4JCDJOZ4WJWJI3WS34.jpg?auth=e9ac494f51e38a88226ca47e6903c11427eb870808ab8f71e464cce948daf8d2&amp;smart=true&amp;width=5382&amp;height=3588" medium="image" />
+      <ns0:content url="https://www.latercera.com/resizer/v2/KSUM6L2GZNEUPNBCOP5DSEZPRU.jpg?auth=441e66b946af153930875235aed0c255255faad273055e9f17247dad9ce53d81&amp;smart=true&amp;width=800&amp;height=533" medium="image" />
     </item>
     <item>
       <title>“Ya no se pueden usar las mochilas virales”: SKY reduce en cinco centímetros la profundidad permitida para el equipaje personal en cabina</title>
@@ -247,14 +471,6 @@
       <ns0:content url="https://www.latercera.com/resizer/v2/UHYHHSKPBZDDNDOHCSMQ5IROTE.jpg?auth=0e9df68311f82233a9c538b180fa04a2e140e063544b8800718a2c9194f761b9&amp;smart=true&amp;width=5089&amp;height=3392" medium="image" />
     </item>
     <item>
-      <title>Claudio Borghi se cuadra con Colo Colo por no renovar a Vidal y le deja recado al ’Rey Arturo’ - BioBioChile</title>
-      <link>https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOGRtRGRFMHN0aFNvOXRXYWNFZUY2QVhEUmFlYXNFMTVHNjk3Wi0yclNMNXJlZWJkRVdwSWxjdzdFRFRXZGNlUnRIOVRUZlRhTXpkYWpMNG1yZFRxSVNHQ2c5RDRrYmNIajRDRmQxZ0ZfNmNmMXZVRTRzWWdWNExXWjdDOVEtZnJ4cUhSSzhKZGJsS0NDVko0Z3JEci1wUmlwbHlZLUVrVkxfUnMxRjB0ejdDNnZhTktCemotLXpKLV9DZEd1dWpQX2ZvX2lydnBILVVSRWVFM3I?oc=5</link>
-      <description>Claudio Borghi se cuadra con Colo Colo por no renovar a Vidal y le deja recado al ’Rey Arturo’ BioBioChile Las contradicciones de Colo Colo por el futuro de Arturo Vidal La Tercera Los Tenores, entre las renovaciones en Colo Colo y lo que dejó la reunión entre Azul Azul y la Universidad de Chile ADN Radio Ortiz: Vidal tiene un contrato vigente y considero que es una pieza fundamental Cooperativa La molestia de Arturo Vidal a la espera de su renovación con Colo Colo TNT Sports</description>
-      <pubDate>Fri, 27 Nov 2026 16:34:24 +0000</pubDate>
-      <source>Google News Chile</source>
-      <ns0:content url="https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300" medium="image" />
-    </item>
-    <item>
       <title>Holding del grupo Luksic eleva sus ganancias en 5% a septiembre impulsado por los resultados de Banco de Chile y Enex</title>
       <link>http://www.df.cl/empresas/industria/holding-del-grupo-luksic-eleva-sus-ganancias-en-5-a-septiembre-impulsado</link>
       <description>Quiñenco registró un crecimiento de 17,4% en sus ingresos, mientras que CSAV revirtió las pérdidas que había anotado durante el primer semestre del año.</description>
@@ -269,14 +485,6 @@
       <pubDate>Fri, 27 Nov 2026 16:33:37 +0000</pubDate>
       <source>Publimetro Chile</source>
       <ns0:content url="https://www.publimetro.cl/resizer/v2/POEBEVIYUFDFFAOPB3YRUAGJMY.jpg?auth=fa1efa39aa9cc14bcecc9be4ebe565dd42ea5655fde3d688978d13bec71cfbec&amp;smart=true&amp;width=1920&amp;height=1080" medium="image" />
-    </item>
-    <item>
-      <title>La U va por Copa Libertadores y pueden sellarse los descensos: todo lo que se juega en la Fecha 29 de la Liga de Primera</title>
-      <link>https://www.latercera.com/el-deportivo/noticia/desde-el-chile-2-hasta-la-opcion-de-dos-descensos-todo-lo-que-se-juega-en-la-penultima-fecha-de-la-liga-de-primera/</link>
-      <description>Los azules pueden certificar su clasificación directa al torneo más importante de clubes si derrotan a Deportes Concepción. La UC quiere impedirlo, pero no depende de sí misma. En la parte baja, se vivirá una verdadera final, cuando Universidad de Concepción visite a La Calera. Ambos pueden perder la categoría este fin de semana.</description>
-      <pubDate>Fri, 27 Nov 2026 16:30:15 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/NC2FUAILO5HL7ACZYS6QZDTIJY.png?auth=6df86a9d5b74ebdbe25c53e1b336b809f0b66d9eff7d49af741bee2cab193aa0&amp;smart=true&amp;width=1920&amp;height=1080" medium="image" />
     </item>
     <item>
       <title>Ojos de la llave: el anuncio que el ministro García compartió por error y el republicano que quedó “sin pan ni pedazo”</title>
@@ -332,7 +540,7 @@
       <description>El tribunal dio por acreditado que Óscar Izurieta utilizó dinero de origen ilícito para financiar una inversión inmobiliaria y luego realizó operaciones para ocultar su procedencia.</description>
       <pubDate>Fri, 27 Nov 2026 16:29:20 +0000</pubDate>
       <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/MEKZCIQTB5GJZOU5D5OIKZY57U.JPG?auth=2e15e221fafdc39b4e90f4d95634f468010f2f439a00be25ab77a3e80679dd03&amp;smart=true&amp;width=3504&amp;height=2336" medium="image" />
+      <ns0:content url="https://www.latercera.com/resizer/v2/ETR77MMUH5CTXOOOZJJ5AZADLE.jpg?auth=08fe4c249c08b4f93db84519244fefada32790ea7609b0b52340c2943ab7572f&amp;smart=true&amp;width=900&amp;height=600" medium="image" />
     </item>
     <item>
       <title>Gobierno apunta a concretar un “proyecto político común” en 2027 en medio de tensiones oficialistas</title>
@@ -405,6 +613,14 @@
       <pubDate>Fri, 27 Nov 2026 16:11:16 +0000</pubDate>
       <source>Ex-Ante</source>
       <ns0:content url="https://www.ex-ante.cl/wp-content/uploads/2026/11/Construccion.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Casi $70 mil millones por colusión del pollo: Fallo histórico del TDLC condena a Cencosud y Walmart a indemnizar a consumidores - Meganoticias</title>
+      <link>https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdVh3UTdtSElwSVJhMHNVNWtNdVI3clhrZWZHVzB1NWxMU3dQWE9JMmc2dm90Qkc2aHFMdGpiSTZoaFZkVVRSbUlHdGRRTXdPNmM0TU54ZFg5eGY1RmdPZG9qckU5RmRnWV9lSmFvT09PMjd5Q0ZFanlHcWFnVDZNdXNrLXB0N3JycXdRZFNxLW9FRTU1U2FvWmJBV2cweEp6eThzMWlhcEgyUVJTaV9Zejd0WjAyMWpzbEEwRnJZVGhrTWpuVF9SYUhreDNMWlRoSXJUUXQ3V2t2dTdWQmFwNUt2eHJBR0RKSkVOUNIB8gFBVV95cUxNN0s0ZXFnclNLM2xVcUtwSzJLRVBxaFJybUN3bW9hOTFVUzBsX1dfX0lINlpOX0NyOV9NblVYQmRLNkN1ak55cURKNGFfZDlGTGZQX1RuYTZpTHpBMjJWcHA5a3dFdlcyMUhlU3ZnSkVoVUlDanNlUFFTWXdINnFLcC1fdDVXX0JWVVBUZGc0OHBxSmEzejJEdnZiaUVvZXNoajNCTmdUN1JLUWl2MHVENmdrOEhfdVMwbl82bkVaemFERlQ5bUVoanFzVDhkMHM5cGRQanVjazJsT09YUi1HSDh1RjZ1MDgtTWNsNjhoLVhPUQ?oc=5</link>
+      <description>Casi $70 mil millones por colusión del pollo: Fallo histórico del TDLC condena a Cencosud y Walmart a indemnizar a consumidores Meganoticias Colusión de los pollos en Chile: ¿quiénes podrán recibir la indemnización que deberán pagar Cencosud y Walmart? ADN Radio TDLC condena a Cencosud y Walmart a pagar US$67 millones en indemnización a consumidores por colusión del pollo fresco La Tercera Condenan a Cencosud y Walmart a pagar cerca de $67 mil millones a consumidores por colusión del pollo BioBioChile TDLC condena a Cencosud y Walmart a pagar $ 70.000 millones a los consumidores por la colusión del pollo Diario Financiero</description>
+      <pubDate>Fri, 27 Nov 2026 16:10:00 +0000</pubDate>
+      <source>Google News Chile</source>
+      <ns0:content url="https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300" medium="image" />
     </item>
     <item>
       <title>IPSA salta por arriba de los 10.700 puntos tras espaldarazo de China a sus mercados y mientras sigue la recuperación de apuestas a la IA</title>
@@ -589,222 +805,6 @@
       <pubDate>Fri, 27 Nov 2026 15:31:24 +0000</pubDate>
       <source>La Tercera</source>
       <ns0:content url="https://www.latercera.com/resizer/v2/NMTOPGXSHBERFGFO3JIFYLKC2M.jpg?auth=c0d6453cb0f11a1d5c75f68ace82d4581165281a4baa4924a774f1a98c5f3d50&amp;smart=true&amp;width=2815&amp;height=1877" medium="image" />
-    </item>
-    <item>
-      <title>Erupción en Nevados de Chillán genera columna de material piroclástico que supera los 2.000 metros</title>
-      <link>https://www.latercera.com/nacional/noticia/erupcion-en-nevados-de-chillan-genera-columna-de-material-piroclastico-que-supera-los-2000-metros/</link>
-      <description>Según detallaron desde Sernageomin, no se descarta la ocurrencia de nuevos episodios de similar o mayor energía ocurran nuevamente en el volcán.</description>
-      <pubDate>Fri, 27 Nov 2026 15:30:11 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/L4N7PBUJDNBD3B2GVTN5BUALDI.jpg?auth=48db5ddaf79dda49f51e5c88ed87f46599b0aa555435a303fb27f34cfe6af502&amp;smart=true&amp;width=516&amp;height=299" medium="image" />
-    </item>
-    <item>
-      <title>Festival de Viña 2027 tendrá noche chilena con reunión de La Ley, regreso del k-pop, y Pablo Alborán y Damas Gratis</title>
-      <link>https://www.latercera.com/culto/noticia/festival-de-vina-2027-tendra-noche-chilena-con-reunion-de-la-ley-regreso-del-k-pop/</link>
-      <description>El festival marca su acento latino con la presencia de Laura Pausini, los mexicanos Reik, el show sinfónico de Pablo Alborán además del regreso del k-pop con Jihyo. También destaca una noche chilena -lo mejor hasta ahora del certamen- con la reunión de La Ley y la presencia de Gondwana + Quique Neira, la presencia del reggaetonero Arcángel y la cumbia villera de Damas Gratis. No se anunció al artista anglo.</description>
-      <pubDate>Fri, 27 Nov 2026 15:27:50 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/JFKLIK4BVRBQHKCQUQ4XKGPCUM.jpg?auth=b5a90511cc6b21a4804acd7a3948fc4ae7baaeaacfae22fa9d1861f803cebf12&amp;smart=true&amp;width=1840&amp;height=1226" medium="image" />
-    </item>
-    <item>
-      <title>Con una nueva laguna, un anfiteatro y traslado del skatepark: así será la millonaria renovación del Parque Araucano en Las Condes</title>
-      <link>https://www.theclinic.cl/2026/11/27/con-una-nueva-laguna-un-anfiteatro-y-traslado-del-skatepark-asi-sera-la-millonaria-renovacion-del-parque-araucano-en-las-condes/</link>
-      <description>La intervención contempla tres etapas y una inversión superior a los $3.700 millones para la primera fase, que sumará canchas renovadas, un cambio en la ubicación del skatepark, una nueva laguna, un anfiteatro y más de 7.500 metros cuadrados de áreas verdes. The post Con una nueva laguna, un anfiteatro y traslado del skatepark: así será la millonaria renovación del Parque Araucano en Las Condes appeared first on The Clinic .</description>
-      <pubDate>Fri, 27 Nov 2026 15:26:29 +0000</pubDate>
-      <source>The Clinic</source>
-      <ns0:content url="https://static.theclinic.cl/media/og-watermarked/20261127-1827536-nuevo-tamano-clinic-2026-11-27t112258-607-2.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Constanza Hube, la carta del recambio que desafía a Longueira (más que a Alessandri)</title>
-      <link>https://www.ex-ante.cl/politica/constanza-hube-recambio-desafia-longueira/</link>
-      <description>La diputada encabezará con el senador Gustavo Sanhueza una lista para disputar la directiva de la UDI el 16 de enero. Su candidatura muestra las…</description>
-      <pubDate>Fri, 27 Nov 2026 15:21:17 +0000</pubDate>
-      <source>Ex-Ante</source>
-      <ns0:content url="https://www.ex-ante.cl/wp-content/uploads/2022/04/A_UNO_1020207-3-scaled-e1649983231805.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Del espacio a las sillas de ruedas: cuatro innovaciones que buscan transformar la movilidad</title>
-      <link>https://www.publimetro.cl/tecnologia/2026/11/27/del-espacio-a-las-sillas-de-ruedas-cuatro-innovaciones-de-toyota-que-buscan-transformar-la-movilidad/</link>
-      <description>Toyota desarrolla vehículos eléctricos, dispositivos de asistencia y tecnología espacial para ampliar las posibilidades de movilidad de las personas.</description>
-      <pubDate>Fri, 27 Nov 2026 15:21:13 +0000</pubDate>
-      <source>Publimetro Chile</source>
-      <ns0:content url="https://www.publimetro.cl/resizer/v2/UQUAQEGAIVAUNAWOAC6RX7PFDU.jpeg?auth=5553b89190a13c8db51bedbabd8aa6c3628d7c10a1357349be86c4d00cb0807c&amp;smart=true&amp;width=1184&amp;height=647" medium="image" />
-    </item>
-    <item>
-      <title>“Careces de lealtad”: el escándalo que sacude al mítico portero alemán Manuel Neuer</title>
-      <link>https://www.latercera.com/el-deportivo/noticia/careces-de-lealtad-el-escandalo-que-sacude-al-mitico-portero-aleman-manuel-neuer/</link>
-      <description>El arquero del Bayern Munich fue acusado por su esposa de serle infiel, mientras ella esperaba al segundo hijo de ambos, luego de que se publicaran las fotos del futbolista con su fisoterapeuta en Brasil.</description>
-      <pubDate>Fri, 27 Nov 2026 15:18:18 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/XDZTG24ERYA2AEF3AMDO6C4KWU.jpg?auth=877749bf2ac4c94a6bdfa3b288da0765e8a70a82d402a20f4a42845dd40048f1&amp;smart=true&amp;width=1926&amp;height=1386" medium="image" />
-    </item>
-    <item>
-      <title>Angelo Pierattini y Kuervos del Sur presentan nueva versión de “La fuerza viene de la tierra”: escúchalo aquí</title>
-      <link>https://www.latercera.com/culto/noticia/angelo-pierattini-y-kuervos-del-sur-presentan-nueva-version-de-la-fuerza-viene-de-la-tierra-escuchalo-aqui/</link>
-      <description>El músico chileno se une a la banda nacional para reinterpretar un clásico de Weichafe. Este estreno es el segundo adelanto de La Fuerza, un disco de reversiones que revisita su legado rockero y que se trabaja en paralelo a La Luz, su próximo álbum de canciones inéditas. El sencillo ya está disponible en plataformas digitales.</description>
-      <pubDate>Fri, 27 Nov 2026 15:17:17 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/VTHMJFVOJJBMHPPFKFQEAXKRX4.jpg?auth=32363ac565c83b22233f24f1c06fc6b2a549d166829b98a9ea87ef5a6cfd7615&amp;smart=true&amp;width=1809&amp;height=1200" medium="image" />
-    </item>
-    <item>
-      <title>Pisqueros valoran fondos repuestos en el Presupuesto 2027 para promoción global, pero destacan el esfuerzo de las propias marcas</title>
-      <link>https://www.latercera.com/pulso/noticia/pisqueros-valoran-fondos-repuestos-para-promocion-global-pero-destacan-el-esfuerzo-de-las-propias-marcas/</link>
-      <description>Luego de que la partida para promoción y defensa de la Denominación de Origen fuera recortada inicialmente en la discusión presupuestaria y finalmente repuesta con un monto en torno a los $800 millones, los actores del rubro valoran la continuidad de la política pública mientras despliegan sus propias estrategias para conquistar mercados globales.</description>
-      <pubDate>Fri, 27 Nov 2026 15:16:26 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/KAC5BBOKARFQXNPVM3C4Y5XVWM.jpg?auth=af0e41f8221385a363a13c48c2b53eaedbfe80dc51ec7e954da2467937065137&amp;smart=true&amp;width=550&amp;height=367" medium="image" />
-    </item>
-    <item>
-      <title>Modifican prisión preventiva de Martín de los Santos en inicio de preparación de juicio oral: establecen caución de $20 millones</title>
-      <link>https://www.latercera.com/nacional/noticia/modifican-prision-preventiva-de-martin-de-los-santos-en-inicio-de-preparacion-de-juicio-oral-establecen-caucion-de-20-millones/</link>
-      <description>El cambio de medidas cautelares fue acogido por el tribunal tras una petición de la defensa. Si se concreta el pago, el imputado quedará en arresto domiciliario total.</description>
-      <pubDate>Fri, 27 Nov 2026 15:15:21 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/VAVUD542HBEJXE62A2QN756IBQ.jpg?auth=9302c643fdf83da2024a856a232b1e2259d057602c15607f69dca7bcb976ec51&amp;smart=true&amp;width=1280&amp;height=854" medium="image" />
-    </item>
-    <item>
-      <title>Tribunal de Coyhaique absuelve por unanimidad a exfiscal Carlos Palma en causa por revelación de secreto</title>
-      <link>https://www.latercera.com/nacional/noticia/tribunal-de-coyhaique-absuelve-por-unanimidad-a-exfiscal-carlos-palma-en-causa-por-revelacion-de-secreto/</link>
-      <description>Si bien el tribunal reconoció que el otrora fiscal otorgó información a un tercero, resolvió que no se logró comprobar que se tratase de antecedentes secretos. El próximo 7 de diciembre se conocerá la sentencia del caso.</description>
-      <pubDate>Fri, 27 Nov 2026 15:15:11 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/AGY32KRDZJFO3F4YLYVP2UNRDI.jpg?auth=e8e5a9261e69d085b3e95c0f2168fbb6cae76ae0bf332afbcc6e40b0d8eb43ca&amp;smart=true&amp;width=3673&amp;height=2449" medium="image" />
-    </item>
-    <item>
-      <title>Defensa garantiza el voto de los 120 militares de la UME desplegados en El Hierro tras la petición del PP</title>
-      <link>https://www.infodefensa.com/texto-diario/mostrar/6112003/junta-electoral-central-traslada-defensa-peticion-pp-facilitar-voto-militares-ume-hierro</link>
-      <description>Por ello, reclamó al Ministerio que organizara los turnos, relevos y traslados necesarios para que los militares pudieran acudir a votar presencialmente a sus respectivas mesas electorales.La JEC remite la petición al Ministerio de DefensaLa resolución de la Junta Electoral Central, correspondiente al expediente 250/166 y con número de registro 2026/5.949, no establece un procedimiento específico para facilitar el voto ni ordena expresamente la puesta en marcha de los relevos solicitados por el PP.El organismo acuerda trasladar al Ministerio de Defensa el escrito presentado por el partido "a efectos de que adopte todas las medidas que estén a su alcance conducentes a facilitar el ejercicio del derecho de sufragio de los militares desplazados a la isla de El Hierro".La decisión está fechada el 27 de noviembre de 2026 y lleva la firma de la Presidencia de la Junta Electoral Central.</description>
-      <pubDate>Fri, 27 Nov 2026 15:14:18 +0000</pubDate>
-      <source>Infodefensa</source>
-      <ns0:content url="https://www.infodefensa.com/images/showid/8246991" medium="image" />
-    </item>
-    <item>
-      <title>Hacienda reconoce la "gravedad" de la última cifra de desempleo, pero rescata que se creó la mayor cantidad de empleo desde enero de 2025</title>
-      <link>http://www.df.cl/economia-y-politica/actualidad/biministro-mas-y-el-alza-del-desempleo-a-dos-digitos-no-descansaremos</link>
-      <description>Tras nuevo aumento en la tasa de desocupación, que llegó por primera vez a dos dígitos en más de cinco años, los ministros de Hacienda, Trabajo y Economía reconocieron su preocupación.</description>
-      <pubDate>Fri, 27 Nov 2026 15:11:55 +0000</pubDate>
-      <source>Diario Financiero</source>
-      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000002320261127094223.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Arteaga Gorziglia nombra a nueva directora de derecho corporativo y protección de datos</title>
-      <link>http://www.df.cl/empresas/entre-codigos/arteaga-gorziglia-nombra-a-nueva-directora-de-derecho-corporativo-y</link>
-      <description />
-      <pubDate>Fri, 27 Nov 2026 15:01:39 +0000</pubDate>
-      <source>Diario Financiero</source>
-      <ns0:content url="https://www.df.cl/noticias/site/artic/20261127/imag/foto_0000001220261127120116/MagdalenaFabres.jpg" medium="image" />
-    </item>
-    <item>
-      <title>“Portal en mantención”: sitio del Demre reporta problemas a días de rendición de la PAES Regular 2026</title>
-      <link>https://www.latercera.com/nacional/noticia/portal-en-mantencion-sitio-del-demre-reporta-problemas-a-dias-de-rendicion-de-la-paes-regular-2026/</link>
-      <description>La plataforma ha presentado intermitencia en su funcionamiento durante la jornada, no permitiendo que los usuarios permitan descargar la tarjeta que da a conocer el local y sala de rendición.</description>
-      <pubDate>Fri, 27 Nov 2026 15:00:48 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/NHFB2XCFMFFZ3NQOMEMHUIC3GA.jpg?auth=ea9f8ac21306c2e668103cae6b3968e009231d503ecddd172f7dacb8cb3bfad2&amp;smart=true&amp;width=684&amp;height=378" medium="image" />
-    </item>
-    <item>
-      <title>Fin del misterio: se confirma parrilla de artistas del Festival de Viña del Mar 2027 - La Cuarta</title>
-      <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxPM0ZCY0FTei16d2ZjVmlrZk5pZXEyLS1KWkZoMEFhRVlCVVNiUk9iejNQdzB2bDBnb1BBSUladnVJM3BMWVRsanZyRmFlVmdWQVVHSjMwcTd0YmdVZGRUSnFoYl9vSDdpSzhKSlFaS0pJRk0xVExwQWY3NUFiNHNYOHMtR2lxaWtNcWtFNXgtOXRiZzREM2dDVUdUWmotdWdqalhJenlFOFhZcDZrNzBvNzh2MTktTGhXeGtoRndaM1pNWGd5VDQwSERB0gHrAUFVX3lxTE04VkFNTGFjTHlxc2RqMHNLY1VaR3ctN2U3SjllU2gyc1ppQU42clZaV3RTNU9tX0d2QnRZTVpSRWR4WjR0aW9GSl9WOTRIY0RFX09BN3o1MTVwdEQ0Z1VhZHlLa3RmMnZTeVFSLTlQWmhDV3U2SmFDRHdmMXUzSWpma1A1ZnkxWUlncW41dEJoc2VTNlJhaXNFdmQ3ZU5meGlLU0xJUVlSX2dDWldvanVHbVFNTE0xVWhkOWlUOWY4enVWY21sOWc3VXpNem1NZWRsWmFLVzVHN05oR2xSZHgzTFVfN0M4WHU5MTQ?oc=5</link>
-      <description>Fin del misterio: se confirma parrilla de artistas del Festival de Viña del Mar 2027 La Cuarta Anuncian parrilla del Festival de Viña 2027: revisa los artistas que estarán en la Quinta Vergara BioBioChile Jihyo, la líder de Twice que llevará el K-pop a la Quinta Vergara El Mostrador Quién es Silvestre Dangond, el cantante colombiano confirmado para el Festival de Viña del Mar 2027 ADN Radio Festival de Viña 2027: revelan las fechas de venta de entradas y cómo acceder a la preventa Canal 13</description>
-      <pubDate>Fri, 27 Nov 2026 14:56:49 +0000</pubDate>
-      <source>Google News Chile</source>
-      <ns0:content url="https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300" medium="image" />
-    </item>
-    <item>
-      <title>Enrique Alcalde presentó nuevo libro</title>
-      <link>http://www.df.cl/empresas/entre-codigos/enrique-alcalde-presento-nuevo-libro</link>
-      <description>Tratado de la Responsabilidad Contractual en el Derecho Chileno. aborda el incumplimiento de los contratos y sus consecuencias</description>
-      <pubDate>Fri, 27 Nov 2026 14:56:37 +0000</pubDate>
-      <source>Diario Financiero</source>
-      <ns0:content url="https://www.df.cl/noticias/site/artic/20261126/imag/foto_0000001620261126200644/BenjaminAstetedirectorejecutivoCAM_GuillermoSilvae.jpeg" medium="image" />
-    </item>
-    <item>
-      <title>Guía del ocio: panoramas escogidos para el fin de semana del 28 y 29 de noviembre</title>
-      <link>https://www.latercera.com/finde/noticia/guia-del-ocio-panoramas-escogidos-para-el-fin-de-semana-del-28-y-29-de-noviembre/</link>
-      <description>Noviembre se despide con mucho calor y también con muchas opciones para salir: festivales, ferias, conciertos, teatro o panoramas al aire libre. La mayoría son gratis.</description>
-      <pubDate>Fri, 27 Nov 2026 14:55:50 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/6AIX7E7QIRFZVJ46FB6IOKIXPI.jpg?auth=924747f1ae0cbdb8dc2751fd84b5b1a2230af0b3894cd56dfcc520842496988f&amp;smart=true&amp;width=1200&amp;height=800" medium="image" />
-    </item>
-    <item>
-      <title>Desde la Redacción: entrevista a Marcia Raphael, subsecretaria de la Mujer</title>
-      <link>https://www.latercera.com/videos/noticia/desde-la-redaccion-entrevista-a-marcia-raphael-subsecretaria-de-la-mujer/</link>
-      <description>En este capítulo del programa de streaming de La Tercera, la subsecretaria de la Mujer, Marcia Raphael, celebró el despacho a ley de la Sala Cuna Universal y explicó la gradualidad con la que comenzará a implementarse la nueva normativa. En esa línea, sostuvo que el acceso al beneficio contribuirá a la autonomía económica de las mujeres, y así, ayudará a que las víctimas de violencia machista puedan salir de esos entornos. Revisa en este capítulo, también, la entrevista a los dos aspirantes a presidir la CPC: Antonio Walker, presidente de la SNA, y Richard von Appen, líder de Ultramar.</description>
-      <pubDate>Fri, 27 Nov 2026 14:52:59 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/5YUIQYXA6ZDZPE3U3VD5EX2T5E.JPG?auth=3326c189ca9edf7acfcae0c76deb5003a459bc12b4d3aadf082d05d6b700fc05&amp;smart=true&amp;width=5184&amp;height=3456" medium="image" />
-    </item>
-    <item>
-      <title>Kast refuerza llamado al empresariado a dinamizar la economía y evitar despidos: “Es la hora de invertir y crear empleo”</title>
-      <link>http://www.df.cl/economia-y-politica/laboral-personas/kast-refuerza-llamado-al-empresariado-a-dinamizar-la-economia-y-evitar</link>
-      <description>En el Encuentro Anual de la Industria 2026, el mandatario invitó a los representantes del mundo de los negocios a que “vuelvan a confiar en nuestro país”. La presidenta de Sofofa, Rosario Navarro, le propuso un acuerdo tripartito en pro del empleo.</description>
-      <pubDate>Fri, 27 Nov 2026 14:52:15 +0000</pubDate>
-      <source>Diario Financiero</source>
-      <ns0:content url="https://www.df.cl/noticias/site/artic/20261120/imag/foto_0000000620261120133706/WhatsAppImage20261126at21.jpeg" medium="image" />
-    </item>
-    <item>
-      <title>Picasso, Calder y Matta: una subasta de obras de arte extranjeras y chilenas en Las Condes</title>
-      <link>https://www.latercera.com/pulso/noticia/picasso-calder-y-matta-una-subasta-de-obras-de-arte-extranjeras-y-chilenas-en-las-condes/</link>
-      <description>El remate, organizado por el martillero Juan Salinas Lyon, contempla más de 200 lotes, de los cuales unos 90 corresponden a pinturas. La postura mínima de puja de mayor valor corresponde a una tela atribuida a Cézanne, y entre los chilenos destaca un retrato de Eugenia Huici realizado por José Tomás Errázuriz.</description>
-      <pubDate>Fri, 27 Nov 2026 14:51:56 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/IYEK5UV3EVHR7EYCU2FZTYRITU.jpeg?auth=e6fcfb531ec9813bec3a1e2c6883e9a3ac4cb354dbdf26481260288b26f700f3&amp;smart=true&amp;width=1600&amp;height=900" medium="image" />
-    </item>
-    <item>
-      <title>TDLC acoge recurso de dos procesadores de pago y ordena suspender nuevos cobros de Mastercard</title>
-      <link>https://www.latercera.com/pulso/noticia/tdlc-acoge-recurso-de-dos-procesadores-de-pago-y-ordena-suspender-nuevos-cobros-de-mastercard/</link>
-      <description>Los nuevos cobros de la marca de tarjeta asociados a pagos internacionales estaban programados para comenzar a regir este lunes 30 de noviembre. Pero el TDLC dictó esta medida cautelar solicitada por Ebanx y ProntoPaga.</description>
-      <pubDate>Fri, 27 Nov 2026 14:50:00 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/644D53RXIVFQZFDA437ATR6R6A.jpg?auth=4a8776fae2ff26858d1b674789496d245d4ae74aa49be47ef036530017bc50fd&amp;smart=true&amp;width=1276&amp;height=901" medium="image" />
-    </item>
-    <item>
-      <title>Firma falsificada y confesión por WhatsApp: la querella que desata una guerra entre los socios de la startup Clever IT</title>
-      <link>https://www.latercera.com/pulso/noticia/firma-falsificada-y-confesion-por-whatsapp-la-querella-que-desata-una-guerra-entre-los-socios-de-la-startup-clever-it/</link>
-      <description>La disputa en CleverIT Group enfrenta a Gustavo Lugo, quien acusa falsificación de firma y venta de activos a bajo precio, contra sus exsocios, quienes aseguran que buscaban salvar la firma y que Lugo ya había renunciado a demandarlos.</description>
-      <pubDate>Fri, 27 Nov 2026 14:50:00 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/FEZ6W2XNWJE37MHJJVDPD6576I.jpg?auth=9439848ab9d5d30185467a966e2842d5cc26f2f13a1e346fea9f581106bee941&amp;smart=true&amp;width=2048&amp;height=1380" medium="image" />
-    </item>
-    <item>
-      <title>¿Al servicio de quién están las finanzas?</title>
-      <link>https://www.latercera.com/opinion/noticia/al-servicio-de-quien-estan-las-finanzas/</link>
-      <description />
-      <pubDate>Fri, 27 Nov 2026 14:50:00 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/BQ4TRXOWE5BFJEHO4AATRCCNKY.jpg?auth=7905f44c4234fcccc144b065c82d08a5ce285795138ded257253527ad4249d91&amp;smart=true&amp;width=5360&amp;height=3152" medium="image" />
-    </item>
-    <item>
-      <title>Cuando crecer ya no basta para crear empleo</title>
-      <link>https://www.latercera.com/opinion/noticia/cuando-crecer-ya-no-basta-para-crear-empleo/</link>
-      <description />
-      <pubDate>Fri, 27 Nov 2026 14:50:00 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/355CTYAWO5AI7GC5HAZET2EPIU.jpg?auth=e3558062cb0223c9155a2202980c6c16e1d5cdb6b1c45302588024ab2b2c4b09&amp;smart=true&amp;width=6000&amp;height=4000" medium="image" />
-    </item>
-    <item>
-      <title>Kast por cifras de desempleo: “¿Se produjeron en los últimos ocho meses? No, llevamos 40 meses con cesantía muy alta”</title>
-      <link>https://www.latercera.com/politica/noticia/kast-por-cifras-de-desempleo-se-produjeron-en-los-ultimos-ocho-meses-no-llevamos-40-meses-con-cesantia-muy-alta/</link>
-      <description>Ante el alza de cesantía en el país, el Presidente defendió que su gobierno "está haciendo cosas distintas".</description>
-      <pubDate>Fri, 27 Nov 2026 14:49:46 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/42667IBM6RBFDHRGOIRW4WR7TY.jpg?auth=370f201ff8568e9b5c049a76e0c2cd21aac2d8d29655976f1347d440ff5db933&amp;smart=true&amp;width=5872&amp;height=3915" medium="image" />
-    </item>
-    <item>
-      <title>Magdalena Sofía, activista menstrual: “Hay que erradicar la vergüenza de sangrar”</title>
-      <link>https://www.latercera.com/paula/noticia/magdalena-sofia-activista-menstrual-hay-que-erradicar-la-verguenza-de-sangrar/</link>
-      <description>¿Por qué la primera menstruación sigue asociándose al fin de la infancia? ¿Y por qué algo que ocurre naturalmente en el cuerpo se vive tantas veces en silencio? En su novela juvenil El Círculo de Capas Rojas, la escritora y activista menstrual Magdalena Sofía Pérez propone otra manera de acompañar a las niñas en el conocimiento de su cuerpo, lejos del miedo y la vergüenza con que han crecido tantas generaciones de mujeres.</description>
-      <pubDate>Fri, 27 Nov 2026 14:43:35 +0000</pubDate>
-      <source>La Tercera</source>
-      <ns0:content url="https://www.latercera.com/resizer/v2/ANCFKNUIUZEW5OSNNYWCM4XRHU.jpeg?auth=0007db66edb0a196e3bdc5609e352c847819540d9a4cbf8610478b48fc3572c9&amp;smart=true&amp;width=1536&amp;height=1024" medium="image" />
-    </item>
-    <item>
-      <title>Santa Bárbara Sistemas completa el diseño de la nueva configuración del vehículo Pizarro del Ejército de Tierra</title>
-      <link>https://www.infodefensa.com/texto-diario/mostrar/6111946/santa-barbara-sistema-completa-diseno-nueva-configuracion-vehiculo-pizarro-ejercito-tierra</link>
-      <description>Este avance, que constituye un importante hito de los PEM 2025 del Ejército de Tierra, pone de manifiesto el valor estratégico de disponer en España de capacidades propias de diseño, ingeniería e industrialización para garantizar la evolución y el sostenimiento de nuestros sistemas de defensa”. Los prototipos, preparados para las pruebas de validaciónEn paralelo a la finalización del diseño, Santa Bárbara Sistemas ha avanzado en la actualización de los prototipos del Pizarro.</description>
-      <pubDate>Fri, 27 Nov 2026 14:42:13 +0000</pubDate>
-      <source>Infodefensa</source>
-      <ns0:content url="https://www.infodefensa.com/images/showid/8249261" medium="image" />
     </item>
   </channel>
 </rss>
